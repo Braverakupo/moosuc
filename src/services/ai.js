@@ -19,6 +19,13 @@ function requireUnlocked() {
   }
 }
 
+// --- Input token thresholds for diagnostics ---
+const TOKEN_THRESHOLDS = {
+  scan:      { prompt: 2000 },
+  flashcard: { prompt: 800  },
+  chat:      { prompt: 500  }
+}
+
 // --- Usage tracking ---
 let _totalPromptTokens = 0
 let _totalCompletionTokens = 0
@@ -35,15 +42,40 @@ export function getUsage() {
   }
 }
 
-function trackUsage(type, promptTokens, completionTokens) {
+function trackUsage(type, promptTokens, completionTokens, inputCharCount = 0, model = 'deepseek-chat') {
   _totalPromptTokens += promptTokens
   _totalCompletionTokens += completionTokens
   // DeepSeek Chat: $0.27/1M input, $1.10/1M output
   const cost = (promptTokens * 0.27 + completionTokens * 1.10) / 1_000_000
   _totalCost += cost
-  _callLog.push({ type, promptTokens, completionTokens, cost, time: new Date().toLocaleTimeString() })
-  // Keep only last 50 calls
-  if (_callLog.length > 50) _callLog.shift()
+
+  const totalTokens = promptTokens + completionTokens
+  const time = new Date().toLocaleTimeString()
+
+  _callLog.push({ type, promptTokens, completionTokens, totalTokens, inputCharCount, cost, time, model })
+  // Keep only last 500 calls
+  if (_callLog.length > 500) _callLog.shift()
+
+  // --- Console log every API call ---
+  const icon = type === 'scan' ? '🔵' : type === 'flashcard' ? '🟡' : '🟢'
+  console.log(
+    `${icon} DeepSeek [${type}]`,
+    `Prompt:${promptTokens.toLocaleString()}`,
+    `Out:${completionTokens.toLocaleString()}`,
+    `Total:${totalTokens.toLocaleString()}`,
+    `Chars:${inputCharCount.toLocaleString()}`,
+    `$${cost.toFixed(6)}`,
+    model
+  )
+
+  // --- Warn if input tokens exceed expected threshold ---
+  const threshold = TOKEN_THRESHOLDS[type]
+  if (threshold && promptTokens > threshold.prompt) {
+    console.warn(
+      `⚠️  [${type}] Prompt tokens (${promptTokens}) exceed threshold (${threshold.prompt}). ` +
+      `Input chars: ${inputCharCount}. Possible context leakage.`
+    )
+  }
 }
 
 // --- API Functions ---
@@ -60,7 +92,8 @@ function trackUsage(type, promptTokens, completionTokens) {
  */
 export async function analyzeText(text, model = 'deepseek-chat', apiKey = DEFAULT_API_KEY) {
   requireUnlocked()
-  const prompt = `Extract exactly 5 key concepts from the text below.
+  const systemContent = 'You extract key concepts from text and return them as a JSON array. Only output valid JSON.'
+  const userContent = `Extract exactly 5 key concepts from the text below.
 
 For each concept, return a JSON object with:
 1. "concept": short name (2-5 words)
@@ -73,6 +106,8 @@ Return ONLY a valid JSON array of exactly 5 objects. No markdown, no code fences
 TEXT:
 ${text.slice(0, 6000)}`
 
+  const inputCharCount = systemContent.length + userContent.length
+
   const res = await fetch(API_URL, {
     method: 'POST',
     headers: {
@@ -82,8 +117,8 @@ ${text.slice(0, 6000)}`
     body: JSON.stringify({
       model,
       messages: [
-        { role: 'system', content: 'You extract key concepts from text and return them as a JSON array. Only output valid JSON.' },
-        { role: 'user', content: prompt }
+        { role: 'system', content: systemContent },
+        { role: 'user', content: userContent }
       ],
       temperature: 0.3,
       max_tokens: 1000
@@ -97,7 +132,7 @@ ${text.slice(0, 6000)}`
 
   const data = await res.json()
   const usage = data.usage || {}
-  trackUsage('scan', usage.prompt_tokens || 0, usage.completion_tokens || 0)
+  trackUsage('scan', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model)
 
   const content = data.choices?.[0]?.message?.content?.trim() || '[]'
   
@@ -126,7 +161,8 @@ ${text.slice(0, 6000)}`
 export async function generateFlashcard(concept, textContext, model = 'deepseek-chat', apiKey = DEFAULT_API_KEY) {
   requireUnlocked()
   const conceptName = typeof concept === 'string' ? concept : (concept.concept || '')
-  const prompt = `You are a flashcard generator. Create a detailed, well-structured flashcard about "${conceptName}" based on the context below.
+  const systemContent = 'You create detailed flashcard-style explanations. Output clean markdown.'
+  const userContent = `You are a flashcard generator. Create a detailed, well-structured flashcard about "${conceptName}" based on the context below.
 
 CONTEXT:
 ${(textContext || '').slice(0, 1500)}
@@ -140,6 +176,8 @@ Create a comprehensive flashcard with:
 
 Format the response in clean markdown with clear sections. Make it educational and engaging.`
 
+  const inputCharCount = systemContent.length + userContent.length
+
   const res = await fetch(API_URL, {
     method: 'POST',
     headers: {
@@ -149,8 +187,8 @@ Format the response in clean markdown with clear sections. Make it educational a
     body: JSON.stringify({
       model,
       messages: [
-        { role: 'system', content: 'You create detailed flashcard-style explanations. Output clean markdown.' },
-        { role: 'user', content: prompt }
+        { role: 'system', content: systemContent },
+        { role: 'user', content: userContent }
       ],
       temperature: 0.4,
       max_tokens: 2000
@@ -164,7 +202,7 @@ Format the response in clean markdown with clear sections. Make it educational a
 
   const data = await res.json()
   const usage = data.usage || {}
-  trackUsage('flashcard', usage.prompt_tokens || 0, usage.completion_tokens || 0)
+  trackUsage('flashcard', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model)
   return data.choices?.[0]?.message?.content || 'Could not generate flashcard.'
 }
 
@@ -182,9 +220,12 @@ Format the response in clean markdown with clear sections. Make it educational a
 export async function chatAboutConcept(concept, textContext, message, model = 'deepseek-chat', apiKey = DEFAULT_API_KEY) {
   requireUnlocked()
   const conceptName = typeof concept === 'string' ? concept : (concept.concept || '')
-  const systemPrompt = `You are a knowledgeable tutor. The user is exploring "${conceptName}" and asks a question. Use the context below to answer. Be conversational and informative.
+  const systemContent = `You are a knowledgeable tutor. The user is exploring "${conceptName}" and asks a question. Use the context below to answer. Be conversational and informative.
 
 CONTEXT: ${(textContext || '').slice(0, 500)}`
+  const userContent = message || ''
+
+  const inputCharCount = systemContent.length + userContent.length
 
   const res = await fetch(API_URL, {
     method: 'POST',
@@ -195,8 +236,8 @@ CONTEXT: ${(textContext || '').slice(0, 500)}`
     body: JSON.stringify({
       model,
       messages: [
-        { role: 'system', content: systemPrompt },
-        { role: 'user', content: message || '' }
+        { role: 'system', content: systemContent },
+        { role: 'user', content: userContent }
       ],
       temperature: 0.5,
       max_tokens: 1500
@@ -210,6 +251,6 @@ CONTEXT: ${(textContext || '').slice(0, 500)}`
 
   const data = await res.json()
   const usage = data.usage || {}
-  trackUsage('chat', usage.prompt_tokens || 0, usage.completion_tokens || 0)
+  trackUsage('chat', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model)
   return data.choices?.[0]?.message?.content || 'No response.'
 }
