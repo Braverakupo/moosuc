@@ -189,12 +189,12 @@ export async function generateFlashcard(concept, textContext, model = 'deepseek-
   requireUnlocked()
   const conceptName = typeof concept === 'string' ? concept : (concept.concept || '')
   const systemContent = 'You create detailed flashcard-style explanations. Output clean markdown.'
-  const userContent = `You are a flashcard generator. Create a detailed, well-structured flashcard about "${conceptName}" based on the context below.
-
-CONTEXT:
+  // Context first so the prefix (system + "CONTEXT:") is cacheable.
+  // Concept name at the end so it doesn't break the common prefix.
+  const userContent = `CONTEXT:
 ${(textContext || '').slice(0, 1500)}
 
-Create a comprehensive flashcard with:
+Create a comprehensive flashcard about "${conceptName}" with:
 1. A clear, concise definition of "${conceptName}"
 2. Key points or characteristics (bullet points)
 3. A practical example or application
@@ -248,10 +248,14 @@ Format the response in clean markdown with clear sections. Make it educational a
 export async function chatAboutConcept(concept, textContext, message, model = 'deepseek-chat', apiKey = DEFAULT_API_KEY) {
   requireUnlocked()
   const conceptName = typeof concept === 'string' ? concept : (concept.concept || '')
-  const systemContent = `You are a knowledgeable tutor. The user is exploring "${conceptName}" and asks a question. Use the context below to answer. Be conversational and informative.
+  // System prompt is always the same — always cacheable after first call.
+  // Concept name + context moved to user message so they don't break the cache.
+  const systemContent = 'You are a knowledgeable tutor. Be conversational and informative.'
+  const userContent = `The user is exploring "${conceptName}". Use this context to answer:
 
-CONTEXT: ${(textContext || '').slice(0, 500)}`
-  const userContent = message || ''
+CONTEXT: ${(textContext || '').slice(0, 500)}
+
+User question: ${message || ''}`
 
   const inputCharCount = systemContent.length + userContent.length
 
