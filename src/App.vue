@@ -112,9 +112,8 @@ function onAddFlashcardToContent() {
 
 async function handleScan() {
   const text = scanner.scan()
-  if (text) {
-    await ai.analyze(text, settings.model)
-  }
+  if (!text) return  // empty = duplicate or scanning in progress
+  await ai.analyze(text, settings.model)
 }
 
 function onSelectCard(card) {

@@ -55,7 +55,7 @@ export async function generateFlashcard(concept, textContext, model = 'deepseek-
   const prompt = `You are a flashcard generator. Create a detailed, well-structured flashcard about "${conceptName}" based on the context below.
 
 CONTEXT:
-${(textContext || '').slice(0, 4000)}
+${(textContext || '').slice(0, 1500)}
 
 Create a comprehensive flashcard with:
 1. A clear, concise definition of "${conceptName}"
@@ -95,7 +95,7 @@ Format the response in clean markdown with clear sections. Make it educational a
 export async function chatAboutConcept(concept, textContext, messages, model = 'deepseek-chat', apiKey = DEFAULT_API_KEY) {
   const systemPrompt = `You are a knowledgeable tutor. The user is reading content and wants to explore the concept of "${concept}" more deeply. The relevant text context is provided below. Answer their questions clearly and conversationally.
 
-CONTEXT: ${(textContext || '').slice(0, 4000)}`
+CONTEXT: ${(textContext || '').slice(0, 1500)}`
 
   const msgs = [
     { role: 'system', content: systemPrompt },

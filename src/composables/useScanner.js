@@ -5,6 +5,7 @@ export function useScanner() {
   const lastScanTime = ref(null)
   const visibleText = ref('')
   let contentEl = null
+  let lastScannedText = ''
 
   function setContentElement(el) {
     contentEl = el
@@ -52,12 +53,17 @@ export function useScanner() {
 
   function scan() {
     if (isScanning.value) return
+    const text = extractVisibleText()
+    // Dedup: skip if text hasn't changed since last scan
+    if (text === lastScannedText) {
+      return ''
+    }
+    lastScannedText = text
     isScanning.value = true
     lastScanTime.value = new Date().toLocaleTimeString()
-    visibleText.value = extractVisibleText()
-    // The AI analysis is triggered by the consumer watching visibleText
+    visibleText.value = text
     setTimeout(() => { isScanning.value = false }, 300)
-    return visibleText.value
+    return text
   }
 
   return {
