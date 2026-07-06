@@ -1,46 +1,44 @@
 <template>
-  <div class="chat-overlay" @click.self="$emit('close')">
-    <div class="chat-drawer">
-      <div class="chat-header">
-        <div>
-          <div class="chat-concept-name">{{ concept?.concept || concept }}</div>
-          <div class="chat-concept-desc" v-if="concept?.description">{{ concept.description }}</div>
-        </div>
-        <div class="chat-header-actions">
-          <button class="btn-add-content" @click="$emit('add-content')" title="Add to content layer">+ Add</button>
-          <button class="btn-close" @click="$emit('close')">✕</button>
-        </div>
+  <div class="chat-drawer">
+    <div class="chat-header">
+      <div>
+        <div class="chat-concept-name">{{ concept?.concept || concept }}</div>
+        <div class="chat-concept-desc" v-if="concept?.description">{{ concept.description }}</div>
       </div>
-
-      <div class="chat-messages" ref="messagesRef">
-        <div
-          v-for="(msg, i) in messages"
-          :key="i"
-          class="message"
-          :class="msg.role === 'assistant' ? 'msg-assistant' : 'msg-user'"
-        >
-          <div class="msg-avatar">{{ msg.role === 'assistant' ? '🤖' : '👤' }}</div>
-          <div class="msg-content" :class="{ 'msg-html': msg.role === 'assistant' }" v-html="renderMarkdown(msg.content)"></div>
-        </div>
-        <div v-if="loading" class="message msg-assistant">
-          <div class="msg-avatar">🤖</div>
-          <div class="msg-content loading-msg">
-            <div class="loading-bar-sm"><div class="loading-bar-sm-fill"></div></div>
-            <span>Generating flashcard...</span>
-          </div>
-        </div>
+      <div class="chat-header-actions">
+        <button class="btn-add-content" @click="$emit('add-content')" title="Add to content layer">+ Add</button>
+        <button class="btn-close" @click="$emit('close')">✕</button>
       </div>
-
-      <form class="chat-input" @submit.prevent="handleSend">
-        <input
-          v-model="input"
-          placeholder="Ask about this concept..."
-          :disabled="loading"
-          ref="inputRef"
-        />
-        <button type="submit" :disabled="loading || !input.trim()" class="btn-send">Send</button>
-      </form>
     </div>
+
+    <div class="chat-messages" ref="messagesRef">
+      <div
+        v-for="(msg, i) in messages"
+        :key="i"
+        class="message"
+        :class="msg.role === 'assistant' ? 'msg-assistant' : 'msg-user'"
+      >
+        <div class="msg-avatar">{{ msg.role === 'assistant' ? '🤖' : '👤' }}</div>
+        <div class="msg-content" :class="{ 'msg-html': msg.role === 'assistant' }" v-html="renderMarkdown(msg.content)"></div>
+      </div>
+      <div v-if="loading" class="message msg-assistant">
+        <div class="msg-avatar">🤖</div>
+        <div class="msg-content loading-msg">
+          <div class="loading-bar-sm"><div class="loading-bar-sm-fill"></div></div>
+          <span>Generating flashcard...</span>
+        </div>
+      </div>
+    </div>
+
+    <form class="chat-input" @submit.prevent="handleSend">
+      <input
+        v-model="input"
+        placeholder="Ask about this concept..."
+        :disabled="loading"
+        ref="inputRef"
+      />
+      <button type="submit" :disabled="loading || !input.trim()" class="btn-send">Send</button>
+    </form>
   </div>
 </template>
 
@@ -182,16 +180,10 @@ function renderMarkdown(text) {
 </script>
 
 <style scoped>
-.chat-overlay {
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.5);
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  z-index: 100;
-}
 .chat-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
   width: 480px;
   max-width: 100vw;
   height: 100%;
@@ -199,7 +191,9 @@ function renderMarkdown(text) {
   display: flex;
   flex-direction: column;
   border-left: 1px solid var(--border);
+  z-index: 100;
   animation: slideIn 0.2s ease-out;
+  box-shadow: -4px 0 20px rgba(0,0,0,0.3);
 }
 @keyframes slideIn {
   from { transform: translateX(100%) }

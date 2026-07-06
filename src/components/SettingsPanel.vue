@@ -12,6 +12,32 @@
           <div class="field-hint">Using DeepSeek Chat model for analysis and flashcards.</div>
         </div>
 
+        <div class="field">
+          <label>Session Usage</label>
+          <div class="usage-stats">
+            <div class="usage-row">
+              <span>API calls</span>
+              <span class="usage-val">{{ usage.calls }}</span>
+            </div>
+            <div class="usage-row">
+              <span>Input tokens</span>
+              <span class="usage-val">{{ usage.prompt.toLocaleString() }}</span>
+            </div>
+            <div class="usage-row">
+              <span>Output tokens</span>
+              <span class="usage-val">{{ usage.completion.toLocaleString() }}</span>
+            </div>
+            <div class="usage-row">
+              <span>Total tokens</span>
+              <span class="usage-val usage-highlight">{{ usage.total.toLocaleString() }}</span>
+            </div>
+            <div class="usage-row">
+              <span>Estimated cost</span>
+              <span class="usage-val">${{ usage.cost.toFixed(4) }}</span>
+            </div>
+          </div>
+        </div>
+
         <hr />
 
         <button class="btn btn-secondary" @click="$emit('reset')">Reset to defaults</button>
@@ -21,7 +47,21 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+import { getUsage } from '../services/ai.js'
+
 defineEmits(['close', 'reset'])
+
+const usage = ref(getUsage())
+
+// Refresh usage stats every 2 seconds while panel is open
+let interval
+onMounted(() => {
+  usage.value = getUsage()
+  interval = setInterval(() => { usage.value = getUsage() }, 2000)
+})
+
+onUnmounted(() => clearInterval(interval))
 </script>
 
 <style scoped>
@@ -71,6 +111,27 @@ defineEmits(['close', 'reset'])
   font-size: 13px;
   color: #4caf50;
   padding: 8px 0;
+}
+.usage-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 8px 0;
+}
+.usage-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: var(--text2);
+}
+.usage-val {
+  font-weight: 600;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.usage-highlight {
+  color: var(--accent);
+  font-size: 13px;
 }
 hr { border: 0; border-top: 1px solid var(--border); }
 .btn {

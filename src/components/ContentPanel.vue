@@ -2,11 +2,10 @@
   <div class="content-panel" ref="contentRef">
     <div class="content-header">
       <div class="content-header-left">
-        <h2>📄 Content</h2>
+        <img src="/DontTread.png" alt="Don't Tread" class="donttread-img" />
         <button v-if="text" class="btn btn-clear" @click="$emit('clear')" title="Clear all content">✕ Clear</button>
       </div>
       <div class="content-actions">
-        <span v-if="lastScan" class="scan-time">Last scan: {{ lastScan }}</span>
         <button class="btn btn-sm" @click="$emit('scan')" :disabled="scanning">
           {{ scanning ? '⏳ Scanning...' : '🔍 Scan Now' }}
         </button>
@@ -71,7 +70,7 @@ function onKeydown(e) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 16px;
+  padding: 8px 16px;
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
 }
@@ -80,9 +79,10 @@ function onKeydown(e) {
   align-items: center;
   gap: 8px;
 }
-.content-header h2 {
-  font-size: 15px;
-  font-weight: 600;
+.donttread-img {
+  height: 28px;
+  width: auto;
+  opacity: 0.9;
 }
 .content-actions {
   display: flex;

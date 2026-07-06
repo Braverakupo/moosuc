@@ -1,5 +1,25 @@
 <template>
-  <div class="app-layout">
+  <!-- Passcode lock screen -->
+  <div v-if="!passcodeUnlocked" class="passcode-screen">
+    <div class="passcode-box">
+      <div class="passcode-icon">🔒</div>
+      <h1>MOOSUC</h1>
+      <p>Enter passcode to unlock</p>
+      <input
+        v-model="passcodeInput"
+        @keydown.enter="checkPasscode"
+        class="passcode-input"
+        type="password"
+        placeholder="Passcode"
+        autofocus
+        maxlength="1"
+      />
+      <p v-if="passcodeError" class="passcode-error">Incorrect passcode</p>
+    </div>
+  </div>
+
+  <!-- Main app (locked until passcode is correct) -->
+  <div v-else class="app-layout">
     <!-- Left: Content -->
     <ContentPanel
       :text="contentText"
@@ -61,6 +81,7 @@ import SettingsPanel from './components/SettingsPanel.vue'
 import { useSettings } from './composables/useSettings.js'
 import { useScanner } from './composables/useScanner.js'
 import { useAI } from './composables/useAI.js'
+import { unlockPasscode } from './services/ai.js'
 
 const { settings, reset: resetSettings } = useSettings()
 const scanner = useScanner()
@@ -70,6 +91,19 @@ const contentText = ref('')
 const showSettings = ref(false)
 const showMobileCards = ref(false)
 const isMobile = ref(window.innerWidth < 768)
+const passcodeUnlocked = ref(false)
+const passcodeInput = ref('')
+const passcodeError = ref(false)
+
+function checkPasscode() {
+  if (unlockPasscode(passcodeInput.value)) {
+    passcodeUnlocked.value = true
+    passcodeError.value = false
+  } else {
+    passcodeError.value = true
+    passcodeInput.value = ''
+  }
+}
 
 window.addEventListener('resize', () => {
   isMobile.value = window.innerWidth < 768
@@ -117,16 +151,14 @@ async function handleScan() {
 }
 
 function onSelectCard(card) {
-  ai.openFlashcard(card, scanner.visibleText.value, settings.model)
+  // Card carries its own brief context — no need to pass full text
+  ai.openFlashcard(card, settings.model)
   showMobileCards.value = false
 }
 
 async function onChatMessage(msg) {
-  await ai.sendChatMessage(
-    msg,
-    settings.model,
-    scanner.visibleText.value
-  )
+  // Sends only the current message + card's stored context — no history, no full text
+  await ai.sendChatMessage(msg, settings.model)
 }
 </script>
 
@@ -198,5 +230,54 @@ async function onChatMessage(msg) {
     padding: 1px 6px;
     border-radius: 8px;
   }
+}
+
+/* Passcode lock screen */
+.passcode-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background: var(--bg);
+}
+.passcode-box {
+  text-align: center;
+  padding: 40px;
+}
+.passcode-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.passcode-box h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.passcode-box p {
+  font-size: 13px;
+  color: var(--text2);
+  margin-bottom: 20px;
+}
+.passcode-input {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  font-size: 24px;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg2);
+  color: var(--text);
+  outline: none;
+  transition: border-color .15s;
+}
+.passcode-input:focus {
+  border-color: var(--accent);
+}
+.passcode-error {
+  color: var(--danger) !important;
+  margin-top: 12px !important;
+  font-size: 12px !important;
 }
 </style>

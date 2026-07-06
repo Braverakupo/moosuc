@@ -31,18 +31,22 @@ export function useAI() {
     }
   }
 
-  async function sendChatMessage(message, model, textContext) {
+  async function sendChatMessage(message, model) {
     if (!activeConcept.value) return
+
+    // Use the card's stored context (brief excerpt), not the full document
+    const cardContext = activeConcept.value.context || activeConcept.value.description || ''
 
     chatHistory.value.push({ role: 'user', content: message })
     isChatting.value = true
     error.value = null
 
     try {
+      // Only sends current message + card context — no history accumulation
       const response = await chatAboutConcept(
         activeConcept.value,
-        textContext,
-        chatHistory.value,
+        cardContext,
+        message,
         model
       )
       chatHistory.value.push({ role: 'assistant', content: response })
@@ -53,21 +57,17 @@ export function useAI() {
     }
   }
 
-  function startChat(concept) {
-    activeConcept.value = concept
-    chatHistory.value = [
-      { role: 'assistant', content: `Let's explore "${concept.concept || concept}". ${concept.deepDive || 'What would you like to know?'}` }
-    ]
-  }
-
-  async function openFlashcard(concept, textContext, model) {
+  async function openFlashcard(concept, model) {
     activeConcept.value = concept
     chatHistory.value = []
     isFlashcardLoading.value = true
     error.value = null
 
+    // Use the card's stored context (brief excerpt) instead of full document text
+    const cardContext = concept.context || concept.description || ''
+
     try {
-      const flashcard = await generateFlashcard(concept, textContext, model)
+      const flashcard = await generateFlashcard(concept, cardContext, model)
       chatHistory.value.push({ role: 'assistant', content: flashcard })
     } catch (e) {
       error.value = e.message || 'Failed to generate flashcard'
@@ -95,7 +95,6 @@ export function useAI() {
     isFlashcardLoading,
     analyze,
     sendChatMessage,
-    startChat,
     openFlashcard,
     closeChat
   }
