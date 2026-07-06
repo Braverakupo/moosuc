@@ -42,6 +42,10 @@ export function getUsage() {
   }
 }
 
+export function getCallLog() {
+  return _callLog
+}
+
 function trackUsage(type, promptTokens, completionTokens, inputCharCount = 0, model = 'deepseek-chat') {
   _totalPromptTokens += promptTokens
   _totalCompletionTokens += completionTokens
