@@ -19,6 +19,13 @@ function requireUnlocked() {
   }
 }
 
+// --- DeepSeek V4 pricing (per 1M tokens) ---
+const PRICING = {
+  inputCacheHit:  0.0028,
+  inputCacheMiss: 0.14,
+  output:         0.28
+}
+
 // --- Input token thresholds for diagnostics ---
 const TOKEN_THRESHOLDS = {
   scan:      { prompt: 2000 },
@@ -29,16 +36,23 @@ const TOKEN_THRESHOLDS = {
 // --- Usage tracking ---
 let _totalPromptTokens = 0
 let _totalCompletionTokens = 0
+let _totalCachedTokens = 0
 let _totalCost = 0
 const _callLog = []
 
 export function getUsage() {
+  const total = _totalPromptTokens + _totalCompletionTokens
+  const cachePct = _totalPromptTokens > 0
+    ? Math.round(_totalCachedTokens / _totalPromptTokens * 100)
+    : 0
   return {
     prompt: _totalPromptTokens,
     completion: _totalCompletionTokens,
-    total: _totalPromptTokens + _totalCompletionTokens,
+    total,
     calls: _callLog.length,
-    cost: _totalCost
+    cost: _totalCost,
+    cachedTokens: _totalCachedTokens,
+    cachePct
   }
 }
 
@@ -46,28 +60,36 @@ export function getCallLog() {
   return _callLog
 }
 
-function trackUsage(type, promptTokens, completionTokens, inputCharCount = 0, model = 'deepseek-chat') {
+function trackUsage(type, promptTokens, completionTokens, inputCharCount = 0, model = 'deepseek-chat', cachedTokens = 0) {
   _totalPromptTokens += promptTokens
   _totalCompletionTokens += completionTokens
-  // DeepSeek Chat: $0.27/1M input, $1.10/1M output
-  const cost = (promptTokens * 0.27 + completionTokens * 1.10) / 1_000_000
+  _totalCachedTokens += cachedTokens
+
+  // Calculate cost with cache-aware pricing
+  const missTokens = promptTokens - cachedTokens
+  const inputCost = (cachedTokens * PRICING.inputCacheHit + missTokens * PRICING.inputCacheMiss) / 1_000_000
+  const outputCost = completionTokens * PRICING.output / 1_000_000
+  const cost = inputCost + outputCost
   _totalCost += cost
 
   const totalTokens = promptTokens + completionTokens
+  const cachePct = promptTokens > 0 ? Math.round(cachedTokens / promptTokens * 100) : 0
   const time = new Date().toLocaleTimeString()
 
-  _callLog.push({ type, promptTokens, completionTokens, totalTokens, inputCharCount, cost, time, model })
+  _callLog.push({ type, promptTokens, completionTokens, totalTokens, inputCharCount, cachedTokens, cachePct, cost, time, model })
   // Keep only last 500 calls
   if (_callLog.length > 500) _callLog.shift()
 
   // --- Console log every API call ---
   const icon = type === 'scan' ? '🔵' : type === 'flashcard' ? '🟡' : '🟢'
+  const cacheIcon = cachedTokens > 0 ? '📦' : '❄️'
   console.log(
     `${icon} DeepSeek [${type}]`,
     `Prompt:${promptTokens.toLocaleString()}`,
     `Out:${completionTokens.toLocaleString()}`,
     `Total:${totalTokens.toLocaleString()}`,
     `Chars:${inputCharCount.toLocaleString()}`,
+    `${cacheIcon}${cachePct}% cached`,
     `$${cost.toFixed(6)}`,
     model
   )
@@ -136,7 +158,8 @@ ${text.slice(0, 6000)}`
 
   const data = await res.json()
   const usage = data.usage || {}
-  trackUsage('scan', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model)
+  const details = usage.prompt_tokens_details || {}
+  trackUsage('scan', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model, details.cached_tokens || 0)
 
   const content = data.choices?.[0]?.message?.content?.trim() || '[]'
   
@@ -206,7 +229,8 @@ Format the response in clean markdown with clear sections. Make it educational a
 
   const data = await res.json()
   const usage = data.usage || {}
-  trackUsage('flashcard', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model)
+  const details = usage.prompt_tokens_details || {}
+  trackUsage('flashcard', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model, details.cached_tokens || 0)
   return data.choices?.[0]?.message?.content || 'Could not generate flashcard.'
 }
 
@@ -255,6 +279,7 @@ CONTEXT: ${(textContext || '').slice(0, 500)}`
 
   const data = await res.json()
   const usage = data.usage || {}
-  trackUsage('chat', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model)
+  const details = usage.prompt_tokens_details || {}
+  trackUsage('chat', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model, details.cached_tokens || 0)
   return data.choices?.[0]?.message?.content || 'No response.'
 }

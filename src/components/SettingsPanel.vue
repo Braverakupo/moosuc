@@ -8,8 +8,8 @@
       <div class="settings-body">
         <div class="field">
           <label>API Status</label>
-          <div class="status-ok">✅ DeepSeek API key is configured</div>
-          <div class="field-hint">Using DeepSeek Chat model for analysis and flashcards.</div>
+          <div class="status-ok">✅ DeepSeek V4 configured</div>
+          <div class="field-hint">Cache hit = $0.0028/1M · Cache miss = $0.14/1M · Output = $0.28/1M</div>
         </div>
 
         <div class="field">
@@ -22,6 +22,10 @@
             <div class="usage-row">
               <span>Input tokens</span>
               <span class="usage-val">{{ usage.prompt.toLocaleString() }}</span>
+            </div>
+            <div class="usage-row">
+              <span>Cache hits</span>
+              <span class="usage-val" :class="usage.cachePct > 50 ? 'cache-good' : 'cache-poor'">{{ usage.cachedTokens.toLocaleString() }} ({{ usage.cachePct }}%)</span>
             </div>
             <div class="usage-row">
               <span>Output tokens</span>
@@ -48,9 +52,9 @@
                   <th>#</th>
                   <th>Type</th>
                   <th>Prompt</th>
+                  <th>Cache</th>
                   <th>Output</th>
                   <th>Total</th>
-                  <th>Chars</th>
                   <th>Cost</th>
                 </tr>
               </thead>
@@ -59,9 +63,13 @@
                   <td>{{ log.length - i }}</td>
                   <td><span class="call-type" :class="'type-' + call.type">{{ call.type }}</span></td>
                   <td class="num">{{ call.promptTokens.toLocaleString() }}</td>
+                  <td class="num">
+                    <span :class="call.cachePct > 50 ? 'cache-badge-hit' : 'cache-badge-miss'">
+                      {{ call.cachePct }}%
+                    </span>
+                  </td>
                   <td class="num">{{ call.completionTokens.toLocaleString() }}</td>
                   <td class="num">{{ (call.promptTokens + call.completionTokens).toLocaleString() }}</td>
-                  <td class="num">{{ call.inputCharCount.toLocaleString() }}</td>
                   <td class="num">${{ call.cost.toFixed(6) }}</td>
                 </tr>
               </tbody>
@@ -87,7 +95,6 @@ const emit = defineEmits(['close', 'reset'])
 const usage = ref(getUsage())
 const log = ref([])
 
-// Show newest calls first
 const reversedLog = computed(() => [...log.value].reverse())
 
 function warningClass(call) {
@@ -179,6 +186,8 @@ onUnmounted(() => clearInterval(interval))
   color: var(--accent);
   font-size: 13px;
 }
+.cache-good { color: #3fb950 !important; }
+.cache-poor { color: #d29922 !important; }
 
 /* Call log table */
 .log-count {
@@ -234,6 +243,14 @@ onUnmounted(() => clearInterval(interval))
 .type-scan { background: rgba(88,166,255,0.15); color: #58a6ff; }
 .type-flashcard { background: rgba(247,197,60,0.15); color: #f7c53c; }
 .type-chat { background: rgba(63,185,80,0.15); color: #3fb950; }
+.cache-badge-hit {
+  color: #3fb950;
+  font-weight: 600;
+}
+.cache-badge-miss {
+  color: #f85149;
+  font-weight: 600;
+}
 .row-warn {
   background: rgba(248,81,73,0.08) !important;
 }
