@@ -69,6 +69,9 @@
       @close="showSettings = false"
       @reset="resetSettings"
     />
+
+    <!-- Notes Panel (bottom popout) -->
+    <NotesPanel />
   </div>
 </template>
 
@@ -78,6 +81,7 @@ import ContentPanel from './components/ContentPanel.vue'
 import CardPanel from './components/CardPanel.vue'
 import ChatDrawer from './components/ChatDrawer.vue'
 import SettingsPanel from './components/SettingsPanel.vue'
+import NotesPanel from './components/NotesPanel.vue'
 import { useSettings } from './composables/useSettings.js'
 import { useScanner } from './composables/useScanner.js'
 import { useAI } from './composables/useAI.js'
@@ -177,14 +181,14 @@ async function onChatMessage(msg) {
 }
 .settings-btn {
   position: fixed;
-  bottom: 16px;
-  left: 16px;
-  width: 38px;
-  height: 38px;
+  top: 12px;
+  right: 12px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   border: 1px solid var(--border);
   background: var(--bg2);
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
