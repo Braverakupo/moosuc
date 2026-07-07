@@ -12,7 +12,7 @@
       <div class="notes-header">
         <h3>📓 Notes</h3>
         <div class="notes-header-actions">
-          <button v-if="notes.length" class="btn btn-clear-all" @click="handleClearAll" title="Delete all notes">🗑 Clear all</button>
+          <button v-if="notes.length" class="btn btn-clear-all" @click="promptConfirm('clearAll')" title="Delete all notes">🗑 Clear all</button>
           <button class="btn-add" @click="handleAdd" title="New note">＋ New</button>
         </div>
       </div>
@@ -47,7 +47,7 @@
             />
             <div class="editor-actions">
               <button class="btn btn-save" @click="handleSave">💾 Save</button>
-              <button class="btn btn-delete" @click="handleDelete">🗑 Delete</button>
+              <button class="btn btn-delete" @click="promptConfirm('delete')" title="Delete this note">🗑 Delete</button>
               <button class="btn btn-back" @click="cancelEdit">← Back</button>
             </div>
           </div>
@@ -59,6 +59,20 @@
         </div>
       </div>
     </div>
+
+    <!-- Confirmation popout -->
+    <div v-if="confirm.show" class="confirm-overlay" @click.self="confirm.show = false">
+      <div class="confirm-box">
+        <p class="confirm-msg">{{ confirm.message }}</p>
+        <div class="confirm-actions">
+          <button class="btn btn-confirm-yes" @click="confirm.onConfirm">Yes</button>
+          <button class="btn btn-confirm-no" @click="confirm.show = false">Cancel</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Save toast -->
+    <div v-if="toast.show" class="toast-popup">{{ toast.message }}</div>
   </div>
 </template>
 
@@ -73,9 +87,47 @@ const editingNote = ref(null)
 const editTitle = ref('')
 const editContent = ref('')
 
+const confirm = ref({ show: false, message: '', onConfirm: null })
+const toast = ref({ show: false, message: '' })
+
+let toastTimer = null
+
 function fmtDate(ts) {
   const d = new Date(ts)
   return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' })
+}
+
+function showToast(msg) {
+  if (toastTimer) clearTimeout(toastTimer)
+  toast.value = { show: true, message: msg }
+  toastTimer = setTimeout(() => { toast.value.show = false }, 2000)
+}
+
+function promptConfirm(action) {
+  if (action === 'clearAll') {
+    if (notes.length === 0) return
+    confirm.value = {
+      show: true,
+      message: `Delete all ${notes.length} notes? This cannot be undone.`,
+      onConfirm: () => {
+        clearNotes()
+        confirm.value.show = false
+        showToast('All notes deleted')
+      }
+    }
+  } else if (action === 'delete') {
+    if (!editingNote.value) return
+    confirm.value = {
+      show: true,
+      message: `Delete "${editingNote.value.title}"? This cannot be undone.`,
+      onConfirm: () => {
+        deleteNote(editingNote.value.id)
+        confirm.value.show = false
+        cancelEdit()
+        showToast('Note deleted')
+      }
+    }
+  }
 }
 
 function handleAdd() {
@@ -100,17 +152,7 @@ function handleSave() {
   const title = editTitle.value.trim() || 'Untitled'
   updateNote(editingNote.value.id, { title, content: editContent.value })
   cancelEdit()
-}
-
-function handleDelete() {
-  if (!editingNote.value) return
-  deleteNote(editingNote.value.id)
-  cancelEdit()
-}
-
-function handleClearAll() {
-  if (notes.length === 0) return
-  clearNotes()
+  showToast('Note saved')
 }
 </script>
 
@@ -357,5 +399,71 @@ function handleClearAll() {
   border-color: var(--danger);
   color: var(--danger);
   background: rgba(248,81,73,0.08);
+}
+
+/* Confirmation popout */
+.confirm-overlay {
+  pointer-events: auto;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+}
+.confirm-box {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px 28px 20px;
+  max-width: 360px;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+.confirm-msg {
+  font-size: 14px;
+  color: var(--text);
+  margin-bottom: 18px;
+  line-height: 1.5;
+}
+.confirm-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.btn-confirm-yes {
+  border-color: var(--danger);
+  color: var(--danger);
+  min-width: 70px;
+}
+.btn-confirm-yes:hover {
+  background: rgba(248,81,73,0.1);
+}
+.btn-confirm-no {
+  min-width: 70px;
+}
+
+/* Save toast */
+.toast-popup {
+  pointer-events: none;
+  position: fixed;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg3);
+  border: 1px solid var(--accent2);
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-size: 13px;
+  color: var(--accent2);
+  z-index: 300;
+  animation: fadeInOut 2s ease forwards;
+}
+@keyframes fadeInOut {
+  0%   { opacity: 0; transform: translateX(-50%) translateY(8px); }
+  15%  { opacity: 1; transform: translateX(-50%) translateY(0); }
+  85%  { opacity: 1; transform: translateX(-50%) translateY(0); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-8px); }
 }
 </style>
