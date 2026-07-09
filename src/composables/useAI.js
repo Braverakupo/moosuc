@@ -1,5 +1,5 @@
 import { ref } from 'vue'
-import { analyzeText, chatAboutConcept, generateFlashcard } from '../services/ai.js'
+import { analyzeText, chatAboutConcept, generateFlashcard, generateStudyOutput } from '../services/ai.js'
 
 export function useAI() {
   const cards = ref([])
@@ -9,6 +9,36 @@ export function useAI() {
   const activeConcept = ref(null)
   const isChatting = ref(false)
   const isFlashcardLoading = ref(false)
+
+  // --- Study mode state ---
+  const studyMode = ref('architect')
+  const studyOutput = ref('')
+  const isStudyLoading = ref(false)
+
+  function setStudyMode(mode) {
+    if (mode === 'architect' || mode === 'essay') {
+      studyMode.value = mode
+    }
+  }
+
+  async function generateStudy(text, model) {
+    if (!text || !text.trim()) {
+      error.value = 'No text to analyze. Add content first.'
+      return
+    }
+    isStudyLoading.value = true
+    error.value = null
+    studyOutput.value = ''
+    try {
+      const result = await generateStudyOutput(text, studyMode.value, model)
+      studyOutput.value = result
+    } catch (e) {
+      error.value = e.message || 'Study generation failed'
+      studyOutput.value = ''
+    } finally {
+      isStudyLoading.value = false
+    }
+  }
 
   async function analyze(text, model) {
     if (!text || !text.trim()) {
@@ -93,6 +123,11 @@ export function useAI() {
     activeConcept,
     isChatting,
     isFlashcardLoading,
+    studyMode,
+    studyOutput,
+    isStudyLoading,
+    setStudyMode,
+    generateStudy,
     analyze,
     sendChatMessage,
     openFlashcard,

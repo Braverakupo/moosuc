@@ -3,6 +3,7 @@
     <div class="content-header">
       <div class="content-header-left">
         <img src="/DontTread.png" alt="Don't Tread" class="donttread-img" />
+        <button class="btn btn-settings" @click="$emit('open-settings')" title="Settings">⚙️</button>
         <button v-if="text" class="btn btn-clear" @click="$emit('clear')" title="Clear all content">✕ Clear</button>
       </div>
       <div class="content-actions">
@@ -15,7 +16,7 @@
       <div class="placeholder">
         <div class="placeholder-icon">📝</div>
         <p>Paste or type content here to analyze.</p>
-        <p class="placeholder-sub">Press <kbd>Enter</kbd> to scan for concepts.</p>
+        <p class="placeholder-sub">Click <kbd>Scan Now</kbd> to extract concepts.</p>
       </div>
     </div>
     <textarea
@@ -23,8 +24,7 @@
       class="content-textarea"
       :value="text"
       @input="$emit('update:text', $event.target.value)"
-      @keydown="onKeydown"
-      placeholder="Paste article text, documentation, or any content you're studying...&#10;&#10;Press Enter to scan for concepts."
+      placeholder="Paste article text, documentation, or any content you're studying..."
     ></textarea>
   </div>
 </template>
@@ -37,7 +37,7 @@ const props = defineProps({
   scanning: Boolean,
   lastScan: String
 })
-const emit = defineEmits(['update:text', 'scan', 'clear'])
+const emit = defineEmits(['update:text', 'scan', 'clear', 'open-settings'])
 const textareaRef = ref(null)
 
 defineExpose({ textareaRef })
@@ -47,14 +47,6 @@ onMounted(() => {
     emit('mount', textareaRef.value)
   }
 })
-
-function onKeydown(e) {
-  // Enter without Shift triggers scan
-  if (e.key === 'Enter' && !e.shiftKey) {
-    e.preventDefault()
-    emit('scan')
-  }
-}
 </script>
 
 <style scoped>
@@ -70,19 +62,19 @@ function onKeydown(e) {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 16px;
+  padding: 6px 12px;
   border-bottom: 1px solid var(--border);
   flex-shrink: 0;
 }
 .content-header-left {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 .donttread-img {
-  height: 28px;
+  height: 36px;
   width: auto;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 .content-actions {
   display: flex;
@@ -175,5 +167,24 @@ function onKeydown(e) {
   border-color: var(--danger);
   color: var(--danger);
   background: rgba(255,80,80,0.08);
+}
+.btn-settings {
+  padding: 0;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .15s;
+  opacity: 0.6;
+}
+.btn-settings:hover {
+  opacity: 1;
+  background: rgba(88,166,255,0.08);
 }
 </style>

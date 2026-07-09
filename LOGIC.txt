@@ -1,0 +1,41 @@
+MOOSUC — LOGIC
+===============
+
+1. USER PASTES OR TYPES TEXT
+   → Text appears in the textarea (ContentPanel).
+   → User can edit, clear, or add more any time.
+
+2. USER CLICKS "SCAN NOW" (button only — Enter key does nothing)
+   → Scanner extracts text from textarea (max 6000 chars).
+   → Only scans if text has changed since last scan (no duplicate calls).
+   → Passes text to the AI service for analysis.
+
+3. AI ANALYZES TEXT
+   → Requires passcode unlock first (user enters 'A').
+   → Sends text to DeepSeek API with instructions to extract 5 key concepts.
+   → API returns JSON array of concept objects.
+   → Concepts appear as cards in the right panel (CardPanel).
+
+4. USER CLICKS A CONCEPT CARD
+   → Opens ChatDrawer (slide-in panel).
+   → AI generates a flashcard-style explanation for that concept.
+   → User can chat about the concept (type message, click Send).
+   → Each chat message is independent (no history accumulation).
+
+5. USER CAN ADD TO CONTENT
+   → "+" button on a card appends concept text back to the textarea.
+   → "Add" button in ChatDrawer appends the flashcard to the textarea.
+
+6. SETTINGS
+   → Click ⚙️ button to open settings panel.
+   → Shows API status, token usage, call log, and estimated cost.
+   → No auto-polling — data refreshes once when panel opens.
+   → Reset button clears settings to defaults.
+
+7. API GATE
+   → All API calls are locked behind a passcode screen.
+   → User must enter 'A' to unlock the API.
+   → All three API functions (scan, flashcard, chat) require this passcode.
+   → Every API call also requires a user action (button click, card click, or send).
+
+SUMMARY: No auto calls. No timers. No watchers. Only user clicks trigger API.

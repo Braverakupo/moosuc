@@ -29,28 +29,32 @@
       @scan="handleScan"
       @clear="onClearContent"
       @mount="onContentMount"
+      @open-settings="showSettings = true"
     />
 
     <!-- Divider (desktop) -->
     <div class="divider"></div>
 
-    <!-- Right: Cards -->
+    <!-- Right: Cards / Study Output -->
     <CardPanel
       :cards="ai.cards.value"
       :loading="ai.isLoading.value"
       :error="ai.error.value"
+      :studyMode="ai.studyMode.value"
+      :studyOutput="ai.studyOutput.value"
+      :studyLoading="ai.isStudyLoading.value"
       @select-card="onSelectCard"
       @add-card="onAddCardToContent"
+      @update:studyMode="onStudyModeChange"
     />
 
     <!-- Mobile toggle for cards -->
     <button v-if="showMobileToggle" class="mobile-toggle" @click="showMobileCards = !showMobileCards">
       {{ showMobileCards ? '✕ Close' : '💡 Concepts' }}
-      <span v-if="ai.cards.value.length" class="mobile-badge">{{ ai.cards.value.length }}</span>
+      <span v-if="ai.cards.value.length || ai.studyOutput.value" class="mobile-badge">
+        {{ ai.studyOutput.value ? (ai.studyMode.value === 'architect' ? '🏗️' : '📝') : ai.cards.value.length }}
+      </span>
     </button>
-
-    <!-- Settings button -->
-    <button class="settings-btn" @click="showSettings = true">⚙️</button>
 
     <!-- Chat Drawer / Flashcard View -->
     <ChatDrawer
@@ -148,10 +152,15 @@ function onAddFlashcardToContent() {
   }
 }
 
+function onStudyModeChange(mode) {
+  ai.setStudyMode(mode)
+}
+
 async function handleScan() {
   const text = scanner.scan()
   if (!text) return  // empty = duplicate or scanning in progress
-  await ai.analyze(text, settings.model)
+  // Use mode-based study generation instead of concept extraction
+  await ai.generateStudy(text, settings.model)
 }
 
 function onSelectCard(card) {
@@ -178,26 +187,6 @@ async function onChatMessage(msg) {
   width: 1px;
   background: var(--border);
   flex-shrink: 0;
-}
-.settings-btn {
-  position: fixed;
-  top: 12px;
-  right: 12px;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1px solid var(--border);
-  background: var(--bg2);
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 50;
-  transition: all .15s;
-}
-.settings-btn:hover {
-  border-color: var(--accent);
-  background: #1c2333;
 }
 .mobile-toggle {
   display: none;

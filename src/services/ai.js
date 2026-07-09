@@ -1,5 +1,5 @@
 const API_URL = 'https://api.deepseek.com/v1/chat/completions'
-const DEFAULT_API_KEY = 'sk-b036428e7a4849bbb0098f7a444ad84d'
+const DEFAULT_API_KEY = 'sk-a5279ec1d1e444b99c6f9df227853733'
 
 // --- Passcode lock ---
 let _unlocked = false
@@ -102,6 +102,72 @@ function trackUsage(type, promptTokens, completionTokens, inputCharCount = 0, mo
       `Input chars: ${inputCharCount}. Possible context leakage.`
     )
   }
+}
+
+// --- Pre-Prompt Templates ---
+
+const STUDY_PREPROMPTS = {
+  architect: `You are a study architect. Given a body of text, produce a structured study outline that breaks down the material into clear, logical sections.
+
+IMPORTANT: Throughout every section, embed relevant external links [text](url) to Wikipedia, documentation, articles, or other resources for deeper exploration. Sprinkle links generously wherever a concept, term, or reference has authoritative external material — don't save them all for one section. Links should feel natural and useful inline.
+
+Format your response as follows:
+
+# [Main Topic Title]
+
+## 📋 Overview
+A 2-3 sentence high-level summary of what this material covers.
+
+## 🏗️ Core Concepts
+- **Concept 1**: Brief definition and why it matters [relevant link]
+- **Concept 2**: Brief definition and why it matters [relevant link]
+- (3-5 key concepts, each with an inline link)
+
+## 📊 Structure Map
+A hierarchical breakdown of the material:
+1. **Major Section 1**
+   - Subtopic A [link]
+   - Subtopic B [link]
+2. **Major Section 2**
+   - Subtopic A [link]
+   - Subtopic B [link]
+
+## 🔗 Connections
+How the key ideas relate to each other, any dependencies, or broader context. Include links to related topics.
+
+## 📝 Study Questions
+3-5 questions that test understanding of the material, ordered from foundational to advanced. Link relevant terms in questions.
+
+## 🎯 Key Takeaways
+3 bullet points summarizing the most important things to remember.
+
+Use clear markdown headings and formatting. Be concise but comprehensive.`,
+
+  essay: `You are a study essayist. Given a body of text, write an engaging, well-structured essay that explains the material in depth.
+
+Format your response as follows:
+
+# [Compelling Essay Title]
+
+## 🧠 Introduction
+Hook the reader with context and state what this essay will cover.
+
+## 📖 Body
+Organize into 3-5 sections, each with a clear heading. For each section:
+- Explain the concept clearly
+- Provide examples or applications where relevant
+- Connect ideas back to the main theme
+
+## 💡 Insights
+What makes this material interesting or important? Any surprising implications, counterintuitive points, or elegant ideas worth highlighting.
+
+## 🔄 Synthesis
+Bring everything together. How do the pieces form a coherent whole? What's the bigger picture?
+
+## 📚 Further Exploration
+2-3 suggested directions for deeper study based on this material.
+
+Write in an engaging, conversational yet precise tone. Use examples liberally. Avoid bullet-sprawl — prefer full paragraphs that flow naturally.`
 }
 
 // --- API Functions ---
@@ -285,5 +351,52 @@ User question: ${message || ''}`
   const usage = data.usage || {}
   const details = usage.prompt_tokens_details || {}
   trackUsage('chat', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model, details.cached_tokens || 0)
-  return data.choices?.[0]?.message?.content || 'No response.'
+}
+
+/*
+ * TOKEN AUDIT: generateStudyOutput (mode-based study output)
+ *   System: pre-prompt template (~800 chars / ~200 tokens)
+ *   User text: up to 6,000 chars (~1,500 tokens)
+ *   ─────────────────────────────────
+ *   Input total: ~6,800 chars ≈ ~1,700 tokens
+ *   Output: max 2,000 tokens
+ *   Cost per call: ~1,700 input tokens
+ */
+export async function generateStudyOutput(text, mode = 'architect', model = 'deepseek-chat', apiKey = DEFAULT_API_KEY) {
+  requireUnlocked()
+  const systemContent = STUDY_PREPROMPTS[mode] || STUDY_PREPROMPTS.architect
+  const userContent = `MODE: ${mode}
+
+CONTEXT:
+${(text || '').slice(0, 6000)}`
+
+  const inputCharCount = systemContent.length + userContent.length
+
+  const res = await fetch(API_URL, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'Authorization': `Bearer ${apiKey}`
+    },
+    body: JSON.stringify({
+      model,
+      messages: [
+        { role: 'system', content: systemContent },
+        { role: 'user', content: userContent }
+      ],
+      temperature: 0.4,
+      max_tokens: 2000
+    })
+  })
+
+  if (!res.ok) {
+    const err = await res.text()
+    throw new Error(`Study API ${res.status}: ${err}`)
+  }
+
+  const data = await res.json()
+  const usage = data.usage || {}
+  const details = usage.prompt_tokens_details || {}
+  trackUsage('study', usage.prompt_tokens || 0, usage.completion_tokens || 0, inputCharCount, model, details.cached_tokens || 0)
+  return data.choices?.[0]?.message?.content || 'Could not generate study output.'
 }

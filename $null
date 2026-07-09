@@ -1,0 +1,7 @@
+Unable to find type [System.Windows.Forms.Application].
+At line:1 char:23
++ & { clear } ; $null = [System.Windows.Forms.Application]::SetSuspendS ...
++                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Windows.Forms.Application:TypeName) [], RuntimeException
+    + FullyQualifiedErrorId : TypeNotFound
+ 

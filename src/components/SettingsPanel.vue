@@ -87,7 +87,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { getUsage, getCallLog } from '../services/ai.js'
 
 const emit = defineEmits(['close', 'reset'])
@@ -108,13 +108,9 @@ function refresh() {
   log.value = getCallLog()
 }
 
-let interval
 onMounted(() => {
   refresh()
-  interval = setInterval(refresh, 1000)
 })
-
-onUnmounted(() => clearInterval(interval))
 </script>
 
 <style scoped>
