@@ -1,0 +1,38 @@
+---
+title: "Invoking Earth"
+source: https://templeofzeus.org/Invoking_Earth.php
+category: 10-Chakras-Meditations
+retrieved: 2026-07-10
+---
+# Invoking Earth
+
+## Characteristics of Earth:
+
+People who are dominant in earth are sensual, materialistic, practical, and they hate anything that is unplanned. Earth gives patience, self-discipline, makes one dependable, reliable, and conventional. Earth people like tradition, and security is extremely important to them. They are cautious, deliberate, slow in forming opinions, and can be slow in everything they do. They are reserved, but they have exceptional endurance. They are practical, grounded, and level-headed. They are hardworking, dislike change, and can be stuck in a routine for years without ever getting bored. They have a hard time adjusting to new situations and changes.
+
+A LACK OF EARTH:  
+People who are lacking in earth are not attuned to the material/physical world; they are spaced out, impractical, they can neglect their bodies, they are flighty, lack self-discipline, are ungrounded, often feel out of place, and have overactive imaginations. These people can forget to eat, rest, exercise, and so forth. They have trouble with routine, endurance, scheduling, and organizing their lives. A lack of earth brings a lack of stability, along with an inability to finish things. Here today and gone tomorrow. These people can overspend their money foolishly or gamble it away. They are irresponsible and live only for today.
+
+Earth is the material principle.
+
+> Note:
+> 
+> Those who lack an element often express the character traits of the element in a different way than those who have the element. For example, a lack of earth can manifest in idealism instead.
+
+## INVOKING EARTH:
+
+To invoke the earth element, go into a light to medium trance and visualize yourself in the middle of a large sphere of heavy, dense gravity. Now, do the energy breathing. Breathe in the earth from all sides of your body; front, back, top of your head, and bottom of your feet. Imagine yourself getting heavier to the point where you are like lead and can no longer move, like you are buried under several feet of dirt. Feel the gravity of the earth pulling you.
+
+> WARNING!
+> 
+> Do this for seven breaths, AND ONLY SEVEN BREATHS! DO NOT DO ANY MORE! YOU CAN EVEN DO AS LITTLE AS 2-3 BREATHS, BUT NO MORE THAN SEVEN!
+
+You have two options for this exercise:
+
+1.  You can breathe the earth element back out into the ether after each inhalation and even breathe it out some more when you are finished with the seven breaths (this is the safest way).
+    
+    **OR**
+    
+2.  You can retain the earth. With retention of the elements, you will progress faster, understand how each element feels and affects you, and increase your ability to handle each element, but remember, this is not for everyone. It is better to take things slower and use caution. Remember to always use common sense.
+
+After some 12-24 hours, sit quietly and meditate a few minutes on how you feel after invoking earth.

@@ -1,0 +1,52 @@
+---
+title: "Self Hypnosis"
+source: https://templeofzeus.org/Self_Hypnosis.php
+category: 08-Magick
+retrieved: 2026-07-10
+---
+# Self Hypnosis
+
+For self-hypnosis, you need to get yourself into a deep trance. The following is an excerpt from "A Treatise on Astral Projection" by Robert Bruce:
+
+> ### "How To Enter A Trance"
+> 
+> Relax and calm your mind through breath awareness. Imagine you are climbing down a ladder in the dark. Don't visualize a ladder; just imagine you can feel yourself doing it. On the exhale, feel yourself climbing a step or two down the ladder. On the inhale, feel yourself holding still on the ladder.
+> 
+> What is needed is a mental falling effect inside your mind. This changes the level of brain wave activity from the awake level (Beta) to the asleep level (Alpha) or the deep sleep level (Theta). Once your level of brain wave activity reaches Alpha, you will enter a trance.
+> 
+> Keep doing this for as long as it takes. The time it takes to enter trance will vary, depending on your experience with deep relaxation and mental calmness.
+> 
+> Note: Once you get the heavy feeling, stop the mental falling exercise. If you don't like the ladder, imagine you are in a lift \[elevator\], feel yourself falling on the exhale and holding on the inhale, or, imagine you are a feather, feel yourself floating down on the exhale and holding still on the inhale. As I stated above, you need a mental falling effect to lower your level of brain wave activity. This mental falling effect, when combined with deep relaxation and mental calmness, will cause you to enter the trance state. Feel free to use any scenario you are familiar with to bring about this going deeper feeling.
+> 
+> A trance feels like: Everything gets quieter, and you feel like you are in a much bigger place. There is a very slight humming feeling in your body. Everything feels different. It feels a bit like putting a cardboard box over your head in the dark; you can feel the atmosphere change. It’s like everything goes fuzzy or slightly blurred. Any sharp noises while in a trance are painful.
+> 
+> ### Deep Trance
+> 
+> The level of trance you achieve depends greatly on your relaxation, concentration skills, and willpower. To enter a deeper trance, i.e., Theta level and beyond, you have to concentrate much more and for much longer on the mental falling sensation aided by breath awareness. The first level of trance, i.e., when you get very heavy, is quite deep enough for projection. I strongly advise against forcing yourself deeper than a light trance, until you have plenty of experience with the trance state.
+> 
+> How can you tell if you are entering a deep trance? There are four very noticeable symptoms:
+> 
+> 1.  An uncomfortable feeling of cold that doesn't make you shiver, coupled with a steady loss of body heat.
+> 2.  Mentally, you will feel very odd, and everything will feel extremely slooooow. Your thought processes will slow down as if you had been given a strong pain killing injection.
+> 3.  You will feel disassociated from your body, i.e., a strong floating sensation, and everything will seem far away.
+> 4.  Total physical Paralysis. Note: These four things, ALL TOGETHER, signify you are entering a deep trance. Do not mistake the mild floating sensation you sometimes get with light trance, i.e., as your astral body comes loose. Or the slight loss of body heat from sitting still for a long time and the mild paralysis, i.e., the heaviness, for a deep trance. The sensation of deep trance is quite uncomfortable and unmistakable for what it is.
+> 
+> It is very difficult to get into the deep trance state, as you need highly developed relaxation, concentration, and trance state skills, plus lots and lots of willpower and mental energy. You will not accidentally fall into it. If you are worried you are going too deep, remember this: You CAN pull yourself out of it at any time. Concentrate ALL your will on moving your fingers or toes. Once you can move a finger or toe, flex your hands, move your arms, shake your head, i.e., reanimate your body, and get up and walk around for a few minutes. Falling into a deep trance should not be a problem with these exercises.
+> 
+> ### Energy Body Expansion
+> 
+> At some point after entering the trance state, you will feel a mild paralysis come over you. This will soon be accompanied by a deepening vibration and a buzzing feeling all over. You may also feel like you are huge and swollen. The paralysis, vibrations, and the huge feeling are symptoms of the energy body expanding and the astral body loosening. This is part of the normal sleep process. The energy body expands and opens in order to accumulate and store energy. During this, the astral body drifts free, slightly out of phase with the physical body."
+> 
+> \[End of Excerpt\]
+
+Some people use a tape recorder and listen to the talking through and statements. The drawback here is that when in a deep trance state, sounds can become painful and jar the nervous system. Everyone is individual, and one should experiment to find the best individual methods. What works for one person may not work for another.
+
+While in this state, [you can regress into a past life](Past_Life_Meditation.php) by walking through a door or "portal" in your mind.
+
+The deep trance state is the time to make repeated affirmations to yourself to program your mind. Self-hypnosis is much like hypnotizing others, with the exception that you make the statements to yourself. Again, several sessions may be necessary.
+
+Bring yourself out slowly and gradually, as you would do in returning from the astral.
+
+## Key Points
+
+Self-hypnosis is a deep trance state you induce on yourself. It is essentially the same as deep meditation. Use progressive relaxation (feet to head), then give yourself suggestions in the present tense. The subconscious does not understand negatives — say "I am confident" not "I am not afraid."

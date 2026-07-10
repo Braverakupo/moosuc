@@ -1,0 +1,47 @@
+---
+title: "Bioelectric Technology and the Black Arts of Hypnotism"
+source: https://templeofzeus.org/Mind.php
+category: 08-Magick
+retrieved: 2026-07-10
+---
+# Bioelectric Technology and the Black Arts of Hypnotism
+
+Each of us has an electro-magnetic field around our bodies. This is what we know as the aura. Our thoughts and the activity of our brain form a circuit within that aura. Since thoughts and brain activity are electrical impulses, they can be decoded and read. The world powers are well aware of this and, with advanced computer technology, are able to decipher a person's thoughts, where they can be received by a special device, and the output is much like when satellite signals are formed into a picture on our TV sets.
+
+There are also microchips that can be used as implants along certain neural pathways to send electrical impulses to the brain, stimulating certain thoughts, feelings, beliefs, or implanting certain memories. Although this technology has a way to go, there are now actual thought-reading machines, which, like everything else in time, will be perfected. A device is placed upon a subject’s skin at certain points that reads the bioelectrical output and decodes these impulses to where they can easily be read with a special computer.
+
+During the 1970's the world powers acquired major advances and breakthroughs in mind-control technology. Hypnosis has many positive applications, such as healing or breaking certain habits. Most "professional" hypnotists agree that when under a hypnotic trance, the subject will never act against his/her own will or perform acts contrary to his/her own nature. This, in reality, is false. A trained and confident operator can impel a subject to do anything he/she commands him/her to do, unless there is an extremely powerful aversion within the subject, or if the will of the subject is exceptionally strong.
+
+20% of the population are perfect subjects for hypnosis. Above-average intelligence, the existence of an imaginary playmate in childhood, a strong tendency to daydreaming and fantasy, and the will to comply make one a desirable candidate.
+
+In the black arts of hypnotism, the hypnotist and subject form a master/slave relationship. The subject must be isolated from friends and family and spend much time alone with the operator, where a rapport is established, as in government experiments or sometimes as one does with a cellmate in prison. An emotional rapport is very important in establishing trust and obedience. The operator must come across as a good listener and show a supposed genuine interest in the subject. The subject is made to feel comfortable around the operator and can be open with him/her.
+
+The initial hypnotic induction is the most important, as it breaks through into the subject's mind and opens a door to the hypnotist. When in the alpha state, the logical mind is inactive, and one is open to all suggestions. The operator gives the subject the suggestion that he/she will become deeply hypnotized again whenever the operator gives the induction cue. This can be in words or a signal. Each session induces a deeper hypnotic state where the subject slips under the complete control of the operator. With deeper trances, the subject becomes more and more powerless against the operator.
+
+Artificial amnesia (also known as a "mind wipe") is induced by the operator suggesting to the subject that he/she will not have any conscious knowledge of the session. Further important suggestions include that the subject will not in any way be able to be hypnotized by anyone else and that he/she will act in a trance, just as if awake.
+
+Once the subject is easily hypnotized by the operator, the mind and personality can then be conditioned. Childhood playmates are often extensions of one's personality, especially in those who are of weaker character and would not fight back personally or defend themselves. The imaginary playmate can fight back and get angry, whereas the child cannot. Often, there is an abusive parent to whom the angry thoughts and actions of the playmate are directed against.
+
+During the initial conditioning phase of the session, the operator regresses the subject into childhood. Regression plays a very important part in establishing control over the subject. An operator who works for the government, as in producing spies, will look for the most aggressive of the imaginary friends in attempting to artificially split the personality. The most aggressive aspects of the personality are the ideal in destroying all inhibitions.
+
+Artificial splitting of the personality occurs when the imaginary playmate is brought out in the subject and the subject becomes the playmate on cue. The playmate usually emerges through one of the subject's chakras. The operator informs the subject that "playmate's name" will come through the subject's stomach, third eye, throat, etc. The subject is further told again that he/she will not remember anything of the session or the emerging personality. In actual cases, the emerging stronger personality is conditioned through programming and suggestion to be hostile to the root personality of the subject.
+
+This aggressive personality, in nearly all cases, is stronger and can take more abuse. The world powers use the subject as robotic spies. Extensive programming is instilled in the aggressive personality so that they will never divulge certain information, even under torture. The root personality, who is amnesiac of the entire experience, is often the one who endures systematic torture, with no memory or recall of the information the interrogator is attempting to force them to reveal.
+
+Through repeated sessions, the personality is brought out more and more and becomes much stronger, completely splitting off from the root. The subject, due to being programmed not to remember, has no knowledge, only gaps in time and missing pieces in the memory. Much time slips by unnoticed and is unaccounted for.
+
+Further conditioning sessions, while under, include talking the subject through an experience completely abhorrent to their nature, where the subject is made in his/her mind to do something he/she would never consciously do. The subject actually experiences what the operator says. Through repeated sessions, all inhibitions are overcome, and the personality is shaped into whatever the operator wishes. This is where the subject, for example, can murder ANYONE without hesitation or do anything else the operator commands. Like anything else, repeated programming is instilled and maintained in subsequent sessions.
+
+Barbiturates can be injected into a stubborn subject that will render his/her mind open to whatever suggestions the operator wishes to instill. This is known as "Military Psychology". People who use recreational drugs are extremely easy to control, either psychically, as a skilled mage would do, or in an actual clinical setting. Drug use also puts holes in the protective aura that can easily be manipulated by an adept.
+
+Electric Shock Treatment works to destroy memories and can be used to wipe the mind clean by agencies within the world powers. The mind is then reprogrammed, and beliefs, ideas, thinking patterns, and habits are instilled, usually through trance induction by drugs, until the new personality takes hold and the drugs are no longer needed. This is known as "brainwashing" and can be done for all purposes.
+
+Most people are unaware of what can be done to their minds by those who have more knowledge and control. Self-hypnosis is useful in where we, ourselves, program our own minds. We can program our minds to be resistant to all unwanted influences. In addition, others will not be able to influence our minds or establish control over us in any way.
+
+### Reference:
+
+Secret, Don't Tell: The Encyclopedia of Hypnotism by Carla Emery, 1998
+
+## The Mind as a Weapon and Tool
+
+The human mind, when properly trained, can influence reality directly. Hypnosis, telepathy, psychic influence, and energy direction are all applications of a trained mind. The key is consistent daily practice of void meditation, visualization, and energy work.

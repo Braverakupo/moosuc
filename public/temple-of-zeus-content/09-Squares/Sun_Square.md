@@ -1,0 +1,62 @@
+---
+title: "The Sun"
+source: https://templeofzeus.org/Sun_Square.php
+category: 09-Squares
+retrieved: 2026-07-10
+---
+# The Sun
+
+Kabalistic/Magickal Square of the Sun for empowering chakras, strengthening a debilitated Sun, and for help in health and overall spiritual advancement related to the Sun
+
+![](assets/img/Sun_Spiritual.gif)
+
+Kabalistic/Magickal Square of the Sun for material success, prosperity, and earthly \[non-spiritual\] affairs
+
+![](assets/img/Sun_Material.gif)
+
+The mantra for the Sun is for 36 days in a row. It is important never to skip any days, as this will cancel out the entire work.
+
+Begin the mantra when the Sun is strong in its home sign of Leo or when it is in its exalted sign of Aries. These times are ideal, but the mantra can be done when the Sun is in other signs as well.
+
+DO NOT begin this mantra when the Sun is in the signs of Aquarius \[detriment\] or Libra \[its fall\].
+
+Begin the mantra on a Sunday, during the hours of the Sun.
+
+Begin during daylight hours when the Sun is shining, preferably.
+
+Ideally, each day, the mantra chosen for the Sun should be recited during the hours of the Sun for that day. This is ideal, but regardless, never skip any days, regardless of the hour.
+
+Ritual/Magickal Rulerships for the Sun:  
+Confidence, fame, success in gambling, pleasure, securing popularity/charisma, increasing health and vitality, healing, protection, success, magickal power, and riches. The Sun rules the third chakra, and of course the Sun in the astrology chart.
+
+Parts of the Body ruled by the Sun: The heart, spine, diaphragm, arteries, veins, and eyes, overall health and vitality.
+
+Diseases: Low vitality, fatigue, all diseases of the heart, arteries, high/low blood pressure, vision problems, jaundice, meningitis, all back and spinal problems, seizures. \[Debilitated/weakened/afflicted Sun\]
+
+Professions: Acting, all theatre occupations, persons in authority positions (bosses, supervisors, noblemen, kings, emperors), those who work with gold, judges, magistrates, people in charge of huge sums of money, moneylenders.
+
+The Sun is your ego, personality, self-esteem, vitality, leadership ability, health, fame, and honor.
+
+The Sun rules: Your father, the men in your life, your children, your health/vitality, your will, ambition, your self-esteem and self-expression, your confidence, and your third \[solar\] chakra. Precious metals, things of value, gold, all persons in authority/power, the wealthy, the government.
+
+In your astrology chart: The house the Sun is posited in, along with the house/s with the sign of Leo on the cusp/s.
+
+The Kabalistic/Magickal planetary square working empowers the third \[solar\] chakra, strengthens a weakened/debilitated Sun in one's astrology chart, and helps in the affairs ruled by the house/s with the sign of Leo on the cusp/s and the house containing the Sun.
+
+## MANTRA FOR THE SUN:
+
+**AUM HRAAM HRIM HRAUM SAU SURYAE NAMA**
+
+One can replace **NAMA** with **SVAHA** ٠ *\[S-VAH-HAH\]*٠ when working for spiritual goals.
+
+  
+**Pronunciation:**  
+*AHH-UUU-MMM ٠ H-RR-AH ' AH-MM ٠ H-RR-EE-MM ٠ H-RR-AH-UU-MM ٠ SAH-UUU ٠ SUUU-RR-YAH-YAY ٠ NAH-MAH*
+
+AH rhymes with Saw ٠ UUU rhymes with Too ٠ All R's need to be rolled ٠ YAY rhymes with Say
+
+## Sun Square: How to Use
+
+The Sun square is for vitality, health, confidence, success, and empowerment. It is one of the most versatile and powerful squares. Best done on Sundays during Sun hours. Visualize brilliant golden light filling your entire being as you vibrate.
+
+**General rule for all squares:** Vibrate the mantra the exact number of times specified. Do not add or subtract. The numbers are mathematically precise and correspond to the planet's vibrational frequency. Consistency over multiple days amplifies the effect enormously.

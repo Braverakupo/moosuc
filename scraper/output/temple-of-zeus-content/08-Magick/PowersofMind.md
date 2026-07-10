@@ -1,0 +1,34 @@
+---
+title: "Powers of the Mind and Soul"
+source: https://templeofzeus.org/PowersofMind.php
+category: 08-Magick
+retrieved: 2026-07-10
+---
+# Powers of the Mind and Soul
+
+The essence of ZEVISM is completing our Creator God Zeus’s work upon humanity. Zeus was prevented from finishing his work on humanity: transforming the human soul into the godhead.
+
+The "godhead" is spiritual and physical perfection and immortality, along with godlike powers, wisdom, understanding, and knowledge. This is the underlying message of all of the legitimate occult disciplines, such as alchemy and the legends of the Gods, which are all allegories containing this powerful message.
+
+For those of you who are unfamiliar with spirituality and the workings of the mind, known as "witchcraft", I am going to explain this so you can understand how it works. Look around you, everything you see, your computer screen, your chair, your bed, your furniture, the cars outside, buildings, windows... everything you see was once someone's idea before it materialized into a physical form in reality.
+
+Now, I also want to add in some instances, such as with science, where, for example, storms manifest on their own; hot, humid air colliding with cold, dry air, but the majority of everything here was once someone's idea.
+
+At first mention, for those who are inexperienced with witchcraft \[using the powers of one's own mind and soul to obtain one's desires\], images of old hags with pointed black hats, broomsticks, bats, cauldrons, frogs, toads, amulets, sacred stones, symbols, etc., usually enter one's mind. These were traditional medieval representations of how “witches” were supposed to appear, according to the Yehuborim.
+
+The powers one uses are the powers of his/her own mind and soul, to begin with. Many of the above-mentioned items are just useless props, such as a cauldron. Others, such as amulets, rings of stones, and so forth, amplify energy. This is a scientific fact. Crystals, stones, and such amplify and can transmit energy. Covens \[groups of witches\] can be extremely powerful in amplifying energy, as many gifted people work together to apply these powers in unison, in contrast to where one alone could not accomplish certain workings. Raising energy and directing that energy toward obtaining goals and desires, whatever they may be, is what witchcraft is all about.
+
+We often see circles along with astrological glyphs and other occult symbols in movies and such. Astrological timing of raising and directing energy is often critical to the success of a working and greatly amplifies the powers. Witches and warlocks, also known as mages \[those who use the powers of their minds and souls and have this knowledge\], use whatever means they can to amplify their powers. This is important.
+
+Daemons and spiritual assistants often use frogs, toads, cats, dogs, and other animals called "familiars" to assist mages in their work and communicate through the medium of an animal, which is always very well cared for and close to the mage; a powerful bond is formed. The familiar also offers protection and is a gift from the Gods. Animals are sacred in Zevism and should always be treated with care and respect.
+
+![](assets/img/zevism_powersofthemind.png)
+
+**Summary:**
+
+1.  True Zevism is working to advance one's mind, soul, and personal powers.
+2.  “Witchcraft” is the use of these powers, which are inherent to the mind and soul. Symbols, amulets, stones, and other props serve to amplify this energy, either directly or indirectly, especially for those who prefer to use imagery to intensify their power. However, the real power is seated within the mind itself, and it is expanded through power meditation.
+
+## Developing Your Powers
+
+Every human being has psychic abilities. They are dormant in most people because they have never been trained. Power Meditation awakens and strengthens these abilities. There is nothing supernatural about this — it is the natural function of the human soul operating at its designed capacity.

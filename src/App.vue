@@ -18,9 +18,30 @@
     </div>
   </div>
 
-  <!-- Main app (locked until passcode is correct) -->
-  <div v-else class="app-layout">
-    <!-- Left: Content -->
+  <!-- Main app (passcode unlocked) -->
+  <div v-else class="app-root">
+    <!-- Top rotating image bar -->
+    <div class="top-bar">
+      <div class="top-bar-img"></div>
+      <div class="top-bar-img"></div>
+      <div class="top-bar-img"></div>
+      <div class="top-bar-img"></div>
+      <div class="top-bar-img"></div>
+      <div class="top-bar-img"></div>
+    </div>
+    <div class="app-layout">
+      <!-- TOZ Browser (sidebar + reader, self-contained) -->
+      <ToZLibrary
+      :collapsed="tozCollapsed"
+      :searchQuery="tozQuery"
+      @toggle="tozCollapsed = !tozCollapsed"
+      @update:searchQuery="tozQuery = $event"
+    />
+
+    <!-- Divider after TOZ browser -->
+    <div class="divider"></div>
+
+    <!-- === MAIN STUDY AREA === -->
     <ContentPanel
       :text="contentText"
       :scanning="scanner.isScanning.value"
@@ -32,10 +53,8 @@
       @open-settings="showSettings = true"
     />
 
-    <!-- Divider (desktop) -->
     <div class="divider"></div>
 
-    <!-- Right: Cards / Study Output -->
     <CardPanel
       :cards="ai.cards.value"
       :loading="ai.isLoading.value"
@@ -77,15 +96,17 @@
     <!-- Notes Panel (bottom popout) -->
     <NotesPanel />
   </div>
+  </div>
 </template>
 
 <script setup>
-import { ref, onMounted, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import ContentPanel from './components/ContentPanel.vue'
 import CardPanel from './components/CardPanel.vue'
 import ChatDrawer from './components/ChatDrawer.vue'
 import SettingsPanel from './components/SettingsPanel.vue'
 import NotesPanel from './components/NotesPanel.vue'
+import ToZLibrary from './components/ToZLibrary.vue'
 import { useSettings } from './composables/useSettings.js'
 import { useScanner } from './composables/useScanner.js'
 import { useAI } from './composables/useAI.js'
@@ -102,6 +123,10 @@ const isMobile = ref(window.innerWidth < 768)
 const passcodeUnlocked = ref(false)
 const passcodeInput = ref('')
 const passcodeError = ref(false)
+
+// TOZ: just collapsed state + search query (component handles the rest)
+const tozCollapsed = ref(false)
+const tozQuery = ref('')
 
 function checkPasscode() {
   if (unlockPasscode(passcodeInput.value)) {
@@ -176,12 +201,48 @@ async function onChatMessage(msg) {
 </script>
 
 <style scoped>
-.app-layout {
-  display: flex;
+.app-root {
   height: 100vh;
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.app-layout {
+  display: flex;
+  flex: 1;
   overflow: hidden;
   position: relative;
+}
+/* Top rotating image bar */
+.top-bar {
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--bg2);
+  border-bottom: 1px solid var(--border);
+}
+.top-bar-img {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center 35%;
+  opacity: 0;
+  animation: rotator 48s infinite;
+}
+.top-bar-img:nth-child(1) { background-image: url('https://templeofzeus.org/assets/img/zeus_hd.jpg'); animation-delay: 0s; }
+.top-bar-img:nth-child(2) { background-image: url('https://templeofzeus.org/assets/img/PantheoNN.webp'); animation-delay: 8s; }
+.top-bar-img:nth-child(3) { background-image: url('https://templeofzeus.org/assets/img/baal-bek-temple.jpg'); animation-delay: 16s; }
+.top-bar-img:nth-child(4) { background-image: url('https://templeofzeus.org/assets/img/philosophy/zeus_against_the_titans.jpg'); animation-delay: 24s; }
+.top-bar-img:nth-child(5) { background-image: url('https://templeofzeus.org/assets/img/philosophy/zeus_enthroned_in_cosmic_victory.jpg'); animation-delay: 32s; }
+.top-bar-img:nth-child(6) { background-image: url('https://templeofzeus.org/assets/img/afterlife.png'); animation-delay: 40s; }
+@keyframes rotator {
+  0%, 8% { opacity: 0; }
+  12% { opacity: 1; }
+  20% { opacity: 1; }
+  25% { opacity: 0; }
+  100% { opacity: 0; }
 }
 .divider {
   width: 1px;

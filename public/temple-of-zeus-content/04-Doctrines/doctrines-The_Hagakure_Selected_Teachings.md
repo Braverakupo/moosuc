@@ -1,0 +1,27 @@
+---
+title: "THE HAGAKURE SELECTED TEACHINGS"
+source: https://templeofzeus.org/doctrines/The_Hagakure_Selected_Teachings.php
+category: 04-Doctrines
+retrieved: 2026-07-10
+---
+# THE HAGAKURE SELECTED TEACHINGS
+
+![Samurai with sword,
+hand-coloured 
+photograph, 19th century](../assets/img/doctrines/hagakure.jpg)
+
+Samurai with sword, 19th century photograph
+
+*葉隠 Hidden by the Leaves Yamamoto Tsunetomo (dictated 1709–1716)*
+
+**What It Is:** A collection of commentaries, anecdotes, and reflections on the way of the samurai (Bushidō), dictated by the retired samurai Yamamoto Tsunetomo to a younger scribe over a period of seven years. It was never intended for publication and circulated only in manuscript within the Nabeshima clan for over a century. It is famous for its opening declaration: “I have found the essence of Bushidō: to die.” This is almost universally misunderstood. Tsunetomo does not advocate reckless death; he advocates the daily practice of imagining one’s death in order to live with total clarity, total commitment, and total freedom from the paralysis of self-preservation. The text covers loyalty, duty, decision-making under pressure, the cultivation of resolve, the ethics of service, and the relationship between the warrior and his lord.
+
+**Why It Matters:** The Hagakure is included here not as a religious text but as an ethical manual the Japanese equivalent of Marcus Aurelius’s Meditations. Both are written by men of action reflecting on the discipline of the interior life under extreme external pressure. Both address the question: how does a person who bears responsibility for others maintain interior alignment with a higher principle while navigating a world of political intrigue, violence, and competing loyalties? Both arrive at the same answer: through the daily discipline of the mind, through the acceptance of death, and through the subordination of personal desire to duty.
+
+Tsunetomo’s teaching on decision-making is directly relevant to Zevistic ethics. He argues that when faced with a decision, the correct choice should be made within seven breaths. Not because hasty decisions are better than careful ones, but because excessive deliberation is usually a disguise for cowardice the soul that cannot decide is a soul that is afraid to commit. This aligns with the Zevistic understanding that Ma’at demands action: the soul that endlessly deliberates while Izfet advances is not being prudent; it is being complicit. There are times for careful calculation, and there are times for immediate, decisive action. The warrior’s training is to know the difference.
+
+The Hagakure must be read with discernment. It was written within a feudal system of absolute loyalty to a lord, and some of its teachings on obedience are specific to that system and not transferable to Zevistic ethics, which places Ma’at above loyalty to any person. But its core teachings on the discipline of the mind, the acceptance of mortality, the ethics of decisive action, and the daily practice of imagining death as a method of achieving clarity are universal and align perfectly with the Stoic-Zevistic understanding of how the active soul navigates a world saturated with Izfet.
+
+**What to Take From It:** Meditate on death daily not to court it, but to free yourself from the fear of it. Decisiveness is a virtue; excessive deliberation is often cowardice in disguise. The discipline of the mind is the foundation of all external action. Duty, rightly understood, is not oppression but alignment with a higher principle. Read with discernment: extract the universal ethics, recognise the culturally specific elements, and carry forward what serves Ma’at.
+
+> "I have found the essence of Bushidō: to die." This does not mean: seek death. It means: accept death so completely that you are free to live without fear. Tsunetomo teaches what Marcus Aurelius teaches, what the Stoics teach, what every Zevist must learn: the soul that has conquered the fear of death is the soul that is truly alive.
