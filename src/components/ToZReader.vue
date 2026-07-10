@@ -80,7 +80,7 @@ function fixRelativeUrls(text) {
 .toz-reader-container {
   height: 100%;
   overflow-y: auto;
-  padding: 32px 40px;
+  padding: 3px;
   max-width: 800px;
   margin: 0 auto;
 }
@@ -181,7 +181,11 @@ function fixRelativeUrls(text) {
   line-height: 1.5;
 }
 .toz-content :deep(img) {
-  max-width: 100%;
+  max-width: 360px;
+  max-height: 360px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
   border-radius: var(--radius);
   margin: 16px 0;
 }

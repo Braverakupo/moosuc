@@ -38,7 +38,7 @@
     </div>
 
     <!-- Reader -->
-    <div v-if="selPage" class="toz-reader">
+    <div v-if="selPage" class="toz-reader" :class="{ 'toz-reader--active': selPage }">
       <div class="toz-reader-hdr">
         <span class="toz-reader-title">{{ readerTitle }}</span>
         <button class="toz-reader-x" @click="closeReader">✕</button>
@@ -116,8 +116,10 @@ async function loadIndex() {
     for (const line of txt.split('\n')) {
       const m = line.match(/^###\s+([\d]{2}-[A-Za-z-]+)/)
       if (m) { cat = m[1]; idx[cat] = [] }
-      else if (cat && line.startsWith('- ')) {
-        const p = line.match(/\[([^\]]+)\]\([^)]+\)/)
+      else if (cat) {
+        // Match markdown links in list items: may have checkmarks or other prefixes
+        // e.g. "- ✅ [filename](path.md)" or "- [filename](path.md)"
+        const p = line.match(/\[([^\]]+)\]\(([^)]+\.md)\)/)
         if (p) idx[cat].push({ filename: p[1], display: p[1].replace(/^doctrines-|^family-|^coven-|^personalities-|^enlightenment-|^advancedphilosophy-/g, '').replace(/[-_]/g, ' ') })
       }
     }
@@ -242,13 +244,22 @@ watch(selCat, (c) => { if (c) open.value[c] = true })
 .toz-reader-body {
   flex: 1;
   overflow-y: auto;
-  padding: 20px 28px;
+  padding: 3px;
   max-width: 800px;
   margin: 0 auto;
 }
 
 /* Markdown */
 .toz-md { line-height: 1.7; color: var(--text); font-size: 14px; }
+.toz-md :deep(img) {
+  max-width: 360px;
+  max-height: 360px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: var(--radius);
+  margin: 16px 0;
+}
 .toz-md :deep(h1) { font-size: 24px; font-weight: 800; margin: 0 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
 .toz-md :deep(h2) { font-size: 18px; font-weight: 700; margin: 24px 0 10px; }
 .toz-md :deep(h3) { font-size: 15px; font-weight: 600; margin: 20px 0 6px; }
@@ -266,6 +277,45 @@ watch(selCat, (c) => { if (c) open.value[c] = true })
 .toz-md :deep(strong) { font-weight: 700; color: var(--accent3); }
 
 @media (max-width: 768px) {
-  .toz-reader-body { padding: 14px; }
+  .toz-wrapper {
+    max-width: 100%;
+    flex: none;
+    height: auto;
+    max-height: 50vh;
+  }
+  .toz-wrapper--collapsed {
+    max-width: 0;
+    flex: none;
+    height: auto;
+  }
+  /* When collapsed, keep toggle pinned below top bar */
+  .toz-wrapper--collapsed .toz-toggle {
+    position: fixed;
+    top: 44px;
+    left: 0;
+    width: 26px;
+    height: 32px;
+    font-size: 14px;
+    border: 1px solid var(--border);
+    border-radius: 0 4px 4px 0;
+    background: var(--bg2);
+    z-index: 100;
+  }
+  .toz-wrapper:not(.toz-wrapper--collapsed) .toz-sidebar {
+    width: 100%;
+    min-width: 0;
+  }
+  .toz-wrapper:not(.toz-wrapper--collapsed) .toz-reader {
+    display: none;
+  }
+  /* When a page is selected on mobile, show only the reader */
+  .toz-wrapper:not(.toz-wrapper--collapsed) .toz-reader--active {
+    display: flex;
+  }
+  .toz-reader-body {
+    padding: 3px;
+  }
+  .toz-md :deep(h1) { font-size: 20px; }
+  .toz-md :deep(h2) { font-size: 16px; }
 }
 </style>
