@@ -9,9 +9,6 @@
       <div v-if="!collapsed" class="toz-sidebar-inner">
         <div class="toz-header"><h2>🏛️</h2></div>
 
-        <div class="toz-search">
-          <input :value="searchQuery" @input="$emit('update:searchQuery', $event.target.value)" type="text" placeholder="Search..." class="toz-search-input" />
-        </div>
 
         <div v-if="loading && !index" class="toz-loading"><div class="loading-bar"><div class="loading-bar-fill"></div></div></div>
 
@@ -56,7 +53,7 @@ import { ref, computed, watch } from 'vue'
 import { marked } from 'marked'
 marked.use({ gfm: true })
 
-const BASE = '/temple-of-zeus-content'
+const BASE = './temple-of-zeus-content'
 
 const props = defineProps({
   collapsed: Boolean,
@@ -84,10 +81,7 @@ const CAT_ORDER = Object.keys(CAT_NAMES)
 const categories = computed(() => {
   const idx = index.value
   if (!idx) return []
-  const q = (props.searchQuery || '').toLowerCase()
-  const cats = CAT_ORDER.filter(c => idx[c]).map(c => ({ key: c, name: CAT_NAMES[c] || c, pages: idx[c] }))
-  if (!q) return cats
-  return cats.map(c => ({ ...c, pages: c.pages.filter(p => p.display.toLowerCase().includes(q)) })).filter(c => c.pages.length > 0)
+  return CAT_ORDER.filter(c => idx[c]).map(c => ({ key: c, name: CAT_NAMES[c] || c, pages: idx[c] }))
 })
 
 const readerTitle = computed(() => {
@@ -186,9 +180,6 @@ watch(selCat, (c) => { if (c) open.value[c] = true })
 .toz-sidebar-inner { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
 .toz-header { padding: 8px 12px; border-bottom: 1px solid var(--border); }
 .toz-header h2 { font-size: 15px; font-weight: 700; }
-.toz-search { padding: 6px 12px; border-bottom: 1px solid var(--border); }
-.toz-search-input { width: 100%; padding: 4px 8px; border-radius: 4px; background: var(--bg3); border: 1px solid var(--border); color: var(--text); font-size: 11px; outline: 0; }
-.toz-search-input:focus { border-color: var(--accent); }
 .toz-loading { padding: 16px; text-align: center; }
 .toz-loading p { font-size: 11px; color: var(--text2); margin-top: 6px; }
 .loading-bar { height: 3px; border-radius: 2px; background: var(--border); overflow: hidden; }
