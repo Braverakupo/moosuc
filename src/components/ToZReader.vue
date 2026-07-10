@@ -1,79 +1,21 @@
 <template>
   <div class="toz-reader-container">
-    <!-- Loading -->
     <div v-if="loading" class="toz-reader-loading">
       <div class="loading-bar"><div class="loading-bar-fill"></div></div>
       <p>Loading...</p>
     </div>
-
-    <!-- Content -->
-    <article v-else class="toz-content" v-html="renderedContent"></article>
+    <article v-else-if="html" class="toz-content" v-html="html"></article>
+    <div v-else class="toz-reader-empty">
+      <p>Select a page from the sidebar.</p>
+    </div>
   </div>
 </template>
 
 <script setup>
-import { computed } from 'vue'
-import { marked } from 'marked'
-
-const props = defineProps({
-  content: { type: String, default: '' },
-  category: { type: String, default: '' },
-  filename: { type: String, default: '' },
+defineProps({
+  html: { type: String, default: '' },
   loading: { type: Boolean, default: false },
 })
-
-// Configure marked — use gfm for tables, strikethrough, etc.
-marked.use({ gfm: true, breaks: false })
-
-const renderedContent = computed(() => {
-  const text = stripFrontmatter(props.content)
-  if (!text) return '<p class="toz-empty">Select a page from the sidebar.</p>'
-
-  try {
-    const processed = fixRelativeUrls(text)
-    return marked.parse(processed)
-  } catch (err) {
-    console.error('Markdown render error:', err)
-    return '<p class="toz-error">Error rendering page content.</p>'
-  }
-})
-
-/**
- * Strip YAML frontmatter (--- ... ---) from markdown text.
- */
-function stripFrontmatter(text) {
-  if (!text) return ''
-  const match = text.match(/^---[\s\S]*?---\n*/)
-  return match ? text.slice(match[0].length) : text
-}
-
-/**
- * Fix relative URLs to point to the live site.
- */
-function fixRelativeUrls(text) {
-  return text
-    // Relative image paths from assets/
-    .replace(/!\[([^\]]*)\]\(\.\.\/assets\/([^)]+)\)/g,
-      (_, alt, src) => `![${alt}](https://templeofzeus.org/assets/${src})`)
-    // Relative links to .php pages
-    .replace(/\[([^\]]+)\]\(([^)]+\.php[^)]*)\)/g,
-      (_, text, href) => `[${text}](https://templeofzeus.org/${href})`)
-    // Other relative images
-    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g,
-      (_, alt, src) => {
-        if (src.startsWith('http') || src.startsWith('data:')) return _
-        return `![${alt}](https://templeofzeus.org/${src.replace(/^\.\.\/?/, '')})`
-      })
-    // Other relative links (.php / .html)
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g,
-      (_, linkText, href) => {
-        if (href.startsWith('http') || href.startsWith('#') || href.startsWith('mailto:')) return _
-        if (href.endsWith('.php') || href.endsWith('.html')) {
-          return `[${linkText}](https://templeofzeus.org/${href.replace(/^\.\.\/?/, '')})`
-        }
-        return _
-      })
-}
 </script>
 
 <style scoped>
@@ -84,7 +26,6 @@ function fixRelativeUrls(text) {
   max-width: 800px;
   margin: 0 auto;
 }
-
 .toz-reader-loading {
   display: flex;
   flex-direction: column;
@@ -96,6 +37,14 @@ function fixRelativeUrls(text) {
 .toz-reader-loading p {
   font-size: 13px;
   color: var(--text2);
+}
+.toz-reader-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text2);
+  font-size: 13px;
 }
 
 /* Markdown content styling */
@@ -240,7 +189,7 @@ function fixRelativeUrls(text) {
 
 @media (max-width: 768px) {
   .toz-reader-container {
-    padding: 20px 16px;
+    padding: 3px;
   }
 }
 </style>
