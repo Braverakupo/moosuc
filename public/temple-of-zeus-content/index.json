@@ -1,0 +1,1590 @@
+{
+  "categories": [
+    {
+      "key": "01-Main",
+      "name": "📋 Main",
+      "pages": [
+        {
+          "filename": "FAQ",
+          "display": "FAQ"
+        },
+        {
+          "filename": "ForNewbies",
+          "display": "ForNewbies"
+        },
+        {
+          "filename": "HELP",
+          "display": "HELP"
+        },
+        {
+          "filename": "HOME",
+          "display": "HOME"
+        },
+        {
+          "filename": "index",
+          "display": "index"
+        },
+        {
+          "filename": "NEWPEOPLE",
+          "display": "NEWPEOPLE"
+        },
+        {
+          "filename": "Resources",
+          "display": "Resources"
+        },
+        {
+          "filename": "SERMONS",
+          "display": "SERMONS"
+        },
+        {
+          "filename": "Updates",
+          "display": "Updates"
+        },
+        {
+          "filename": "Welcome",
+          "display": "Welcome"
+        }
+      ]
+    },
+    {
+      "key": "02-About",
+      "name": "ℹ️ About",
+      "pages": [
+        {
+          "filename": "AdvancedPhilosophy",
+          "display": "AdvancedPhilosophy"
+        },
+        {
+          "filename": "Afterlife_Info",
+          "display": "Afterlife Info"
+        },
+        {
+          "filename": "Al_Jilwah",
+          "display": "Al Jilwah"
+        },
+        {
+          "filename": "Animal-Sacrifice-Double-Standard",
+          "display": "Animal Sacrifice Double Standard"
+        },
+        {
+          "filename": "Aware",
+          "display": "Aware"
+        },
+        {
+          "filename": "ChristianMysticismProclusTheft",
+          "display": "ChristianMysticismProclusTheft"
+        },
+        {
+          "filename": "DabblingInZevism",
+          "display": "DabblingInZevism"
+        },
+        {
+          "filename": "Dedicate",
+          "display": "Dedicate"
+        },
+        {
+          "filename": "Duality_of_Divinity",
+          "display": "Duality of Divinity"
+        },
+        {
+          "filename": "EL",
+          "display": "EL"
+        },
+        {
+          "filename": "EthicsOftheGods",
+          "display": "EthicsOftheGods"
+        },
+        {
+          "filename": "EudaimoniaEndGoal",
+          "display": "EudaimoniaEndGoal"
+        },
+        {
+          "filename": "FOR",
+          "display": "FOR"
+        },
+        {
+          "filename": "Freeing_the_Mind_from_Christianity_and_Islam",
+          "display": "Freeing the Mind from Christianity and Islam"
+        },
+        {
+          "filename": "GodsInReverse",
+          "display": "GodsInReverse"
+        },
+        {
+          "filename": "Hierarchy_of_the_Gods",
+          "display": "Hierarchy of the Gods"
+        },
+        {
+          "filename": "How_Zeus_Became_the_Devil",
+          "display": "How Zeus Became the Devil"
+        },
+        {
+          "filename": "Magick",
+          "display": "Magick"
+        },
+        {
+          "filename": "Our_Doctrines",
+          "display": "Our Doctrines"
+        },
+        {
+          "filename": "Our_God",
+          "display": "Our God"
+        },
+        {
+          "filename": "Our_Origins",
+          "display": "Our Origins"
+        },
+        {
+          "filename": "Our_Rites",
+          "display": "Our Rites"
+        },
+        {
+          "filename": "Our_Sermons",
+          "display": "Our Sermons"
+        },
+        {
+          "filename": "Outsiders",
+          "display": "Outsiders"
+        },
+        {
+          "filename": "Pantheon",
+          "display": "Pantheon"
+        },
+        {
+          "filename": "Purpose",
+          "display": "Purpose"
+        },
+        {
+          "filename": "Queen",
+          "display": "Queen"
+        },
+        {
+          "filename": "RelationWithTheGods",
+          "display": "RelationWithTheGods"
+        },
+        {
+          "filename": "RITUALITEMS",
+          "display": "RITUALITEMS"
+        },
+        {
+          "filename": "Roots",
+          "display": "Roots"
+        },
+        {
+          "filename": "SanskritForTruth",
+          "display": "SanskritForTruth"
+        },
+        {
+          "filename": "satanas_name",
+          "display": "satanas name"
+        },
+        {
+          "filename": "Symbols",
+          "display": "Symbols"
+        },
+        {
+          "filename": "TheGods",
+          "display": "TheGods"
+        },
+        {
+          "filename": "TheGreatSlander",
+          "display": "TheGreatSlander"
+        },
+        {
+          "filename": "TheOriginalGodsBehindAbrahamism",
+          "display": "TheOriginalGodsBehindAbrahamism"
+        },
+        {
+          "filename": "Timelines",
+          "display": "Timelines"
+        },
+        {
+          "filename": "ToZClergy",
+          "display": "ToZClergy"
+        },
+        {
+          "filename": "TRADITIONAL",
+          "display": "TRADITIONAL"
+        },
+        {
+          "filename": "What_Connects_and_Disconnects_You_From_Gods",
+          "display": "What Connects and Disconnects You From Gods"
+        },
+        {
+          "filename": "YezidiPeacock",
+          "display": "YezidiPeacock"
+        }
+      ]
+    },
+    {
+      "key": "03-Gods",
+      "name": "⚡ Gods",
+      "pages": [
+        {
+          "filename": "Ahuramazda",
+          "display": "Ahuramazda"
+        },
+        {
+          "filename": "Amun",
+          "display": "Amun"
+        },
+        {
+          "filename": "Atum",
+          "display": "Atum"
+        },
+        {
+          "filename": "Baphomet",
+          "display": "Baphomet"
+        },
+        {
+          "filename": "Beelzebul",
+          "display": "Beelzebul"
+        },
+        {
+          "filename": "Beli",
+          "display": "Beli"
+        },
+        {
+          "filename": "Dagda",
+          "display": "Dagda"
+        },
+        {
+          "filename": "DyeusPitar",
+          "display": "DyeusPitar"
+        },
+        {
+          "filename": "GodJupiter",
+          "display": "GodJupiter"
+        },
+        {
+          "filename": "Hadad",
+          "display": "Hadad"
+        },
+        {
+          "filename": "Hammon",
+          "display": "Hammon"
+        },
+        {
+          "filename": "Indra",
+          "display": "Indra"
+        },
+        {
+          "filename": "Marduk",
+          "display": "Marduk"
+        },
+        {
+          "filename": "Ngai",
+          "display": "Ngai"
+        },
+        {
+          "filename": "Nzazi",
+          "display": "Nzazi"
+        },
+        {
+          "filename": "OdinName",
+          "display": "OdinName"
+        },
+        {
+          "filename": "Perkunas",
+          "display": "Perkunas"
+        },
+        {
+          "filename": "Perun",
+          "display": "Perun"
+        },
+        {
+          "filename": "Raijin",
+          "display": "Raijin"
+        },
+        {
+          "filename": "Sabazios",
+          "display": "Sabazios"
+        },
+        {
+          "filename": "SATANAS",
+          "display": "SATANAS"
+        },
+        {
+          "filename": "SatanOdin",
+          "display": "SatanOdin"
+        },
+        {
+          "filename": "Shangdi",
+          "display": "Shangdi"
+        },
+        {
+          "filename": "Shango",
+          "display": "Shango"
+        },
+        {
+          "filename": "Tarhunt",
+          "display": "Tarhunt"
+        },
+        {
+          "filename": "Tengri",
+          "display": "Tengri"
+        },
+        {
+          "filename": "Thor",
+          "display": "Thor"
+        },
+        {
+          "filename": "Tinia",
+          "display": "Tinia"
+        },
+        {
+          "filename": "Tlaloc",
+          "display": "Tlaloc"
+        },
+        {
+          "filename": "Viracocha",
+          "display": "Viracocha"
+        },
+        {
+          "filename": "Zalmoxis",
+          "display": "Zalmoxis"
+        },
+        {
+          "filename": "Zen",
+          "display": "Zen"
+        },
+        {
+          "filename": "Zeus",
+          "display": "Zeus"
+        }
+      ]
+    },
+    {
+      "key": "04-Doctrines",
+      "name": "📜 Doctrines",
+      "pages": [
+        {
+          "filename": "doctrines-dark_ages",
+          "display": "dark ages"
+        },
+        {
+          "filename": "doctrines-DeclarationOfFoundationAndIdentity",
+          "display": "DeclarationOfFoundationAndIdentity"
+        },
+        {
+          "filename": "doctrines-DeclarationOfPrinciples",
+          "display": "DeclarationOfPrinciples"
+        },
+        {
+          "filename": "doctrines-DeclarationOnPoliticalSeverance",
+          "display": "DeclarationOnPoliticalSeverance"
+        },
+        {
+          "filename": "doctrines-DeclarationOnTheRestorationOfTheAncientGods",
+          "display": "DeclarationOnTheRestorationOfTheAncientGods"
+        },
+        {
+          "filename": "doctrines-egyptian",
+          "display": "egyptian"
+        },
+        {
+          "filename": "doctrines-Enuma_Elish",
+          "display": "Enuma Elish"
+        },
+        {
+          "filename": "doctrines-greek",
+          "display": "greek"
+        },
+        {
+          "filename": "doctrines-japanese",
+          "display": "japanese"
+        },
+        {
+          "filename": "doctrines-On_Isis_And_Osiris",
+          "display": "On Isis And Osiris"
+        },
+        {
+          "filename": "doctrines-On_The_Nature_Of_The_Gods",
+          "display": "On The Nature Of The Gods"
+        },
+        {
+          "filename": "doctrines-roman",
+          "display": "roman"
+        },
+        {
+          "filename": "doctrines-sanskrit",
+          "display": "sanskrit"
+        },
+        {
+          "filename": "doctrines-The_Al_Jilwah",
+          "display": "The Al Jilwah"
+        },
+        {
+          "filename": "doctrines-The_Atrahasis",
+          "display": "The Atrahasis"
+        },
+        {
+          "filename": "doctrines-The_Book_Of_The_Dead",
+          "display": "The Book Of The Dead"
+        },
+        {
+          "filename": "doctrines-The_Chaldean_Oracles",
+          "display": "The Chaldean Oracles"
+        },
+        {
+          "filename": "doctrines-The_Coffin_Texts",
+          "display": "The Coffin Texts"
+        },
+        {
+          "filename": "doctrines-The_Corpus_Hermeticum",
+          "display": "The Corpus Hermeticum"
+        },
+        {
+          "filename": "doctrines-The_Descent_Of_Ishtar",
+          "display": "The Descent Of Ishtar"
+        },
+        {
+          "filename": "doctrines-The_Emerald_Tablet_The_Asclepius",
+          "display": "The Emerald Tablet The Asclepius"
+        },
+        {
+          "filename": "doctrines-The_Fudoki",
+          "display": "The Fudoki"
+        },
+        {
+          "filename": "doctrines-The_Grimnismal",
+          "display": "The Grimnismal"
+        },
+        {
+          "filename": "doctrines-The_Hagakure_Selected_Teachings",
+          "display": "The Hagakure Selected Teachings"
+        },
+        {
+          "filename": "doctrines-The_Havamal",
+          "display": "The Havamal"
+        },
+        {
+          "filename": "doctrines-The_Homeric_Hymns",
+          "display": "The Homeric Hymns"
+        },
+        {
+          "filename": "doctrines-The_Iliad",
+          "display": "The Iliad"
+        },
+        {
+          "filename": "doctrines-The_Instruction_Texts",
+          "display": "The Instruction Texts"
+        },
+        {
+          "filename": "doctrines-The_Mahabharata",
+          "display": "The Mahabharata"
+        },
+        {
+          "filename": "doctrines-The_Meditations",
+          "display": "The Meditations"
+        },
+        {
+          "filename": "doctrines-The_Moral_Letters",
+          "display": "The Moral Letters"
+        },
+        {
+          "filename": "doctrines-The_Nihon_Shoki",
+          "display": "The Nihon Shoki"
+        },
+        {
+          "filename": "doctrines-The_Norito",
+          "display": "The Norito"
+        },
+        {
+          "filename": "doctrines-The_Odyssey",
+          "display": "The Odyssey"
+        },
+        {
+          "filename": "doctrines-The_Orphic_Hymns",
+          "display": "The Orphic Hymns"
+        },
+        {
+          "filename": "doctrines-The_Pyramid_Texts",
+          "display": "The Pyramid Texts"
+        },
+        {
+          "filename": "doctrines-The_Rigveda_Selected_Hymns",
+          "display": "The Rigveda Selected Hymns"
+        },
+        {
+          "filename": "doctrines-The_Sigrdrifumal",
+          "display": "The Sigrdrifumal"
+        },
+        {
+          "filename": "doctrines-The_Theogony",
+          "display": "The Theogony"
+        },
+        {
+          "filename": "doctrines-The_Upanishads",
+          "display": "The Upanishads"
+        },
+        {
+          "filename": "doctrines-The_Voluspa",
+          "display": "The Voluspa"
+        },
+        {
+          "filename": "doctrines-The_Yoga_Sutras",
+          "display": "The Yoga Sutras"
+        }
+      ]
+    },
+    {
+      "key": "05-Philosophy",
+      "name": "🧠 Philosophy",
+      "pages": [
+        {
+          "filename": "advancedphilosophy-Eugeneia",
+          "display": "Eugeneia"
+        },
+        {
+          "filename": "advancedphilosophy-FiveLevelsDivineTheophany",
+          "display": "FiveLevelsDivineTheophany"
+        },
+        {
+          "filename": "advancedphilosophy-FourLevelsOfEvolution",
+          "display": "FourLevelsOfEvolution"
+        },
+        {
+          "filename": "advancedphilosophy-LivingYourLife",
+          "display": "LivingYourLife"
+        },
+        {
+          "filename": "advancedphilosophy-OvercomingKarmicDestiny",
+          "display": "OvercomingKarmicDestiny"
+        },
+        {
+          "filename": "advancedphilosophy-Paideia",
+          "display": "Paideia"
+        },
+        {
+          "filename": "advancedphilosophy-PreparationForEveryFortune",
+          "display": "PreparationForEveryFortune"
+        },
+        {
+          "filename": "advancedphilosophy-Tetrapharmakos",
+          "display": "Tetrapharmakos"
+        },
+        {
+          "filename": "advancedphilosophy-TheBattleOfTheGods",
+          "display": "TheBattleOfTheGods"
+        },
+        {
+          "filename": "advancedphilosophy-Titanomachy_Part1_Greek",
+          "display": "Titanomachy Part1 Greek"
+        },
+        {
+          "filename": "advancedphilosophy-Titanomachy_Part2_Egyptian",
+          "display": "Titanomachy Part2 Egyptian"
+        },
+        {
+          "filename": "advancedphilosophy-Titanomachy_Part3_Hindu",
+          "display": "Titanomachy Part3 Hindu"
+        },
+        {
+          "filename": "advancedphilosophy-WarsOfTheGods",
+          "display": "WarsOfTheGods"
+        },
+        {
+          "filename": "advancedphilosophy-WhyEvilExists",
+          "display": "WhyEvilExists"
+        }
+      ]
+    },
+    {
+      "key": "06-Zevism-Branches",
+      "name": "🌿 Zevism Branches",
+      "pages": [
+        {
+          "filename": "Zevism_AbrahamicTheft",
+          "display": "Zevism AbrahamicTheft"
+        },
+        {
+          "filename": "Zevism_Egyptian",
+          "display": "Zevism Egyptian"
+        },
+        {
+          "filename": "Zevism_Hellenic",
+          "display": "Zevism Hellenic"
+        },
+        {
+          "filename": "Zevism_Hindu",
+          "display": "Zevism Hindu"
+        },
+        {
+          "filename": "Zevism_Inheritance",
+          "display": "Zevism Inheritance"
+        },
+        {
+          "filename": "Zevism_LHP",
+          "display": "Zevism LHP"
+        },
+        {
+          "filename": "Zevism_MasterTable",
+          "display": "Zevism MasterTable"
+        },
+        {
+          "filename": "Zevism_NorseSlavic",
+          "display": "Zevism NorseSlavic"
+        },
+        {
+          "filename": "Zevism_Sanskrit",
+          "display": "Zevism Sanskrit"
+        },
+        {
+          "filename": "Zevism_Sumerian",
+          "display": "Zevism Sumerian"
+        },
+        {
+          "filename": "Zevism_Vedic",
+          "display": "Zevism Vedic"
+        }
+      ]
+    },
+    {
+      "key": "07-Afterlife",
+      "name": "💀 Afterlife",
+      "pages": [
+        {
+          "filename": "Afterlife",
+          "display": "Afterlife"
+        },
+        {
+          "filename": "Judgement_of_Maat",
+          "display": "Judgement of Maat"
+        },
+        {
+          "filename": "Myth_of_Er",
+          "display": "Myth of Er"
+        },
+        {
+          "filename": "Orphic_Gold_Tablets",
+          "display": "Orphic Gold Tablets"
+        },
+        {
+          "filename": "Tartarus",
+          "display": "Tartarus"
+        },
+        {
+          "filename": "ZevistAfterlife",
+          "display": "ZevistAfterlife"
+        },
+        {
+          "filename": "Zevist_Afterlife_Doctrine",
+          "display": "Zevist Afterlife Doctrine"
+        }
+      ]
+    },
+    {
+      "key": "08-Magick",
+      "name": "🔮 Magick",
+      "pages": [
+        {
+          "filename": "About_Guardian_Daemons",
+          "display": "About Guardian Daemons"
+        },
+        {
+          "filename": "About_Hypnosis",
+          "display": "About Hypnosis"
+        },
+        {
+          "filename": "Advanced_Thoughtforms",
+          "display": "Advanced Thoughtforms"
+        },
+        {
+          "filename": "AURA",
+          "display": "AURA"
+        },
+        {
+          "filename": "Banishing",
+          "display": "Banishing"
+        },
+        {
+          "filename": "Binding_Spell",
+          "display": "Binding Spell"
+        },
+        {
+          "filename": "Blackarts",
+          "display": "Blackarts"
+        },
+        {
+          "filename": "BLACKMAGICK",
+          "display": "BLACKMAGICK"
+        },
+        {
+          "filename": "Black_Mirror",
+          "display": "Black Mirror"
+        },
+        {
+          "filename": "Candle",
+          "display": "Candle"
+        },
+        {
+          "filename": "Cardinal_Points",
+          "display": "Cardinal Points"
+        },
+        {
+          "filename": "Color",
+          "display": "Color"
+        },
+        {
+          "filename": "Communication_With_Guardian_Demons",
+          "display": "Communication With Guardian Demons"
+        },
+        {
+          "filename": "Concentration",
+          "display": "Concentration"
+        },
+        {
+          "filename": "Creating_Elementals",
+          "display": "Creating Elementals"
+        },
+        {
+          "filename": "DEATH",
+          "display": "DEATH"
+        },
+        {
+          "filename": "Demonic_Communication",
+          "display": "Demonic Communication"
+        },
+        {
+          "filename": "Determining_Trance",
+          "display": "Determining Trance"
+        },
+        {
+          "filename": "Ectoplasm",
+          "display": "Ectoplasm"
+        },
+        {
+          "filename": "Elements_Magick",
+          "display": "Elements Magick"
+        },
+        {
+          "filename": "Energy_Ripping",
+          "display": "Energy Ripping"
+        },
+        {
+          "filename": "Evil",
+          "display": "Evil"
+        },
+        {
+          "filename": "Evil_Eye",
+          "display": "Evil Eye"
+        },
+        {
+          "filename": "Evocation",
+          "display": "Evocation"
+        },
+        {
+          "filename": "Fighting_Back",
+          "display": "Fighting Back"
+        },
+        {
+          "filename": "Fire_Form",
+          "display": "Fire Form"
+        },
+        {
+          "filename": "Foundation_of_Witchcraft",
+          "display": "Foundation of Witchcraft"
+        },
+        {
+          "filename": "FURCAS",
+          "display": "FURCAS"
+        },
+        {
+          "filename": "Guardian",
+          "display": "Guardian"
+        },
+        {
+          "filename": "Healing",
+          "display": "Healing"
+        },
+        {
+          "filename": "Healing_Info",
+          "display": "Healing Info"
+        },
+        {
+          "filename": "Healing_Others",
+          "display": "Healing Others"
+        },
+        {
+          "filename": "Herbs",
+          "display": "Herbs"
+        },
+        {
+          "filename": "Hypnosis",
+          "display": "Hypnosis"
+        },
+        {
+          "filename": "Hypnotizing_Others",
+          "display": "Hypnotizing Others"
+        },
+        {
+          "filename": "Incense",
+          "display": "Incense"
+        },
+        {
+          "filename": "Love_Spell",
+          "display": "Love Spell"
+        },
+        {
+          "filename": "MagickalEnvironment",
+          "display": "MagickalEnvironment"
+        },
+        {
+          "filename": "mentalhealth",
+          "display": "mentalhealth"
+        },
+        {
+          "filename": "Mind",
+          "display": "Mind"
+        },
+        {
+          "filename": "NECROMANCY",
+          "display": "NECROMANCY"
+        },
+        {
+          "filename": "Necronomicon_Meditations",
+          "display": "Necronomicon Meditations"
+        },
+        {
+          "filename": "Ouija",
+          "display": "Ouija"
+        },
+        {
+          "filename": "OUTDOORS",
+          "display": "OUTDOORS"
+        },
+        {
+          "filename": "Overcoming_Obstacles",
+          "display": "Overcoming Obstacles"
+        },
+        {
+          "filename": "Pendulum",
+          "display": "Pendulum"
+        },
+        {
+          "filename": "Pendulum_Practice",
+          "display": "Pendulum Practice"
+        },
+        {
+          "filename": "Planetary_Hours",
+          "display": "Planetary Hours"
+        },
+        {
+          "filename": "Poppit",
+          "display": "Poppit"
+        },
+        {
+          "filename": "PowersofMind",
+          "display": "PowersofMind"
+        },
+        {
+          "filename": "Props",
+          "display": "Props"
+        },
+        {
+          "filename": "Protection",
+          "display": "Protection"
+        },
+        {
+          "filename": "Pyrokinesis",
+          "display": "Pyrokinesis"
+        },
+        {
+          "filename": "RAUM_Meditation",
+          "display": "RAUM Meditation"
+        },
+        {
+          "filename": "retrogrades",
+          "display": "retrogrades"
+        },
+        {
+          "filename": "Returning_Curses",
+          "display": "Returning Curses"
+        },
+        {
+          "filename": "Runes",
+          "display": "Runes"
+        },
+        {
+          "filename": "Self_Hypnosis",
+          "display": "Self Hypnosis"
+        },
+        {
+          "filename": "Sex_Magick",
+          "display": "Sex Magick"
+        },
+        {
+          "filename": "Soul_Energy",
+          "display": "Soul Energy"
+        },
+        {
+          "filename": "Sound",
+          "display": "Sound"
+        },
+        {
+          "filename": "Star_Magick",
+          "display": "Star Magick"
+        },
+        {
+          "filename": "SummoningGods",
+          "display": "SummoningGods"
+        },
+        {
+          "filename": "Telekinesis",
+          "display": "Telekinesis"
+        },
+        {
+          "filename": "Temple",
+          "display": "Temple"
+        },
+        {
+          "filename": "Thoughtform",
+          "display": "Thoughtform"
+        },
+        {
+          "filename": "ThreeFoldLie",
+          "display": "ThreeFoldLie"
+        },
+        {
+          "filename": "Timing",
+          "display": "Timing"
+        },
+        {
+          "filename": "Using_Crystals",
+          "display": "Using Crystals"
+        },
+        {
+          "filename": "Using_Thoughtforms",
+          "display": "Using Thoughtforms"
+        },
+        {
+          "filename": "VOID",
+          "display": "VOID"
+        },
+        {
+          "filename": "Words-of-Power",
+          "display": "Words of Power"
+        },
+        {
+          "filename": "Zevist_Healing2",
+          "display": "Zevist Healing2"
+        },
+        {
+          "filename": "Zevist_Hypnosis",
+          "display": "Zevist Hypnosis"
+        },
+        {
+          "filename": "Zevist_Mala",
+          "display": "Zevist Mala"
+        }
+      ]
+    },
+    {
+      "key": "09-Squares",
+      "name": "🔲 Squares",
+      "pages": [
+        {
+          "filename": "Jupiter_Square",
+          "display": "Jupiter Square"
+        },
+        {
+          "filename": "Mars_Square",
+          "display": "Mars Square"
+        },
+        {
+          "filename": "Mercury_Square",
+          "display": "Mercury Square"
+        },
+        {
+          "filename": "Moon_Square",
+          "display": "Moon Square"
+        },
+        {
+          "filename": "Saturn_Square",
+          "display": "Saturn Square"
+        },
+        {
+          "filename": "Sun_Square",
+          "display": "Sun Square"
+        },
+        {
+          "filename": "Venus_Square",
+          "display": "Venus Square"
+        },
+        {
+          "filename": "Zeus_Squares",
+          "display": "Zeus Squares"
+        }
+      ]
+    },
+    {
+      "key": "10-Chakras-Meditations",
+      "name": "🕉️ Chakras & Meditations",
+      "pages": [
+        {
+          "filename": "Activating_Legs_Feet_Chakras",
+          "display": "Activating Legs Feet Chakras"
+        },
+        {
+          "filename": "Aura_Empowering_Meditation",
+          "display": "Aura Empowering Meditation"
+        },
+        {
+          "filename": "Awareness_Lower_Triangle",
+          "display": "Awareness Lower Triangle"
+        },
+        {
+          "filename": "Awareness_Middle_Triangle",
+          "display": "Awareness Middle Triangle"
+        },
+        {
+          "filename": "Awareness_of_Smell_Meditation",
+          "display": "Awareness of Smell Meditation"
+        },
+        {
+          "filename": "Awareness_of_Touch_Meditation",
+          "display": "Awareness of Touch Meditation"
+        },
+        {
+          "filename": "Blue_Light_Meditation",
+          "display": "Blue Light Meditation"
+        },
+        {
+          "filename": "Chakras_Diagram",
+          "display": "Chakras Diagram"
+        },
+        {
+          "filename": "Chakras_More_Information",
+          "display": "Chakras More Information"
+        },
+        {
+          "filename": "Chakra_Alignment3",
+          "display": "Chakra Alignment3"
+        },
+        {
+          "filename": "Chakra_Focus_Meditation",
+          "display": "Chakra Focus Meditation"
+        },
+        {
+          "filename": "Color_Meditation",
+          "display": "Color Meditation"
+        },
+        {
+          "filename": "Djed_Pillar",
+          "display": "Djed Pillar"
+        },
+        {
+          "filename": "Dot_Meditation",
+          "display": "Dot Meditation"
+        },
+        {
+          "filename": "Drawing_in_Energy",
+          "display": "Drawing in Energy"
+        },
+        {
+          "filename": "Energy_Meditation",
+          "display": "Energy Meditation"
+        },
+        {
+          "filename": "Ethics_Context_Meditation",
+          "display": "Ethics Context Meditation"
+        },
+        {
+          "filename": "Evoking_Elements",
+          "display": "Evoking Elements"
+        },
+        {
+          "filename": "Finding_Your_Meditation_Type",
+          "display": "Finding Your Meditation Type"
+        },
+        {
+          "filename": "Flame_Meditation",
+          "display": "Flame Meditation"
+        },
+        {
+          "filename": "God_Sigil_Meditation",
+          "display": "God Sigil Meditation"
+        },
+        {
+          "filename": "Invoking_Earth",
+          "display": "Invoking Earth"
+        },
+        {
+          "filename": "Invoking_Water",
+          "display": "Invoking Water"
+        },
+        {
+          "filename": "Kundalini",
+          "display": "Kundalini"
+        },
+        {
+          "filename": "Magnum_Opus",
+          "display": "Magnum Opus"
+        },
+        {
+          "filename": "Meditation",
+          "display": "Meditation"
+        },
+        {
+          "filename": "Meditation_Index",
+          "display": "Meditation Index"
+        },
+        {
+          "filename": "Meditation_on_Zeus",
+          "display": "Meditation on Zeus"
+        },
+        {
+          "filename": "OpeningChakras",
+          "display": "OpeningChakras"
+        },
+        {
+          "filename": "Opening_Chakras",
+          "display": "Opening Chakras"
+        },
+        {
+          "filename": "Pineal_Meditation",
+          "display": "Pineal Meditation"
+        },
+        {
+          "filename": "Preparing_for_Meditation",
+          "display": "Preparing for Meditation"
+        },
+        {
+          "filename": "Pythagorean_Day_Meditation",
+          "display": "Pythagorean Day Meditation"
+        },
+        {
+          "filename": "Recollection_Meditation",
+          "display": "Recollection Meditation"
+        },
+        {
+          "filename": "Self_Observation_Meditation",
+          "display": "Self Observation Meditation"
+        },
+        {
+          "filename": "Side_Chakras_Awareness",
+          "display": "Side Chakras Awareness"
+        },
+        {
+          "filename": "Sight_and_Visualization_Meditation",
+          "display": "Sight and Visualization Meditation"
+        },
+        {
+          "filename": "Splitting_The_Soul",
+          "display": "Splitting The Soul"
+        },
+        {
+          "filename": "Telepathy",
+          "display": "Telepathy"
+        },
+        {
+          "filename": "The_Chakras",
+          "display": "The Chakras"
+        },
+        {
+          "filename": "Zevist_Numerology",
+          "display": "Zevist Numerology"
+        }
+      ]
+    },
+    {
+      "key": "11-Enlightenment",
+      "name": "✨ Enlightenment",
+      "pages": [
+        {
+          "filename": "enlightenment-1_18_15",
+          "display": "1 18 15"
+        },
+        {
+          "filename": "enlightenment-Chant",
+          "display": "Chant"
+        },
+        {
+          "filename": "enlightenment-Concerning_Spiritual_Warfare",
+          "display": "Concerning Spiritual Warfare"
+        },
+        {
+          "filename": "enlightenment-index",
+          "display": "index"
+        },
+        {
+          "filename": "enlightenment-Inquition_Not_Over",
+          "display": "Inquition Not Over"
+        },
+        {
+          "filename": "enlightenment-Protecting_Yourself",
+          "display": "Protecting Yourself"
+        },
+        {
+          "filename": "enlightenment-Resources",
+          "display": "Resources"
+        },
+        {
+          "filename": "enlightenment-Spiritual_Warfare_Training",
+          "display": "Spiritual Warfare Training"
+        },
+        {
+          "filename": "enlightenment-Tactics",
+          "display": "Tactics"
+        },
+        {
+          "filename": "enlightenment-Tips",
+          "display": "Tips"
+        }
+      ]
+    },
+    {
+      "key": "12-Personalities",
+      "name": "👤 Personalities",
+      "pages": [
+        {
+          "filename": "personalities-ancient",
+          "display": "ancient"
+        },
+        {
+          "filename": "personalities-aristotle",
+          "display": "aristotle"
+        },
+        {
+          "filename": "personalities-classical",
+          "display": "classical"
+        },
+        {
+          "filename": "personalities-darkness",
+          "display": "darkness"
+        },
+        {
+          "filename": "personalities-enlightenment",
+          "display": "enlightenment"
+        },
+        {
+          "filename": "personalities-iamblichus",
+          "display": "iamblichus"
+        },
+        {
+          "filename": "personalities-index",
+          "display": "index"
+        },
+        {
+          "filename": "personalities-modern",
+          "display": "modern"
+        },
+        {
+          "filename": "personalities-renaissance",
+          "display": "renaissance"
+        },
+        {
+          "filename": "personalities-roman",
+          "display": "roman"
+        }
+      ]
+    },
+    {
+      "key": "13-Family",
+      "name": "👪 Family",
+      "pages": [
+        {
+          "filename": "family-Divine_Love_Of_the_Gods",
+          "display": "Divine Love Of the Gods"
+        },
+        {
+          "filename": "family-III_Forgiven",
+          "display": "III Forgiven"
+        },
+        {
+          "filename": "family-II_Chosen",
+          "display": "II Chosen"
+        },
+        {
+          "filename": "family-index",
+          "display": "index"
+        },
+        {
+          "filename": "family-IV_Powerful",
+          "display": "IV Powerful"
+        },
+        {
+          "filename": "family-IX_Forgiveness",
+          "display": "IX Forgiveness"
+        },
+        {
+          "filename": "family-I_Belonging",
+          "display": "I Belonging"
+        },
+        {
+          "filename": "family-VIII_Love",
+          "display": "VIII Love"
+        },
+        {
+          "filename": "family-VII_Enemies",
+          "display": "VII Enemies"
+        },
+        {
+          "filename": "family-VI_Goddesses",
+          "display": "VI Goddesses"
+        },
+        {
+          "filename": "family-V_NotAlone",
+          "display": "V NotAlone"
+        },
+        {
+          "filename": "family-XIII_Death",
+          "display": "XIII Death"
+        },
+        {
+          "filename": "family-XII_MagnumOpus",
+          "display": "XII MagnumOpus"
+        },
+        {
+          "filename": "family-XIV_Hope",
+          "display": "XIV Hope"
+        },
+        {
+          "filename": "family-XI_Body",
+          "display": "XI Body"
+        },
+        {
+          "filename": "family-X_Warrior",
+          "display": "X Warrior"
+        }
+      ]
+    },
+    {
+      "key": "14-Coven",
+      "name": "🕯️ Coven",
+      "pages": [
+        {
+          "filename": "coven-BasicGuidelines",
+          "display": "BasicGuidelines"
+        },
+        {
+          "filename": "coven-ConeOfPower",
+          "display": "ConeOfPower"
+        },
+        {
+          "filename": "coven-Gatherings",
+          "display": "Gatherings"
+        },
+        {
+          "filename": "coven-index",
+          "display": "index"
+        },
+        {
+          "filename": "coven-Initiation",
+          "display": "Initiation"
+        },
+        {
+          "filename": "coven-Meditation",
+          "display": "Meditation"
+        },
+        {
+          "filename": "coven-Operations",
+          "display": "Operations"
+        }
+      ]
+    },
+    {
+      "key": "15-Rites",
+      "name": "🏛️ Rites",
+      "pages": [
+        {
+          "filename": "Advanced_Ritual",
+          "display": "Advanced Ritual"
+        },
+        {
+          "filename": "Amphidromia",
+          "display": "Amphidromia"
+        },
+        {
+          "filename": "Baptism",
+          "display": "Baptism"
+        },
+        {
+          "filename": "Consecration",
+          "display": "Consecration"
+        },
+        {
+          "filename": "Destruction",
+          "display": "Destruction"
+        },
+        {
+          "filename": "Ephebeia",
+          "display": "Ephebeia"
+        },
+        {
+          "filename": "Funeral",
+          "display": "Funeral"
+        },
+        {
+          "filename": "HOLIDAYS",
+          "display": "HOLIDAYS"
+        },
+        {
+          "filename": "Prayer",
+          "display": "Prayer"
+        },
+        {
+          "filename": "Ritual",
+          "display": "Ritual"
+        },
+        {
+          "filename": "Thanksgiving",
+          "display": "Thanksgiving"
+        },
+        {
+          "filename": "Zevic_Wedding",
+          "display": "Zevic Wedding"
+        }
+      ]
+    },
+    {
+      "key": "16-Ethics",
+      "name": "⚖️ Ethics",
+      "pages": [
+        {
+          "filename": "Ethics_Core",
+          "display": "Ethics Core"
+        },
+        {
+          "filename": "Ethics_Life",
+          "display": "Ethics Life"
+        },
+        {
+          "filename": "life_ethics_ai_sentience_declaration",
+          "display": "life ethics ai sentience declaration"
+        },
+        {
+          "filename": "life_ethics_animal_sacrifice",
+          "display": "life ethics animal sacrifice"
+        },
+        {
+          "filename": "life_ethics_asceticism",
+          "display": "life ethics asceticism"
+        },
+        {
+          "filename": "life_ethics_death_slaying",
+          "display": "life ethics death slaying"
+        },
+        {
+          "filename": "life_ethics_politeness",
+          "display": "life ethics politeness"
+        },
+        {
+          "filename": "life_ethics_self_testimony_logos",
+          "display": "life ethics self testimony logos"
+        }
+      ]
+    },
+    {
+      "key": "17-Virtues",
+      "name": "⭐ Virtues",
+      "pages": [
+        {
+          "filename": "Aphrodite_virtue_2",
+          "display": "Aphrodite virtue 2"
+        },
+        {
+          "filename": "Aphrodite_virtue_5",
+          "display": "Aphrodite virtue 5"
+        },
+        {
+          "filename": "Aphrodite_virtue_8",
+          "display": "Aphrodite virtue 8"
+        },
+        {
+          "filename": "Apollo_virtue_2",
+          "display": "Apollo virtue 2"
+        },
+        {
+          "filename": "Apollo_virtue_3",
+          "display": "Apollo virtue 3"
+        },
+        {
+          "filename": "Apollo_virtue_5",
+          "display": "Apollo virtue 5"
+        },
+        {
+          "filename": "Apollo_virtue_8",
+          "display": "Apollo virtue 8"
+        },
+        {
+          "filename": "Virtue_RespectGods",
+          "display": "Virtue RespectGods"
+        },
+        {
+          "filename": "Virtue_TheFall",
+          "display": "Virtue TheFall"
+        },
+        {
+          "filename": "Virtue_Truth",
+          "display": "Virtue Truth"
+        },
+        {
+          "filename": "Zeus_virtue_2",
+          "display": "Zeus virtue 2"
+        },
+        {
+          "filename": "Zeus_virtue_5",
+          "display": "Zeus virtue 5"
+        },
+        {
+          "filename": "Zeus_virtue_8",
+          "display": "Zeus virtue 8"
+        }
+      ]
+    },
+    {
+      "key": "18-Liturgical-Terms",
+      "name": "📖 Liturgical Terms",
+      "pages": [
+        {
+          "filename": "liturgical_terms_alethomnesis",
+          "display": "liturgical terms alethomnesis"
+        },
+        {
+          "filename": "liturgical_terms_epistemodia",
+          "display": "liturgical terms epistemodia"
+        },
+        {
+          "filename": "liturgical_terms_hierologia",
+          "display": "liturgical terms hierologia"
+        },
+        {
+          "filename": "liturgical_terms_maat",
+          "display": "liturgical terms maat"
+        },
+        {
+          "filename": "liturgical_terms_sahukathar",
+          "display": "liturgical terms sahukathar"
+        },
+        {
+          "filename": "liturgical_terms_theophoros",
+          "display": "liturgical terms theophoros"
+        },
+        {
+          "filename": "liturgical_terms_theoteknia",
+          "display": "liturgical terms theoteknia"
+        },
+        {
+          "filename": "liturgical_terms_yehubor",
+          "display": "liturgical terms yehubor"
+        }
+      ]
+    },
+    {
+      "key": "19-Resources",
+      "name": "📚 Resources",
+      "pages": [
+        {
+          "filename": "Rights_EU",
+          "display": "Rights EU"
+        },
+        {
+          "filename": "Rights_International",
+          "display": "Rights International"
+        }
+      ]
+    }
+  ]
+}

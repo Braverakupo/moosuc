@@ -9,8 +9,7 @@
       <div v-if="!collapsed" class="toz-sidebar-inner">
         <div class="toz-header"><h2>🏛️</h2></div>
 
-
-        <div v-if="loading && !index" class="toz-loading"><div class="loading-bar"><div class="loading-bar-fill"></div></div></div>
+        <div v-if="loading" class="toz-loading"><div class="loading-bar"><div class="loading-bar-fill"></div></div></div>
 
         <div v-else class="toz-cats">
           <div v-for="cat in categories" :key="cat.key">
@@ -56,10 +55,9 @@ marked.use({ gfm: true })
 const BASE = './temple-of-zeus-content'
 
 const props = defineProps({
-  collapsed: Boolean,
-  searchQuery: String,
+  collapsed: Boolean
 })
-const emit = defineEmits(['toggle', 'update:searchQuery'])
+const emit = defineEmits(['toggle'])
 
 const index = ref(null)
 const loading = ref(false)
@@ -68,20 +66,8 @@ const selCat = ref(null)
 const selPage = ref(null)
 const pageMd = ref('')
 
-const CAT_NAMES = {
-  '01-Main':'📋 Main','02-About':'ℹ️ About','03-Gods':'⚡ Gods','04-Doctrines':'📜 Doctrines',
-  '05-Philosophy':'🧠 Philosophy','06-Zevism-Branches':'🌿 Zevism Branches','07-Afterlife':'💀 Afterlife',
-  '08-Magick':'🔮 Magick','09-Squares':'🔲 Squares','10-Chakras-Meditations':'🕉️ Chakras & Meditations',
-  '11-Enlightenment':'✨ Enlightenment','12-Personalities':'👤 Personalities','13-Family':'👪 Family',
-  '14-Coven':'🕯️ Coven','15-Rites':'🏛️ Rites','16-Ethics':'⚖️ Ethics','17-Virtues':'⭐ Virtues',
-  '18-Liturgical-Terms':'📖 Liturgical Terms','19-Resources':'📚 Resources',
-}
-const CAT_ORDER = Object.keys(CAT_NAMES)
-
 const categories = computed(() => {
-  const idx = index.value
-  if (!idx) return []
-  return CAT_ORDER.filter(c => idx[c]).map(c => ({ key: c, name: CAT_NAMES[c] || c, pages: idx[c] }))
+  return index.value?.categories || []
 })
 
 const readerTitle = computed(() => {
@@ -103,22 +89,9 @@ const renderedMd = computed(() => {
 async function loadIndex() {
   loading.value = true
   try {
-    const r = await fetch(`${BASE}/index.md`)
-    const txt = await r.text()
-    const idx = {}
-    let cat = null
-    for (const line of txt.split('\n')) {
-      const m = line.match(/^###\s+([\d]{2}-[A-Za-z-]+)/)
-      if (m) { cat = m[1]; idx[cat] = [] }
-      else if (cat) {
-        // Match markdown links in list items: may have checkmarks or other prefixes
-        // e.g. "- ✅ [filename](path.md)" or "- [filename](path.md)"
-        const p = line.match(/\[([^\]]+)\]\(([^)]+\.md)\)/)
-        if (p) idx[cat].push({ filename: p[1], display: p[1].replace(/^doctrines-|^family-|^coven-|^personalities-|^enlightenment-|^advancedphilosophy-/g, '').replace(/[-_]/g, ' ') })
-      }
-    }
-    index.value = idx
-  } catch(e) { console.error('index load fail', e); index.value = {} }
+    const r = await fetch(`${BASE}/index.json`)
+    index.value = await r.json()
+  } catch(e) { console.error('index load fail', e); index.value = { categories: [] } }
   loading.value = false
 }
 loadIndex()
@@ -143,6 +116,7 @@ function closeReader() {
 
 function toggleCat(k) { open.value[k] = !open.value[k] }
 
+// Auto-open category when a page is selected
 watch(selCat, (c) => { if (c) open.value[c] = true })
 </script>
 
@@ -279,7 +253,6 @@ watch(selCat, (c) => { if (c) open.value[c] = true })
     flex: none;
     height: auto;
   }
-  /* When collapsed, keep toggle pinned below top bar */
   .toz-wrapper--collapsed .toz-toggle {
     position: fixed;
     top: 44px;
@@ -299,7 +272,6 @@ watch(selCat, (c) => { if (c) open.value[c] = true })
   .toz-wrapper:not(.toz-wrapper--collapsed) .toz-reader {
     display: none;
   }
-  /* When a page is selected on mobile, show only the reader */
   .toz-wrapper:not(.toz-wrapper--collapsed) .toz-reader--active {
     display: flex;
   }

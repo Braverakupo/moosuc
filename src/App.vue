@@ -33,9 +33,7 @@
       <!-- TOZ Browser (sidebar + reader, self-contained) -->
       <ToZLibrary
       :collapsed="tozCollapsed"
-      :searchQuery="tozQuery"
       @toggle="tozCollapsed = !tozCollapsed"
-      @update:searchQuery="tozQuery = $event"
     />
 
     <!-- Divider after TOZ browser -->
@@ -124,9 +122,8 @@ const passcodeUnlocked = ref(false)
 const passcodeInput = ref('')
 const passcodeError = ref(false)
 
-// TOZ: just collapsed state + search query (component handles the rest)
+// TOZ: just collapsed state (component handles the rest)
 const tozCollapsed = ref(false)
-const tozQuery = ref('')
 
 function checkPasscode() {
   if (unlockPasscode(passcodeInput.value)) {
