@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "gen": "node scripts/generate-index.js",
+    "build": "node scripts/generate-index.js && vite build",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
   },

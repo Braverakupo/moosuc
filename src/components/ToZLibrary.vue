@@ -49,8 +49,6 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue'
-import { marked } from 'marked'
-marked.use({ gfm: true })
 
 const BASE = './temple-of-zeus-content'
 
@@ -77,13 +75,7 @@ const readerTitle = computed(() => {
 
 const renderedMd = computed(() => {
   if (!pageMd.value) return '<p>Select a page.</p>'
-  try {
-    let t = pageMd.value.replace(/^---[\s\S]*?---\n*/, '') // strip frontmatter
-    // fix relative urls
-    t = t.replace(/!\[([^\]]*)\]\(\.\.\/assets\/([^)]+)\)/g, '![$1](https://templeofzeus.org/assets/$2)')
-    t = t.replace(/\[([^\]]+)\]\(([^)]+\.php[^)]*)\)/g, '[$1](https://templeofzeus.org/$2)')
-    return marked.parse(t)
-  } catch(e) { return '<p>Error rendering.</p>' }
+  return pageMd.value
 })
 
 async function loadIndex() {
@@ -102,7 +94,7 @@ async function selectPage(cat, file) {
   pageMd.value = ''
   loading.value = true
   try {
-    const r = await fetch(`${BASE}/${cat}/${file}.md`)
+    const r = await fetch(`${BASE}/${cat}/${file}.html`)
     pageMd.value = await r.text()
   } catch(e) { console.error('page load fail', e); pageMd.value = '# Error\nFailed to load.' }
   loading.value = false
