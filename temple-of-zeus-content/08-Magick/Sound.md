@@ -1,0 +1,17 @@
+---
+title: "Sound Meditation"
+source: https://templeofzeus.org/Sound.php
+category: 08-Magick
+retrieved: 2026-07-10
+---
+# Sound Meditation
+
+The benefits of meditating on sounds are the opening of more pathways within the brain. Any sound can be used for this meditation. This includes any kind of music. Close your eyes and relax. Open your mind and try to "see" the sounds. Sounds usually come in motion and in specific shapes, colors, and waves. The ability to see sounds is called "synesthesia." "Synesthesia" is a medical term for those of us who are born with the ability to see sounds and/or experience different senses at the same time, like hearing colors or tasting/smelling shapes. A small percentage of the population are born with synesthesia. It often fades with age and, in most cases, is pronounced during childhood.
+
+The experience of seeing sounds and crossing the senses is common with the use of psychedelic drugs such as LSD, though drug use induces synesthesia through artificial means and it cannot be controlled.
+
+With drugs, the user is not in control; the drug is. In self-empowerment and magickal practice, it is extremely important for the practitioner to always be in control through his/her own natural ability. Dependence on powerful mind-altering substances creates weakness of character and also creates holes in the aura and a weakening of the astral body. I am not talking about recreational marijuana use here; I am referring to dependence on powerful chemicals in order to reach an altered state, as some mages have been known to do.
+
+Synesthetic people are often very psychic and highly intelligent, according to medical studies. CIA and U.S. Military psychics reported going through stages of synesthesia when performing extensive exercises to open their minds for psychic warfare. Synesthesia may happen with your first sound meditation or with practice. Close your eyes and note the colors, shapes, and movements of the sounds. You should write this in your Book of Shadows/Black Book/journal if you keep one. You should put aside all thoughts and visions as you would for void meditation and try to "see" the sound/s or music. In time, other senses can also come into play; what does it taste like? Smell like? The most common experience is to see the sounds, but don't put any limitations on yourself.
+
+Natural synesthesia facilitates clairvoyance, clairaudience, and other psychic abilities. Synesthesia can be a very beautiful experience and a rewarding session of meditation. The more pathways we open and empower in our brains, the more experiences and abilities we are able to have. We are no longer just using "5-10%" of our brains. To fully develop this ability, one should listen to a variety of music and, each day, take time out to listen and "see" the sounds in one's environment. Like anything else, the more we use this ability, the stronger it becomes.

@@ -1,0 +1,121 @@
+---
+title: "Names of Zeus: Jupiter"
+source: https://templeofzeus.org/GodJupiter.php
+category: 03-Gods
+retrieved: 2026-07-10
+---
+# ![Zeus's Name](assets/img/ZEUS_letters.png)
+
+author: **Karnonnos**
+
+Jupiter was the head God of the Roman pantheon. As the Roman state spread to many corners of the Earth through its republican and imperial forms, this representation of the God became all-important in many ways, particularly becoming known as the representation of Zeus that encompassed all areas of the northern lands the Romans conquered.
+
+The imagery of the Roman state in all of its facets \[imperial, legal, and religious\] was tied to Jupiter, a precept dating back to the legendary founder of Rome, King Romulus. Conventions related to Jupiter were strongly tied to the Greek equivalent of Zeus, to the point that the two are almost identical figures.
+
+## THE SKY FATHER
+
+From an early stage, the worship of Jupiter was tied to the distinctive Latin form of Dieuspater. There are also traceable influences from the Etruscan Tinia. However, most of all, Hellenistic influences came into Rome from ancient periods to synthesize all facets of Jupiter as a very strong corollary of their own Great God, a parallel of what had already occurred with a number of groups in Italy that took after Hellenic influences.
+
+This is emphatically asserted by Roman authors again and again, even those ultra-conservatives hostile to Greek culture. In most cases, there is no meaningful separation of Jupiter from Zeus. The main differences lie in the centrality of Jupiter to the Roman state as compared with most Greek states, and certain cultural traditions.
+
+## GOVERNMENT OF ROME
+
+Rome was tied to the worship of Jupiter from the beginning. Much like Amon in Egypt, the Roman governments all swore oaths to this God. Omens from Jupiter were extremely important in deciding who should rule and legislate for Rome well into imperial times.
+
+Dionysius of Halicarnassus reveals that King Romulus decided on their form of government after he had surveyed the political and religious systems of the Greeks, Etruscans, and others. He canvassed the people and asked them whether he should rule, to which they agreed.
+
+Finally, he looked for a divine sign. The choice of government was given assent by Zeus:
+
+> History of Rome, Dionysius of Halicarnassus:
+> 
+> *And when the people approved, he appointed a day on which he proposed to consult the auspices concerning the sovereignty; and when the time was come, he rose at break of day and went forth from his tent.*
+> 
+> *Then, taking his stand under the open sky in a clear space and first offering the customary sacrifice, he prayed to King Jupiter and to the other Gods whom he had chosen for the patrons of the colony, that, if it was their pleasure he should be king of the city, some favourable signs might appear in the sky.*
+> 
+> *After this prayer a flash of lightning darted across the sky from the left to the right. Now the Romans look upon the lightning that passes from the left to the right as a favourable omen, having been thus instructed either by the Tyrrhenians or by their own ancestors.*
+> 
+> *...When Romulus, therefore, upon the occasion mentioned had received the sanction of Heaven also, he called the people together in assembly; and having given them an account of these omens, he was chosen king by them and established it as a custom, to be observed by all his successors, that none of them should accept the office of king or any other magistracy until Heaven, too, had given its sanction.*
+> 
+> *And this custom relating to the auspices long continued to be observed by the Romans, not only while the city was ruled by kings, but also, after the overthrow of the monarchy, in the elections of their consuls, praetors, and other legal magistrates...*
+
+In essence, every nomination for kingship, priesthood, and magistracy relied on the auguries of Jupiter and the signs sent by him in the skies via lightning, birds, or other symbols. If he disapproved, there was no way an individual could be appointed, beyond cases of individuals seizing power by force.
+
+Romulus also built the first Temple to Jupiter, named the Temple of Jupiter Feretrius, on the Capitoline Hill.
+
+Even in the Republican period, after the overthrow of the evil king Tarquinius Superbus, the two consuls elected in Rome every year required such approval from the Gods. Senators were also compelled to pass laws and decrees under significant oaths to him. By the Republican era, Jupiter's guidance was collective and designed to protect the collective.
+
+## JUPITER OPTIMUS MAXIMUS
+
+The cult of Jupiter Optimus Maximus ("Best and Greatest") was created by another Roman ruler, King Priscus Tarquinius. The Temple sat upon the Capitoline Hill.
+
+The Temple was the most important religious entity of the original Roman state. Atop the front roof, Zeus was represented as driving a four-horsed golden chariot, representing the elements and four corners of the universe. Chambers to Juno and Minerva, the two components of the chief Triad of Rome, existed on each side of the building.
+
+It was used for multiple purposes, often for signing treaties and other elements under the eyes of Zeus. Thus, it could be said that the expansion of the Roman state occurred under his supervision as the state's divine guardian. Even in the times of Emperor Marcus Aurelius, it was used copiously for such purposes.
+
+Before and after military campaigns, generals would consecrate everything to Jupiter. The imagery of the Aquila and Eagle of Jupiter, tied also to the deputy of Zeus named Forcas, represents the triumph of victory and the completion of military efforts. All significant Roman military victories would be celebrated with the famous Triumph processions and would always end at the Temple of Jupiter Optimus Maximus on the Capitoline Hill.
+
+In addition, King Numa Pompilius created a related class of holy officials named the fetials, whose job was to ensure Rome did not entangle itself in wars with allies. Their functions also included the beginning of conflict. If another state had done injury to Rome, they made prospective declarations of war several times: once upon the foreign borders, once after going into the country and encountering an inhabitant, once to the gatekeepers of said entity, and then directly to rulers and magistrates. Each time, these fetials would swear oaths to Jupiter, lamenting potential destruction on both sides.
+
+Only beyond a thirty-day period would the fetials gather together and proclaim to the Senate that war was just. This practice demonstrates the seriousness with which the Gods encouraged Rome to view martial affairs. It ties very deeply into the concepts of law, xenia, and just war, all matters of Zeus that became entangled into the Roman state.
+
+An element of this was expressed in Jupiter Lapis. He was the divine witness to every important oath and treaty. In solemn treaties, the Romans called on Jupiter in his aspect as Jupiter Lapis (Jupiter of the Sacred Stone) to punish oath-breakers, and even the Romans as a collective. Livy describes the fetial ceremony in which a priest struck a pig with a flint stone while imploring Jupiter to smite Rome if it violated the treaty:  
+  
+"Do thou, Diespiter (Jupiter), strike the Roman people as I strike this pig here today, and strike them the more, as thou art greater and stronger..."
+
+## FLAMEN DIALIS
+
+The High Priest of Jupiter in Rome, the Flamen Dialis ("Flame of Incarnated Zeus"), was expected to be an aristocratic, married patrician of no bodily blemish and no moral defect, chosen by the Pontifex Maximus, and then by the Gods. This practice was inaugurated by Numa. As he represented the giver of oaths, he was forbidden to personally take any. Much like the diadem of Amon, he was required to wear a conical cap called the Apex in public at all times.
+
+The Priest of Jupiter resided on the royal curule chair and even had the traditional bodyguards of rulers, named lictors. Although he was permitted a permanent seat in the Senate to hear, meddling in political and military affairs was expressly forbidden. Essentially, his responsibilities were endless, yet included being in Rome at all times and being the bridge from the Divine to humanity.
+
+His sacred wife, the Flaminica, also had complex responsibilities, many of which related to interpreting omens of lightning from Jupiter. She was held to be the living image of Juno (Hera). The death of the Flaminica meant the Flamen could no longer hold office, showing that this office was tied to a very holy union.
+
+## THE OAK TREE
+
+One aspect of Jupiter was the general reverence given to the oak tree, shared with the symbolism of Zeus and Thor. Classical authors explained that such a tree stood on the Capitoline Hill, where Rome was founded, but there were other mystical elements involved in the association of the Sky Father with this particular symbol.
+
+The oak was believed to attract lightning, serving as an active conduit for the processes of Jupiter. Important priests, such as the Flamen Dialis, often carried branches and wreaths of oak, a symbol of how Zeus gives bioelectricity to "inert" things.
+
+The fecundity of the oak in producing acorns created a parallel for how pleasing the God led to the prosperity of the Roman state. It also represented longevity, as the Romans knew well that the lifespan of these trees could be ancient.
+
+Finally, much like the famous oak at Dodona in Greece, related to Zeus Naios, the Romans held that these trees could be used for divinatory purposes.
+
+> Fasti, Ovid
+> 
+> *Si licet antiquos meminisse, dicata Iovi quercus.*
+> 
+> If it is permitted to recall the ancients, \[then know that\] the oak is dedicated to Jupiter.
+
+## JUPITER IN IMPERIAL SYMBOLISM
+
+After becoming the Imperator of Rome, Augustus made Jupiter front and center of Roman life. His adopted father, Caesar, brought in a significant shift, as he leveraged religious authority for political ends, portraying himself as the guardian of Rome's sacred order. Augustus took this a step further in a pious direction.
+
+![](assets/img/jupiter1.png) ![](assets/img/jupiter2.png)
+
+The fundamental change was that the Republic had treated Jupiter as the divine sponsor of Rome's collective governance, but under Augustus, Jupiter was reimagined as the divine sponsor of Rome's Princeps, for better or for worse. Jupiter became the supreme divine authority underpinning the Principate's legitimacy.
+
+Moreover, Augustus’s reign saw a conscious revival of traditional symbols in line with his revival of Roman religion: Jupiter’s image in his triumphal arches and on legionary standards as an eagle signified that the Jovian Jupiter now favored the Augustan Peace. Jupiter’s iconography evolved from a static, war-like guardian of the Republic to a more dynamic figure in Augustan propaganda, integrating aspects of the Hellenic Zeus as much as possible: visually ever the King of Gods, but now deliberately shown as a supporter of Augustus’s restored Rome of marble and gold.
+
+In political oaths, we see a shift. Republican officials swore by Jupiter and the laws; subjects and officials under Augustus began swearing oaths of allegiance that invoked Jupiter and the Genius of the Emperor together, tying Jupiter’s guarantor role to the Emperor’s person. The symbolic language of power placed Jupiter as the heavenly counterpart to the earthly ruler.
+
+The emphasis here was also important: if the Emperor failed in his role, the Gods, through their earthly organs, would judge him as unfit for apotheosis. In part, Augustus did this to give the Senate some particular power and to prevent tyranny.
+
+### BIBLIOGRAPHY
+
+Roman History, Cassius Dio
+
+History of Rome, Livy
+
+Suetonius, Life of Julius Caesar
+
+Ovid, Metamorphoses
+
+Suetonius, Life of Augustus
+
+History of Rome, Dionysius of Halicarnassus
+
+Triumph, [x-legio.com](https://x-legio.com/en/wiki/the-tradition-of-triumphs-in-ancient-rome)
+
+The Religion of Ancient Rome, Cyril Bailey
+
+Denarius - Augustus IOV TON; Jupiter, [Numista](https://en.numista.com/catalogue/pieces247460.html)

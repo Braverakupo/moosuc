@@ -1,0 +1,97 @@
+---
+title: "Names of Zeus: Hammon"
+source: https://templeofzeus.org/Hammon.php
+category: 03-Gods
+retrieved: 2026-07-10
+---
+# ![Zeus's Name](assets/img/ZEUS_letters.png)
+
+author: **Karnonnos**
+
+Baal Hammon was the chief deity of Carthage’s pantheon, envisaged as a supreme Lord and Protector of the community. He was a weather and vegetation God, thought to make the land fertile and to “reign as king of the Gods” in Carthaginian belief. Classical observers identified Baal Hammon with Kronos (and later with Roman Saturn) due to his symbolism, primacy, and paternal character, but part of this was based on a misunderstanding rooted in the solemnity of his imagery. In everyday religious life, Baal Hammon was honored through a strong array of rituals, prayers, dedications, and festivals.
+
+## SUPREME GOD
+
+Carthage was a city and syndicate-empire of North Africa, but its founders were Phoenicians from the modern coastlines of Syria, Palestine, and Lebanon. The ancestors of the Carthaginians were from the city of Tyre. Hence, the Carthaginians had Phoenician Gods such as Baal Hammon centrally in their worship. Sanchuniathon, a Phoenician writer, claims the Greeks were the ancestors of the Phoenicians.
+
+It was always ruled by two leaders who were named judges or shofets, who tied their rulership to Hammon’s approval. This appears to be related to the dualistic, cosmological symbolism of Zeus. The Greeks, despite their dislike of other things, acclaimed Carthage as having the worthiest form of government.
+
+He was worshipped widely in western Sicily and southern Iberia, the outposts of the empire. The very name of the town Carmona in Spain derives from Kar-Hammon, meaning “City of Hammon.” There is also evidence of Punic devotion to Baal Hammon on distant shores. Standard formulas praising him appear in inscriptions found at Malta, Cyprus, and even Athens and Rhodes, left by Phoenician travelers or settlers. Baal Hammon was venerated across the western Mediterranean as the supreme God of Carthage.
+
+## PROTECTOR OF FAMILY
+
+In Carthage, he was revered as a patriarchal deity overseeing the welfare of both the state and the family. Archaeologist Serge Lancel describes Baal Hammon as the “paternal deity, the protector of government but also the guarantor of the issue and durability of families.” In this capacity, he embodied the stability and continuity of Carthaginian society. He was also associated with the cycle of life and death. Later Punic tradition hints he may have functioned as a psychopomp, guiding souls into the afterlife, though evidence for this eschatological role is limited.
+
+In Carthaginian eyes, Baal Hammon remained a uniquely Punic deity. He was a stern but beneficent father who made the rains fall and the orchards yield fruit​.
+
+With the total destruction of Carthage by Rome at the end of the Third Punic War, one would expect the cult to cease. However, the continuity of Baal Hammon’s image under Rome is evidenced by depictions of Punic Jupiter and Saturn on mosaics and reliefs. He is often shown with two cornucopiae (horns of plenty) or a scythe, merging Baal Hammon’s fertility aspect with the horns of Zeus Amon and Saturn’s harvest symbolism.
+
+In private worship, Carthaginians may have used small shrines or household idols. A family could keep a figurine or painted plaque of Baal Hammon at home, lighting oil lamps or incense before it on special nights. The Punic diaspora in Iberia and Sicily sometimes created plaques showing a male deity receiving offerings, possibly reflecting domestic piety toward Baal Hammon.
+
+Even centuries after Carthage’s fall, North African peasants under Roman rule continued venerating Baal in folk practice. Augustine laments that recently converted peasants still offered cakes and feasts to Saturn in the old way, indicating the resilience of Baal Hammon’s cult in syncretic form.
+
+## SALAMMBÔ
+
+The center of Baal Hammon’s worship was at Carthage itself, where he had an open-air sacred precinct later known as the Tophet of Salammbô. According to archaeological evidence, this enclosure was originally dedicated to Baal Hammon alone, and only from the 6th century BC onward did it become jointly dedicated to “Baal Hammon and Tanit” as Tanit’s cult rose.
+
+The sanctuary was essentially a sacred grove or courtyard under the sky, filled with altars and stone stelae set up by worshippers. Here stood Baal Hammon’s altar of incense (or “brazier”), reflecting one of his epithets as “lord of the altars of incense.” A small temple or chapel may have existed on the site, but worship largely took place in the open. Over the centuries, thousands of dedications were made in this precinct, creating a crowded field of stelae marking the prayers and offerings to the God.
+
+The main festivity of Baal occurred in June, being a more solemn affair than the role-reversal of the Kronia in summer or Saturnalia in December.
+
+## SACRIFICE ALLEGATIONS
+
+Hammon was associated with grisly child sacrifice by up to a dozen sources, involving stories of Carthaginian nobility sacrificing their children to a bronze statue of Hammon, which would open its mouth, shoving babies or older children into a great furnace.
+
+Around 20,000 urns containing children’s remains have been found at Carthage. Scholars note that inscriptions near the urns indicate "a blessing or gift" has been given to the Deity, which clearly orients them toward this interpretation. Yet despite the headlines from teams of non-forensic scholars, the archaeological evidence found at the so-called Tophets, when examined by forensic pathologists, is patchy and contradictory.
+
+The largest portion of bones found in urns are from infants around one month old, in contrast to the allegations in classical sources of older children being sacrificed and voluntarily offering themselves. All bones show evidence of being burned in a manner identical to an open funeral pyre of rather low-level heat. Another issue is that there is no way to date the period the bones themselves came from. Adult bones also exist, though in very small quantities.
+
+We believe that if this abhorrent practice did exist, it was an ancient custom of the vicious Bronze Age, which the Phoenicians had moved past by the time of the Punic Wars.
+
+Despite the ‘claims’ of the Bible in relation to Baal Zebul, Baal Hadad, and ‘Moloch’, no such evidence has ever been found of sacrifice in Phoenicia or the Punic heartland (modern-day Levant) itself, which makes the word ‘Tophet’ highly questionable to use in reference to Carthage. There are no extant sites of any kind that can be correlated with sacrifice, and no findings of urns similar to those of Carthage have ever been discovered in any quantity suggestive of widespread practice.
+
+The Roman writer Quintus Curtius references this when he says that at the time of Alexander the Great’s dangerous Siege of Tyre (a Punic city of Phoenicia, 200 years before the destruction of Carthage), the Tyrians were pressured to recreate a practice of sacrificing a boy to Baal Hammon, “done many, many centuries ago”, which the spiritual elders of Tyre by that point long held to be an abomination unto the Gods and refused.
+
+## JEBEL BOUKORNINE
+
+The holy mountain of Hammon was a twin-peaked mountain located 27 km outside the bounds of classical Carthage, now named Jebel Boukornine (“The One of Two-Horns”). It was believed to reference his title as Baal Qarnaim, Baal of the Two-Horns. This name owes itself to the two highest points, with altitudes of 576 and 493 meters, which constitute its summit.
+
+Aleppo pines and Cedar trees are said to grow here in abundance.
+
+## SYMBOLISM OF HAMMON
+
+![](assets/img/hammon.png)
+
+Above is a Punic limestone stele from Cirta in Numidia dedicated to Baal Hammon and Tanit. The upper carving shows a crescent and sun-disc representing an opening eye, the emblem of Baal Hammon, incised in the gable. Below is the Tanit symbol: a triangle or body of cow’s horns. Another way of interpreting this symbol is as outstretched arms and a circular head with a halo. It is flanked by a raised right hand and a caduceus symbol.
+
+The top of the limestone stele represents a peak or mountain, symbolic of advanced consciousness.
+
+The hand signifies the presence of advancement, and the caduceus symbolizes union of the soul. The stele’s inscription records the vow of a man named Hanno to Tanit and Baal Hammon. The iconography reflects the highly symbolic, often aniconic, way Carthaginians expressed their devotion.
+
+The upraised hand motif, seen on many stelae (often a palm with fingers extended), is believed to represent either the hand of the Deity in blessing or the gesture of the worshipper in prayer. Some inscriptions even warn that Baal Hammon or Tanit will punish thieves. A hand symbol on those stelae might be a sign of the God’s punitive “hand” reaching out. Additionally, there may be a synchronicity of the complex hand symbolism between Hammon and Sabazios. To this day, North African peoples, Mediterraneans, and Arabs continue to use the evil eye symbolism.
+
+The caduceus (a staff with twining serpents) appears as well, possibly as a general symbol of divine power or a marker of the priestly class. Phoenician art also used the caduceus as a symbol of healing or blessings, so its occurrence with Baal Hammon could imply the God’s ability to ward off evil and illness. There are also rosettes, stars, and lotus flowers carved on stelae​.
+
+These could be decorative, but likely also carry meaning: the rosette as a solar or star symbol for eternity, the lotus as a symbol of rebirth or the cosmos. In some votive contexts, snakes and lions appear in relief (snakes perhaps as guardians of sacred precincts; lions as symbols of Tanit). Notably, no figural depiction of Baal Hammon himself (e.g., a carved full-body image) is found on the typical votive stelae; instead, his presence is indicated by the signs described. This aligns with a Phoenician preference to use symbols and let the imagination invoke the Deity.
+
+![](assets/img/hammon2.png)
+
+An anthropomorphic Baal Hammon is also documented strongly, as with this incense burner. These representations, with the bearded attributes of Zeus and the horns of the ram, directly equate him to Zeus Ammonas.
+
+## ZEUS AMMONAS
+
+There is a longstanding link between Baal Hammon and the Oracle at Siwa, discussed in Amon’s article. The Yehuborim agitator Philo from Alexandria in Egypt simply calls Baal Hammon “Amon,” making zero attempt to distinguish.
+
+Libyans in particular associated with both “forms” of this Deity. Animals such as rams were seen as the God’s sacred animals, the ram being one of his symbols. At meals, priests burned portions of the meat and fat, while the rest might be shared in a sacred meal by priests and offerers. Such banquets reinforced communal bonds: participants believed they were dining under Baal’s gaze.
+
+### BIBLIOGRAPHY
+
+Corpus Inscriptionum Semiticarum, Commission du Corpus Inscriptionum Semiticarum
+
+On Superstition, Plutarch
+
+Carthage, Serge Lancel
+
+The Throne of ʿAshtart Inscription, James D. R. Zuckermann
+
+Thesaurus of Phoenician Inscriptions, Nahoum Sloucscz

@@ -1,0 +1,15 @@
+---
+title: "Energy of the Soul"
+source: https://templeofzeus.org/Soul_Energy.php
+category: 08-Magick
+retrieved: 2026-07-10
+---
+# Energy of the Soul
+
+Given the extent of the internet and mass communications, the truth can no longer be suppressed. Many different people are coming to Zevism in huge numbers, as never before. I am writing this article mainly for those who are totally new. Many of us who have been with Zeus for much longer are well versed in what is known as "the occult." The "occult" is another term for "spirituality."
+
+True Zevism is transforming one's soul through [power meditation.](Meditation.php) For many who are totally new to Zevism, one can be unfamiliar with the effects of power meditation. When one reaches a point in meditation \[for some, this can happen very early on. All has to do with the powers of the soul from past lives\], one will definitely feel one's soul. This is a very positive sign that your meditations are being done correctly and that all is going well. Never be frightened or alarmed by feeling the energy of your soul. The soul is composed of bioelectricity and the light spectrum. Feeling a radiant aura, vibrations, in some cases heat or cold, or other sensations such as feeling tingly... all of this is normal.
+
+Power meditation will also open your psyche. You may experience "gut feelings" through enhanced intuition, in other cases, your mind will be open and more receptive to astral entities. These can be positive as well as negative. In cases where there is negative intrusion, just turn it off like a radio in your mind and ignore it. Never tie into anything negative or unwelcome. These will go away if they are ignored and not fed by any attention or emotions.
+
+Zevism is about achieving spiritual freedom. Christianity, Islam, and other mainstream programs that masquerade under the label "religion" are designed to remove all spiritual knowledge. There is nothing spiritual about them. When one comes to Zevism, which is very spiritual, one can expect many new experiences of a spiritual nature, but again, this is individual. Never be frightened by feeling the energy of your soul for the first time. A strong mind and soul assure that you, yourself, have power and also the knowledge to repel unwanted entities \[which exist regardless of whether one is open enough to detect them\]. The strength of your soul also assures that you will be in control of your own life and destiny, and with the knowledge from our Gods, you can achieve immortality. Weaker souls are at the mercy of the stronger ones and are reincarnated, forgetting everything learned from the former life and in being damned to repeat the same mistakes for eternity. Zeus shows us the way out of all of this. But, we must work at it, and through knowledge, never fear.

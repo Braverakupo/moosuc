@@ -1,0 +1,93 @@
+---
+title: "Names of Zeus: Thor"
+source: https://templeofzeus.org/Thor.php
+category: 03-Gods
+retrieved: 2026-07-10
+---
+# ![Zeus's Name](assets/img/ZEUS_letters.png)
+
+author: **Arcadia** (all of article), **Karnonnos** (clarification)
+
+![](assets/img/ThorsFight.jpg)
+
+Thor is often best remembered as one of the most prominent Gods of the Norse Viking era, the mighty wielder of the hammer Mjölnir, and He who was fated to fight the world serpent Jormungandr during the Ragnarök end times. However, Thor was not only worshiped in Viking-era Scandinavia, but also in Ancient Germany, both before and during the times of Roman occupation, with worship extending as far as early England.
+
+In the Old Norse tongue, Thor’s name is Þórr (which will be discussed at greater length), with similar equivalents in Old English, High German, and Old Saxon respectively as Þunor, Donar, and Thunar. Tracing the name back further into Proto-Germanic, Þunaraz, it bears a remarkable linguistic connection to the Celtic Thunder God Taranis, regarded by the Romans as the Jupiter of the Gauls.
+
+Perhaps the most apparent continued relevancy of his name lies within the English name for the day of the week Thursday, traditionally derived from the Old English Thunor’s Day, the day of the planet Jupiter. Even aside from this, Thor maintains a particular popularity within the concurrent culture of the day, especially so in Scandinavia and within modern Heathen/Pagan movements.
+
+Since the time of Europe’s Christianization, Thor has been invoked as a widespread symbol of resistance. Where Christians would demark locations and items with cross iconography, it became increasingly common for traditional religion adherents to use the symbol of Mjölnir to do the same. Just as it became a Christian mechanism to name their children after Biblical figures, so too did those loyal to the faith name their children Thor, and both these responses were more archaeologically and historically apparent in areas where Christian influence had become more commonplace.
+
+## POWER AND TEMPLE OF THOR
+
+The fear of Thor’s power was such that, prior to the Viking age, Christians made no shortage of attacks against His name across Germany. Those converting from Paganism to Christianity were forced to regard their Gods as demons, specifically renouncing Odin, Tyr, and Thor most of all. In the eighth century CE, a Christian missionary known as Saint Boniface was so outraged that the Germans, even after apparent "conversion" to Christianity, were still adhering to certain traditions and worships, that he committed the particularly blasphemous act of felling Donar’s Oak, a sacred tree to the Germanic Pagans that the Romans too, naturally, associated with Jupiter (referring to it themselves as Jove’s Oak). Fittingly, Boniface himself would later in life face a violent end, slain by the very people he was trying to brainwash as he held his gospel aloft to no avail.
+
+During the Viking age itself, Thor’s statue sat front and center in Sweden’s Uppsala Temple, regarded as the holiest center of Norse religion at the time, flanked by separate statues of Odin and Freyr. Even a Christian observer was able to note the apparent parallel between the portrayal of Thor and the Roman Jupiter, and further stated that Thor was beseeched in times of famine or sickness.
+
+Though Thor was indeed a warrior God, His associations were deeply multifaceted, particularly beyond the aspects often shown in modern-day common culture. Thor was, after all, a protector of mankind par none, a hallower of runes, moments, and locations, and a bringer of fertility.
+
+Runic inscriptions on personal charms and stationary runestones alike offer a window into the perception of Thor. One such surviving charm from 2nd century CE England is inscribed with an affirmation for healing against a specific ailment:
+
+> “Gyrill’s wound causer, you go now! You are found! May Thor hallow you, Lord of the trolls. Gyrill’s wound causer. Against pus in the veins.”
+
+Here, Thor is called upon to rid someone of their blood poisoning through the banishment of the responsible entity, as was typical of superstitions of the age. Though an apparently simple affirmation, Thor’s invocation within this context unfolds a far deeper understanding about the God than one would assume at first glance.
+
+Particularly, one of Thor’s main roles in myth was the defense of Asgard (and Midgard/mankind by extension) against various enemies, especially the Jotun, that is, Giants, also commonly regarded as trolls (as seen above), or thurs/thurses.
+
+## THORN
+
+Outside of the obvious linguistic connection between the name of Thor and Thurs, the most apparent shared rune between the traditional representations of the name is Þ (seen in the Old Norse Þórr and Þorn, respectively). Anyone with a knowledge of runes will naturally recognize the thorn rune, or thurisaz.
+
+![](assets/img/svg/THURISAZ.svg)
+
+The shared linguistic roots of these names (alongside New Age discourse on the runes) have created immense confusion about the nature of thurisaz and its relation to Thor (and by extension, Zeus) as Gods. Though some have strangely come to consider thurisaz as something that only represents the giants (and the illness and general destruction they bring) and thus believe it to be a rune used solely in cursing, the truth is far more complex, and the specifics of the connection will be elaborated.
+
+The connection to giants here is more than thurisaz simply being a representation of giants, as thurisaz is also a representation of Thor’s Mjölnir, that which smites the giants, the forces that are symbolic of resisting the expansion of the Aesir’s Asgard, or a higher, ordered society (something commonly shown as a contrast in the Aesir/Vanir conflict also). Yes, thurisaz is a force of strong destruction, but when portrayed as Mjölnir being wielded by Thor, one can look at this as a control over such powers, given the might and wisdom of its wielder.
+
+In almost every possible respect, the energies of thurisaz are in direct opposition to the unconscious, or the rule of the ignorant and brutal (as giants are commonly regarded as unenlightened, voracious brutes). Here, Thor’s role should now be clearer as the champion of the Gods who protects and frees humans from violent rule through his embodiment of being the ultimate fighting force (one can see a further parallel here with Zeus’ Eleutherios epithet). Further, thurisaz can also be considered a rune of fertility, similar to Thor himself. Thurisaz is referenced as the tool rune, not just in the sense of Thor’s hammer, but tools in general.
+
+One can imagine how a farmer will break the hard and barren earth to turn the soil fertile and workable. There are, of course, deeper connections here that tie thurisaz to kenaz as tool runes, and things that are symbolic of human consciousness over the unconscious and bestial. After all, even in modern academia, one of the symbolic aspects that demonstrate the process of mankind’s “evolution” is the onset of tool use. The struggle against these unconscious forces is an eternal battle, and lightning, as the great breaker of mold and pathesis, is a symbol shared by practically all ancient Gentile cultures. Even today, moments of genius are referred to as “breakthroughs” or “strikes” of sudden inspiration.
+
+Regarding the reverse or dark aspects of thurisaz, these connections are further presented in ancient rune poems:
+
+> "Thurs (giant) is torture of women, and cliff-dweller, and husband of a giantess, Saturn’s thegn."
+
+It is regarded here that “Saturn” is a stand-in for Útgarða-Loki (not to be confused with the other Loki), a ruler of the world of Jotunheim with whom Thor enters numerous symbolic struggles (the final of which is a wrestle against an old woman who was secretly the manifestation of old age/entropy). But the even more relevant item of note here is the allegorical “torture of women.” There is, of course, historical precedent to say women suffer more when society is lost to barbaric violence and ignorance (as is seen most of all where Islam has spread), and although most associate Thor and his hammer with the masculine, it was perhaps even more common that women wore the hammer icon as a protective charm.
+
+## FERTILITY GOD
+
+To those who know the fairytale, Sleeping Beauty shows a Princess fated to prick her finger upon a spinning wheel and fall into a death-like, unconscious sleep, one that can only be broken through the kiss of a Prince. Aside from thurisaz’s representation as a struggle against the unconscious, it also represents male eros/male vitality, or the active spiritual male force, and the passive feminine, or Yin and Yang. Even in modern discourse, there are few deities popularly regarded quite as overtly masculine as Thor.
+
+![](assets/img/thor.png)
+
+Here, we can regard Thor’s function as a God of fertility, and Thor’s relations with his wife Sif must also be noted. Sif is traditionally regarded as a Goddess of the Earth (echoing an ancient allegorical mechanism seen in Egypt with Geb and Nut), with Thor as a God of the Sky. There is an obvious link here, given Thor, as a God of the Sky and thus the weather, has an association with rain and the fertility it brings, but the symbology goes further.
+
+Sif is typically associated (and often depicted) with long golden hair, and shown either holding or standing behind fields of golden wheat. In a poem contained within the larger Prose Edda compilation, Loki is shown shearing off Sif’s golden hair. Thor catches him and grabs hold of him, demanding that he create a replacement headpiece for her. Loki agrees, and commissions the Dwarves to create a golden headpiece for Sif, and also gifts for the other Gods to make up for his trespass, including Odin’s spear Gungnir (which he later used to impale himself to gain knowledge of the runes as he hung from Yggdrasill) and, fittingly, Thor’s own Mjöllnir.
+
+A separate incident shows an argument between Thor and Hárbarðr, who is considered Odin in disguise. The event transpires at a meeting place of the waters, with Thor requiring passage across, though Hárbarðr continues trying to provoke him, insinuating disloyalty from his wife. Here, Thor references his many battles to the East in Jotunheim, and the felling of giants, as proof of his valor, but Hárbarðr continues to mock him as a flyting battle takes place (that is, a poetic war of words). Eventually, Thor has enough and departs on the longer road home to Asgard. Here, a distinction is shown that was apparent within Norse culture: the wittier, more morally ambiguous Odin was often more a God of the aristocratic and elite warrior caste, whereas Thor was typically seen as the liberator and hero of the common man. Odin as Hárbarðr boasts of his magical abilities and understanding, whereas Thor speaks of his great victories over the giants.
+
+Perhaps the most commonly considered mytheme of Thor is the aforementioned Ragnarok and his battle against the world serpent Jormungandr. Anyone with a passing familiarity with polytheistic mythemes will recognize the battle of the Storm God and the Serpent. Similarly to the Greek Typhon, Jormungandr is also described as possessing a great venom, and represents the same allegorical mechanism, that is, with how spiritually degenerated humanity has become, the raising of the kundalini serpent has become difficult and even dangerous.
+
+During the aforementioned challenges with Útgarða-Loki, Thor is tasked with lifting the giant’s cat over his head, a feat he struggles to complete in its entirety but manages far beyond what anyone in the giant’s court would have assumed. It is then revealed the cat was Jormungandr in disguise (again, those well-versed in spiritual lore will recognize the symbolic aspects of the cat and the serpent, from earlier Egyptian mechanisms involving Bastet and Apep).
+
+## SERPENT SYMBOLISM
+
+It is only Thor and his Mjölnir that have the capacity to defeat Jormungandr, ridding Midgard of the serpent’s venom, after which he is shown taking nine paces before succumbing to his wounds. After the events of Ragnarok, the fires having faded and the floodwaters having receded, the world is shown having regenerated to a green, pristine state.
+
+![](assets/img/thor2.png)
+
+The regenerative aspects of Thor are well noted, but it should also be observed, despite death and the number 9 particularly having symbolism within myth (thurisaz itself can be considered as governing over “rebirth” through “death”), that the “death” of the Gods was not always an aspect of Norse mythology. Earlier skaldic poems in Scandinavia portray Jormungandr’s defeat coming at the hands of Thor during a fishing trip, in which he hooks Jormungandr, reels it up from the depths, and defeats it with a blow to the head with his hammer (depicted above).
+
+![](assets/img/thor3.png)
+
+To this day, Thor remains omnipresent in even modern Scandinavian folklore. Misrepresentations of the deity in pop culture have done little to wane or alter his popularity, with Mjölnir still being a common necklace figure within Neopaganism, and even outside of it. Especially among older generations, there’s a common cultural joke that the lack of trolls in day-to-day life is proof of Thor’s lightning, which still scares them off.
+
+Even beyond modern heathenry movements, Thor maintains a worship presence among modern-day Sami animists in the form of Thoragalles or Tiermes. Even today, the God is still depicted with his hammer, presiding over storms and the protection of the folk from trolls and other negative spirits.
+
+### BIBLIOGRAPHY
+
+The Poem of Harbarth
+
+Rudolf Simek's Dictionary of Northern Mythology
+
+Prose Edda (Arthur Gilchrist Brodeur Translation)

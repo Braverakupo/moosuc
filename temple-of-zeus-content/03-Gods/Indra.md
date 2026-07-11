@@ -1,0 +1,154 @@
+---
+title: "Names of Zeus: Indra"
+source: https://templeofzeus.org/Indra.php
+category: 03-Gods
+retrieved: 2026-07-10
+---
+# ![Zeus's Name](assets/img/ZEUS_letters.png)
+
+authors: **Karnonnos, apa4s\_666** (clarification on Sakra)
+
+Indra is one of the three highest Vedic deities, explicitly referred to as the King of all Devas, who is the most frequently referenced God in the Rig Veda, the holy text of ancient India. He represents the power of the weather, along with lightning, thunder, storms, and rainfall. Indra is associated with heroism and supreme power as a valiant chariot-driving God, along with enlightenment and ascension of the soul into the divine state.
+
+His worship, according to certain inscriptions, extends as far back as the 2nd millennium BCE. In the post-Vedic period, Indra becomes more marginalized as a figure as the worship of the triad of Vishnu, Rudra-Shiva, and Brahma took precedence. For the Buddhists, he was transformed into the deity called Sakra, with certain distinct types of symbolism relating to his Guardianship of the Dharma.
+
+## THUNDER GOD
+
+> 1.80.5-6, Rig Veda:
+> 
+> इन्द्रो॑ वृ॒त्रस्य॒ दोध॑त॒: सानुं॒ वज्रे॑ण हीळि॒तः । अ॒भि॒क्रम्याव॑ जिघ्नते॒ऽपः सर्मा॑य चो॒दय॒न्नर्च॒न्ननु॑ स्व॒राज्य॑म् ॥  
+> इन्द्रो वृत्रस्य दोधतः सानुं वज्रेण हीळितः । अभिक्रम्याव जिघ्नतेऽपः सर्माय चोदयन्नर्चन्ननु स्वराज्यम् ॥ अधि॒ सानौ॒ नि जि॑घ्नते॒ वज्रे॑ण श॒तप॑र्वणा । म॒न्दा॒न इन्द्रो॒ अन्ध॑स॒: सखि॑भ्यो गा॒तुमि॑च्छ॒त्यर्च॒न्ननु॑ स्व॒राज्य॑म् ॥ अधि सानौ नि जिघ्नते वज्रेण शतपर्वणा । मन्दान इन्द्रो अन्धसः सखिभ्यो गातुमिच्छत्यर्चन्ननु स्वराज्यम् ॥
+> 
+> Indignant Indra, encountering him, has struck with his bolt the jaw of the trembling Vṛtra, setting the waters free to flow, and manifesting his own sovereignty. Indra has struck him on the temple with his hundred-edged thunderbolt, and, exulting, wishes to provide means of sustenance for his friends, manifesting his own sovereignty.
+
+Much of the symbolism of Indra as a thundering God arises directly from His battle with the serpentine Vrtra, paralleling the battle of Zeus with the malicious Typhon. The hundred-edged thunderbolt is a reference to the 144,000 nadis of the soul. There are many instructions in the Rig Veda that reference the rising of the serpent; time and time again, Indra is referenced as manifesting His own sovereignty, paralleling the activation of the soul and the risen state.
+
+Certain aspects of this battle also represent the release of the soma, the Pineal Gland dew that assures immortality. His association with ascension is made explicit elsewhere:
+
+> 4.2, Kena Upanishad:
+> 
+> तस्माद्वा एते देवा अतितरामिवान्यान्देवान्यदग्निर्वायुरिन्द्रस्ते ह्येनन्नेदिष्ठं पस्पर्शुस्ते ह्येनत्प्रथमो विदाञ्चकार ब्रह्मेति ॥ २॥M
+> 
+> Therefore, among all the Gods, Agni, Vayu, and Indra are indeed superior to the others, for they came closest to realizing Brahman. And among them, it was Indra who first fully understood that it was indeed Brahman.
+
+Certain statements reflect an awareness that this deals with a process involving two Gods:
+
+> 5.3.5.13, Shatapatha Brahmana:
+> 
+> Indra committed Brahmanicide \[killing Vritra, a Brahmin\], yet the Gods purified him through ritual.
+
+Primary Vedic verses vividly convey these exploits, for example:
+
+> Rigveda 1.32 in summary:
+> 
+> Now I shall proclaim the heroic deeds of Indra… He smashed the serpent, he loosed the waters… Like bellowing cows, the waters went straight down to the sea…
+
+Nonetheless, even in matters of nature, Indra was considered the ruler of the weather itself. Omens like lightning, typhoons, and hurricanes were signs from Indra himself. Primacy over natural matters such as rain, thunder, wind, and other facets are distinctly related to inscriptions and representations of him from ancient times.
+
+To this day, in many Indian languages, the rainbow is called Indra's Bow or इन्द्रधनुस्.
+
+## KING OF DEVAS
+
+Indra is known as the King of the Devas. The defeat of Vrtra and the restoration of the waters of the cosmos enabled him to become the monarch of all divine beings. Rigvedic hymns praise Indra as “the thousand-eyed” Lord of the Devas, a God of strength who defeats both ignorant Asuras and human foes.
+
+He was seen as the protector of Heaven (Svarga) and Earth, due to the fact that he was constantly at war with Asuras (beings of ignorance) and ensured the dominance of the Devas. As the strongest among them, he naturally became their leader and king.
+
+Many royal rituals of that period, such as the Rajasuya and Ashvamedha, invoked Indra’s power. The Rajasuya was a grand consecration ceremony performed to legitimize a king’s divine right to rule. Indra was invoked as the ideal king of the Devas. Therefore, the human king was expected to emulate his strength, bravery, and leadership.
+
+## KING OF MEN
+
+The Vedic evidence shows Indra as both cosmic champion and divine warrior-king, reflecting the values of a society that depended on rain, valor, and the defeat of forces that threatened prosperity.
+
+A 2nd-century BCE inscription at Naneghat by Queen Naganika explicitly includes Indra in its homage to deities. The queen lists offerings and praises “adoration to Indra” among other Gods, indicating that the Satavahana dynasty still honored Indra in state rites​.
+
+Narendra is a title of Great Kings who act as Indra does.
+
+## SYMBOLISM
+
+Indra is often depicted as exuberant and martial, riding a chariot pulled by tawny horses and accompanied by the ferocious Maruts (storm deities). He famously drinks Soma, the sacred elixir, in prodigious quantities to empower himself for battle.
+
+Another tangible marker is the Indra-Dhvaja (Indra’s banner or standard). Ancient Indian coins and art frequently depict a distinctive triangular banner on a pole, identified by numismatists as the Indra-Dhvaja, a symbol of royal authority associated with Indra.
+
+He is known to use a white elephant named Airavata as his steed, showing an important link between Indra, the breaking of all obstacles, and control over fate. The mount of Indra also represents the application of divine intelligence. Occasionally, the elephant is represented with four tusks, symbolizing the four corners of the world and the elements, along with seven trunks or heads representing the Chakras, but sometimes it is represented with three or five. Airavata also had many temples and guards the door to Svarga, the sacred heavenly palace of his master.
+
+As Indra’s mount, Airavata symbolizes power, royalty, and the cosmic order. Airavata is considered an allegory for the clouds (Abhra-Matanga, a name of Airavata, means “bringer of rain-clouds”). Since Indra is the God of rain and thunder, the elephant, as a cloud-bringer, is seen as the one who carries rain-bearing clouds. In some legends, he is said to support the eastern direction and help maintain the stability of the universe.
+
+Indra carries the vajra, which is said to encapsulate the powers of the thunderbolt and be as indestructible as a diamond. Typically, the vajra is paired with the bell (ghanta). The vajra, much like the was scepter and flail of Egypt, is a tool used for punishing the iniquitous, following the fact that he used the vajra to destroy Vrtra. One epithet of Indra, Vajrabhrit, is in accordance with this concept.
+
+An important aspect of the vajra’s symbolism deals with timing. Vrtra was given the powers of total impunity from damage. Additionally, Indra could not destroy the malevolent entity with any weapon that was created before he was given this ultimate immunity. This relates to the unconscious timing of the serpent, which cannot be forced.
+
+The vajra as an active symbol, and the bell as a passive symbol, are also referenced with masculine and feminine symbolism by Buddhist variations of Tantra.
+
+![Indra](assets/img/indra.png)
+
+In this Southern depiction, Indra is represented with all-seeing eyes throughout his body. His gold and blue mantle represents his divine attributes, as gold is associated with divinity, power, and kingship in Hindu culture. Indra, as a storm God, controls the balance between light (Sun) and rain (clouds), making his golden cloak a symbol of his connection to cosmic forces. In Vedic rituals, blue and gold were often used together in royal and divine garments.
+
+As the King of the Devas, Indra’s golden/yellow mantle emphasizes his royal and divine authority.
+
+It signifies his supreme position in Svarga (Heaven) and his role as the protector of cosmic order (Rita). His spear can represent divine timing and precision.
+
+## FESTIVALS OF RAIN
+
+There is evidence of Indra worship in early festivals and rituals as well. The Old Tamil Sangam literature refers to an “Indra Vizha” (Indra festival) celebrated by the Tamil kings for propitiating rain. The Tamil epic Cilappatikāram describes this festival, noting that it was held for a full month in spring to honor Indra for timely rains.
+
+Massive gatherings, dances, and offerings marked the event, underscoring Indra’s role as rain-giver in agrarian society. Thus, through the late Vedic and into the early historic period, Indra remained ingrained in state ceremonies, seasonal festivals, and public imagery. Rulers and communities looked to Indra for military success, rainfall, and prosperity: functions memorialized in inscriptions, coinage, and early literature.
+
+Folklore and festivals in some regions still invoked Indra. Notably, in the Kathmandu Valley of Nepal, the annual Indra Jātrā festival is celebrated to this day in honor of Indra as the God of rain and the harvest. This centuries-old festival (started in the 10th century by King Gunakamadeva) features masked dances and processions “in honor of the deity Indra, the King of Heaven.”
+
+## SAKRA IN BUDDHISM
+
+In Buddhism, Indra, known as Śakra after a title in the Rigveda, occupies an ambiguous role. He often appears as a questioner or tester of the Buddha, but in a somewhat lighter tone. The inquisitive nature of Śakra-Indra is related to the Zevist attitude of knowledge-seeking. He is often titled “Devānām Indra”, Lord of the Devas, acknowledging his leadership among the heavenly beings.
+
+Śakra is depicted as a defender of the Dharma: together with Brahmā, he beseeches the Buddha to teach the Dharma after Enlightenment, and he intervenes to assist the Buddha on various occasions. He is also generally understood to be the Guardian of Dharma (Dharmapāla) as a whole.
+
+However, the texts demonstrate a subordinate role given to Indra in line with developments after the monarch Asoka imposed the religion on India. He is often subordinated to the demands of many Buddhist figures. Often, he is made an object of derision, who is not as enlightened as the Buddha is.
+
+On the other hand, Śakra often became a patron of the Tantra traditions related to spiritual ascent in ambiguous degrees.
+
+## MODERN HINDU CONTEXT
+
+In many Hindu contexts, Indra also takes a subordinate role to Vishnu, Shiva, and Brahma, often depicted in a dubious or interfering light. Sometimes, however, Indra was syncretized with Rudra-Shiva, particularly in earlier texts.
+
+Moving into the early medieval period, Indra’s representations become more standardized but also more marginal in position. Hindu temple iconography typically incorporates Indra as one of the Astha-Dikpāla (Eight Directional Guardians). In temple layouts, each cardinal direction is guarded by a deity, and Indra is assigned to the East, reflecting his status as the foremost guardian.
+
+He is usually shown riding his white elephant, Airāvata, and holding the thunderbolt. For example, carvings of Indra can be seen on temple doorways and outer walls: at sites like Udayagiri (5th century) or Khajuraho (10th century), Indra appears in niches or lintels, identifiable by the elephant beneath him. These are not free-standing worship statues but part of the architectural iconographic program. Indra is typically featured as a guardian deity on the east side of a Hindu temple.
+
+The Kalash tribe of India and Pakistan still worship Indra as their primary God.
+
+## MOUNT MERU
+
+The five-peaked mountain of Indra, the name of which means ‘high’ in Sanskrit, is widely held to be allegorical and part of the immanent Cosmic Ocean, in contrast to many of the other mountains described in these sections. The symbolism of this mountain went far beyond Indian borders and made its way into central Buddhist and Taoist cosmologies.
+
+Its mysterious nature is noted in many of the Indian texts:
+
+> Narapatijayacharyasvarodaya:
+> 
+> सुमेरुः पृथ्वीमध्ये श्रूयते दृश्यते न तु।
+> 
+> Sumeru is heard to be at the center of the Earth, but is not seen there .
+
+## INDRA BEYOND INDIA
+
+Indra is known to be one of the central Gods of the Mitanni Empire (or Naharine, in ancient Egyptian texts) in an area of southern Turkey, Syria, and ancient Iraq. The Mitanni are also known to have wedded several women into the Egyptian royal house. He was worshipped by the elites alongside Rudra and Varuna.
+
+![Indra](assets/img/indra2.png)
+
+In his Buddhist or Taoist guise as Śakra, he is called Dishitian in Chinese and is sometimes equated with the main God or Ancestor of the Chinese people, such as Huangdi or Yudi.
+
+He was also the central God of the Khmer Empire in Southeast Asia, roughly analogous to modern-day Cambodia. Indra is frequently referenced in ritual and state inscriptions, with many depictions of him found at Angkor Wat and other temples. It can be assumed that, due to the royal nature of investiture, he was associated with the full power of the king. The renunciation of Vedic belief in Cambodia for extreme forms of Buddhism seems to align with its catastrophic downfall as a civilization and the subsequent disrespect of the monarchy, as noted by historians. The Thai people also credit Indra with founding their capital, Bangkok.
+
+### BIBLIOGRAPHY
+
+Rig Veda
+
+Kena Upshinad
+
+Shatapatha Brahmana
+
+Hindu mythology, Vedic & Puranic, W.J. Wilkings
+
+The Religion and Philosophy of the Veda and Upanishads, Arthur Berridale Keith
+
+The Dhvaja Symbol in Indian Literature, Art and Iconography, Journal of History, Art and Archaeology, Manisha Deepak Puranik
+
+Indradhvaja, Hindupedia, Swami Harshanada

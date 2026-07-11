@@ -1,0 +1,233 @@
+---
+title: "The Zevist Calendar & Sabbath"
+source: https://templeofzeus.org/HOLIDAYS.php
+category: 15-Rites
+retrieved: 2026-07-10
+---
+# The Zevist Calendar & Sabbath
+
+The sacred calendar of Zevism is built upon the natural cycles of the Earth, the Sun, and the stars. These festivals predate Christianity by thousands of years. They mark the turning points of the solar year, the agricultural cycles, and the great spiritual tides that flow through the cosmos at predictable intervals. The planets and the astral world align at these times in ways that greatly enhance spiritual work, giving it power that would not be available at other times of the year.
+
+The ancient assemblies met regularly during the full moon cycles and during the special dates listed below, because the planetary and astral energies were exceptionally powerful at these times. The Christian Church, unable to eradicate these festivals, stole them and replaced them with fictitious substitutes. Everything in the Christian calendar is taken from the older Pagan originals, stripped of spiritual content, and reassigned to fabricated characters. The evidence for this is extensive and beyond dispute.
+
+**NOTE:** The Zevistic calendar follows astrological and calendar dates, not local seasons. The position of the Sun in the zodiac is the same across the entire planet on any given date: when the Sun enters Capricorn on December 22nd, it does so for everyone on Earth, regardless of whether it is winter or summer where they live. The festivals are determined by the movement of the stars and the planets, which are universal, not by the local weather or the local harvest cycle, which vary by hemisphere. For this reason, all Zevists everywhere observe the same dates on the same days.
+
+## The Eight Festivals
+
+Date
+
+Festival
+
+Gods Honored
+
+Inner Meaning
+
+**Dec 22-23**
+
+Winter Solstice / Yule  
+*Brumalia (Roman) / Heliostasion Cheimerion (Greek)*
+
+Zeus, Dionysos
+
+Rebirth of the light. The Sacred Day of Zeus.
+
+**Early February**
+
+Imbolc / Candlemas / Feast of Fire  
+*Anthesteria (Greek) / Lupercalia (Roman)*
+
+Estia, Artemis
+
+Purification, the rekindling of the sacred flame, preparation for spring.
+
+**Mar 21-23**
+
+Spring Equinox  
+*Isemeria Earini (Greek) / Festival of Astarte*
+
+Astarte (Aphrodite)
+
+Renewal, fertility, the balance of light and dark. Beginning of major spiritual workings.
+
+**April 30**
+
+Eve of Beltane  
+*Thargelia (Greek) / Floralia (Roman)*
+
+Aphrodite
+
+Sacred union, the fire of creation, the height of spring vitality.
+
+**Jun 23-24**
+
+Summer Solstice  
+*Heliostasion Therinon (Greek) / Lykaia (Arcadian)*
+
+Apollo
+
+The triumph of light. The longest day. Solar power at its zenith.
+
+**August 1**
+
+Lammas / Lughnasadh  
+*Panathenaia (Greek) / Wepet Renpet (Egyptian)*
+
+Demeter
+
+The first harvest. Gratitude for abundance. The fruit of labor.
+
+**Sept 21-23**
+
+Autumn Equinox  
+*Isemeria Phthinoporini (Greek) / Eleusinia Mysteria*
+
+Demeter, Persephone
+
+The descent. Balance of light and dark. Initiation into the Mysteries.
+
+**October 31**
+
+Samhain / Hallowmas  
+*Genesia (Greek) / Osirian Rites (Egyptian)*
+
+Persephone, Pluton, Anubis
+
+Honoring the dead. The thinning of the veil. The passage between worlds.
+
+## Winter Solstice / Yule
+
+*December 22nd-23rd*  
+*Brumalia (Roman) / Heliostasion Cheimerion (Greek) / Saturnalia (Roman)*
+
+**Gods Honored:** Zeus, Dionysos  
+**Inner Meaning:** The rebirth of the light after the longest darkness. The Sacred Day of Father Zeus.
+
+Although the Solstice begins on the 21st-22nd of December, the 23rd is a sacred day of special devotion to Zeus. The Sun enters the sign of Capricorn, which represents Zeus: the constellation is linked to the Aix Amaltheia, the divine goat who nursed the infant Zeus on Mount Ida in Crete, and whose horn became the Cornucopia, the Horn of Plenty. The connection between Zeus and the Goat is among the oldest in the Greek tradition, attested in cult, iconography, and the Cretan myth cycle. The Night of December 22nd, the eve of December 23rd, is the Highest Zevistic Holy Night of the year. This was communicated by Zeus to the clergy directly. It is the day after the longest night of the year: from this point forward, the days grow longer, the light returns, and the cycle of life begins again.
+
+This is a time for intense celebration and devotion to Zeus, for indulgence in the pleasures of life, for decorating the home, and for family celebrations and gatherings. The Night of December 22nd should be spent in dedication to Zeus. This is an excellent time to focus on planning for the year. If one wishes to make personal resolutions, this is a good time to do so. At the high point of a ritual, personal resolutions can be written on paper and burned. Zeus is always there to help us carry through with our intentions. After the rite, intense celebrations should take place.
+
+The Yule holidays for Zevists are times of indulgence and taking pleasure in the physical and material aspects of life. The tree, the decorations, baking, gifts, and celebrating are Pagan in origin and there is no reason not to celebrate this holiday with family in the traditional manner. This is what the true Yule season is about.
+
+### The Stolen Holiday
+
+The Christian "Christmas" has nothing to do with the birth of Jesus Christ. December 25th is the traditional birth date of the Persian God Mithras and coincides with the Roman festival of Saturnalia. The tree, the decorations, the gift-giving, and the feasting are all carry-overs from the original Pagan celebrations. The Christian Church, unable to suppress these practices, appropriated them and assigned them to its fabricated messiah.
+
+The Yule tree is symbolic of the human soul. The trunk represents the spine. The branches represent the 144,000 nadis (the subtle energy pathways through which the vital force flows). The lights represent these nadis illuminated with the Serpentine Energy of Zeus, the Kundalini force that transforms the human soul. The star on top of the tree represents the risen Serpent, the completed ascent of the divine fire through the energy centers of the body.
+
+-   [Link To More Information: Baal Berith and The Yule](https://templeofzeus.org/Baal-Berith.php)
+
+## Imbolc / Candlemas / Feast of Fire
+
+*Early February* (Pronounced "Im-bulk")  
+*Anthesteria (Greek, festival of Dionysos and the returning spirits) / Lupercalia (Roman, Feb 15)*
+
+**Gods Honored:** Estia (Hestia), Artemis  
+**Inner Meaning:** Purification, the rekindling of the sacred flame, the cleansing of the household and the soul in preparation for the return of spring.
+
+Imbolc marks the midpoint between the Winter Solstice and the Spring Equinox. The word is Celtic in origin and means "in the belly," referring to the first stirring of new life within the earth. In the Zevistic tradition, this festival is sacred to Estia (Hestia), the Goddess of the Hearth, whose flame is the center of every household and every temple, and to Artemis, the Goddess of Purity, who rules over the wild and untamed forces of nature and who presides over purification.
+
+Imbolc is a festival of fire and of light. All fires in the household are symbolically extinguished and relit, representing the renewal of the sacred flame for the coming year. Candles are lit throughout the house. The home is cleaned physically and spiritually. It is a time to purify: to cleanse the body, the home, and the mind of the accumulations of winter, and to prepare oneself for the active season ahead.
+
+The spiritual value of Imbolc is **inner purification**. Just as the earth prepares itself beneath the surface for the explosion of spring, the Zevist prepares the soul for the workings and the growth that the coming months will bring. Meditation, fasting (if desired), cleansing rituals, and the deliberate release of stagnant habits and thoughts are all appropriate at this time.
+
+In the Greek tradition, the Anthesteria (held in the month of Anthesterion, roughly February) was a three-day festival dedicated to Dionysos and to the returning spirits of the dead. Wine jars were opened, the dead were honored, and the boundary between the living and the dead was acknowledged. The Roman Lupercalia (February 15) was a festival of purification and fertility, during which the boundaries of the city were ritually cleansed.
+
+-   [IMBOLC/CANDLEMAS/FEAST OF FIRE: Detailed Article](https://templeofzeus.org/Imbolc.php)
+
+## Spring Equinox
+
+*March 21-23 (Sun at 0 degrees Aries)*  
+*Isemeria Earini (Greek) / Festival of Astarte / Ostara (Germanic)*
+
+**Gods Honored:** Astarte (Aphrodite in Her aspect as Goddess of Fertility and Renewal)  
+**Inner Meaning:** The renewal of life. The balance of light and dark. The beginning of major spiritual workings.
+
+The Spring Equinox is the moment when day and night are of equal length. From this point forward, the light prevails over darkness, and the earth erupts into life. This is the festival of Astarte, the great Goddess of Fertility, known across the ancient world as Ishtar (Mesopotamia), Aphrodite (Greece), and Hathor (Egypt). The name "Easter" itself derives from Eostre/Ostara, the Anglo-Saxon Goddess of the dawn and of spring.
+
+Astarte was associated with rabbits (symbols of fertility) and eggs (symbols of new life). These symbols, now falsely attributed to the Christian "Easter," are entirely Pagan in origin and have nothing to do with the Christian narrative. The "Lamb of God" was stolen from the zodiacal sign of Aries, the Ram, which the Sun enters at the Spring Equinox.
+
+The spiritual value of the Spring Equinox is **new beginning**. This is the time for launching major spiritual workings, including the Magnum Opus, which is traditionally begun at 3:00 am during the hour of Zeus. It is the moment when the scales are balanced, when the forces of growth and dissolution are in equilibrium, and when the will of the practitioner can tip the balance decisively in the direction of creation. Seeds planted at the Spring Equinox, both literal and spiritual, grow with exceptional force.
+
+Other names for this festival include: Easter, Eastre, Eos, Eostre, Ester, Ostara. All derive from the ancient Goddess of spring and the dawn, not from the Christian tradition.
+
+## The Eve of Beltane
+
+*April 30th*  
+*Thargelia (Athenian, early May) / Floralia (Roman, late April-early May)*
+
+**Gods Honored:** Aphrodite  
+**Inner Meaning:** Sacred union, the fire of creation, the celebration of life-force at its most potent.
+
+Beltane (from the Celtic "bright fire") marks the peak of spring and the full awakening of the life-force in nature. It is the festival of Aphrodite in Her fullest expression: not merely the Goddess of romantic love, but the cosmic force of attraction and union that binds all things together. Beltane is the celebration of the fire of creation that burns in every living being, the desire that drives life forward, and the sacred union of masculine and feminine principles that sustains the world.
+
+In the ancient world, Beltane was celebrated with great bonfires (the "bright fires" of the festival's name), through which cattle were driven for purification and protection. Couples celebrated their unions. Fertility rites were performed. The earth itself was understood to be in a state of sacred union with the Sun, producing the abundance that would sustain life through the coming year.
+
+In the Greek tradition, the Thargelia (held in the month of Thargelion, roughly May) was a festival of purification and offering of the first fruits to Apollo and Artemis. The Roman Floralia (late April into early May) was a festival of flowers, abundance, and the uninhibited celebration of life.
+
+The spiritual value of Beltane is **creative force**. This is the time when the vital energy of the cosmos is at its most concentrated and available. Workings related to love, union, creativity, prosperity, and the generation of new things are exceptionally powerful at this time. It is also a time to celebrate the body, physical pleasure, and the gift of being alive. Zevism is a life-affirming tradition, and Beltane is its most life-affirming festival.
+
+-   [THE EVE OF BELTANE: Detailed Article](https://templeofzeus.org/Beltane.php)
+
+## Summer Solstice
+
+*June 23-24th*  
+*Heliostasion Therinon (Greek) / Lykaia (Arcadian festival of Zeus Lykaios)*
+
+**Gods Honored:** Apollo  
+**Inner Meaning:** The triumph of light. Solar power at its absolute zenith. The longest day of the year.
+
+The Summer Solstice is the day of maximum light: the Sun reaches its highest point in the sky, the day is at its longest, and the solar force is at the peak of its power. This is the festival of Apollo, the God of the Sun, of Light, of Music, of Prophecy, and of Healing. Apollo is the force of clarity, order, and illumination that dispels darkness, ignorance, and disease.
+
+In the Arcadian tradition, the Lykaia was celebrated on Mount Lykaion in honor of Zeus Lykaios ("Zeus of the Light" or "Zeus of the Wolf"), one of the oldest and most sacred festivals in the Greek world. The connection between the Summer Solstice and Zeus is thus doubly attested: through His son Apollo (the Sun God) and through the Lykaia (the festival of Zeus at the height of the solar year).
+
+The spiritual value of the Summer Solstice is **illumination and power**. This is the time when the solar force within the human being, the inner fire that drives the Kundalini upward, is at its most available. Meditations on light, solar empowerment, workings of healing, and the cultivation of inner clarity are all greatly enhanced at this time. The Summer Solstice is also a time of celebration, of outdoor gatherings, of bonfires, and of honoring the Sun as the visible manifestation of the divine light.
+
+-   [THE SUMMER SOLSTICE: Detailed Article](https://templeofzeus.org/Summer_Solstice.php)
+
+## Lammas / Lughnasadh
+
+*August 1st*  
+*Panathenaia (Athenian, late July-August) / Wepet Renpet (Egyptian New Year)*
+
+**Gods Honored:** Demeter  
+**Inner Meaning:** The first harvest. Gratitude for abundance. The reaping of what was sown.
+
+Lammas (from the Anglo-Saxon "Hlafmaesse," Loaf-Mass) marks the beginning of the harvest season. The first grain is cut, the first bread is baked, and the community gives thanks for the abundance that the earth has produced. This is the festival of Demeter, the Goddess of the Grain, of Agriculture, and of the sustaining power of the Earth. Demeter is the force that feeds all living things, the mother of abundance, and the keeper of the sacred law of reciprocity: what is sown is reaped, what is given returns.
+
+In the Athenian tradition, the Panathenaia (held in late July and August) was the greatest festival of Athens, dedicated to Athena but celebrated with processions, sacrifices, athletic competitions, and the collective affirmation of civic and spiritual identity. The Egyptian Wepet Renpet ("Opening of the Year") coincided with the heliacal rising of the star Sirius and the annual flooding of the Nile, which brought the fertile silt that made Egyptian agriculture possible. Both festivals share the same spiritual foundation: the acknowledgment that abundance comes from the Gods and that the community must honor this gift.
+
+The spiritual value of Lammas is **gratitude and reciprocity**. This is the time to reflect on what has been accomplished in the year so far, to give thanks for what has been received, and to recognize that all abundance, material and spiritual, flows from the Gods and from the effort of the individual working in alignment with Cosmic Law. It is also a time to share what one has with others, for the harvest is not meant for hoarding but for sustaining the community.
+
+## Autumn Equinox
+
+*September 21-23 (Sun at 0 degrees Libra)*  
+*Isemeria Phthinoporini (Greek) / Eleusinia Mysteria (Greater Mysteries, Eleusis)*
+
+**Gods Honored:** Demeter, Persephone  
+**Inner Meaning:** The descent. The balance of light and dark. Initiation into the deeper Mysteries.
+
+The Autumn Equinox is the mirror of the Spring Equinox: the moment when day and night are again of equal length, but this time the darkness is gaining. From this point forward, the nights grow longer, the light retreats, and the world descends into the inner half of the year. This is the festival of Demeter and Persephone, the Two Goddesses of the Eleusinian Mysteries, the most sacred initiatory rite in the ancient Greek world.
+
+The myth of Demeter and Persephone is the myth of descent and return: Persephone descends to the underworld, Demeter grieves and the earth grows barren, and then Persephone returns and the earth blooms again. This cycle is not merely agricultural. It is the pattern of all spiritual transformation: the soul must descend into darkness, confront what lies hidden, and return transformed. The Greater Mysteries at Eleusis, held in the month of Boedromion (roughly late September), enacted this process ritually, and those who were initiated emerged with the certainty that death is not the end and that the soul endures.
+
+The spiritual value of the Autumn Equinox is **initiation and inner descent**. This is the time for turning inward: for self-examination, for confronting one's shadows, for beginning the deep spiritual work that the dark half of the year demands. The equinoxes are also powerful times for beginning new endeavors. While the Spring Equinox favors outward creation, the Autumn Equinox favors inward work: meditation, study, the cultivation of inner power, and the preparation of the soul for the challenges and transformations ahead.
+
+## Samhain / Hallowmas
+
+*October 31st*  
+*Genesia (Athenian festival of the dead) / Osirian Rites (Egyptian)*
+
+**Gods Honored:** Persephone, Pluton (Hades), Anubis  
+**Inner Meaning:** Honoring the dead. The thinning of the veil between the worlds. The passage between the living and the dead.
+
+The holiday known as "Halloween" was originally called Samhain, a Celtic word meaning "Summer's End." It marks the end of the harvest, the beginning of the dark half of the year, and the night when the boundary between the world of the living and the world of the dead is at its thinnest. This is the festival of Persephone, Queen of the Underworld, of Pluton (Hades), Lord of the Dead, and of Anubis, the Egyptian Guardian of the Way who opens the gates and weighs the heart.
+
+Samhain was a time of harvest and endings, of preparation for the dead of winter, and of honoring those who had passed. The Druids built sacred bonfires in honor of the Celtic New Year, which began on November 1st. The prevailing claim of a Celtic "God of the Dead" named Samhain has been thoroughly debunked by modern scholarship: nearly all sources mentioning such a deity are Christian in origin, with no legitimate pre-Christian attestation.
+
+In the Greek tradition, the Genesia was the Athenian festival of the dead, in which the departed were honored with offerings and remembrance. The Egyptian Osirian rites served the same purpose: the dead were sustained by the prayers and offerings of the living, and the passages of the underworld were opened to those whose hearts were true.
+
+The spiritual value of Samhain is **communion with the dead and the confrontation with mortality**. This is the most powerful night of the year for communication with the deceased, for honoring ancestors, for divination, and for any spiritual work that involves the boundary between the worlds. The veil is thin. The dead are near. The Zevist does not fear this. The Zevist approaches it with reverence, with knowledge, and with the understanding that death is not an ending but a passage.
+
+Samhain is also a time for creativity, for costumes, for the imagery of death and transformation, and for the celebration of the mysteries of the unseen world. It is one of the major holidays of the Zevistic calendar, and it should be celebrated with both solemnity and joy.
+
+For more information on the meaning and history of this festival, see the [dedicated Samhain page](https://templeofzeus.org/Samhain.php).
